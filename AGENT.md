@@ -252,4 +252,4 @@ For an **expected** record, fill what is known about the coming edition (often o
    - `No new calls this week (<K> sources checked). https://mishalahmed.github.io/econ-cfp/`
 
    Then a short bullet list: each new or changed call with its deadline, any unreachable sources, and whether
-   the push succeeded. Do not send emails or post anywhere. Do not use social media.
+   the push succeeded. Do not send emails, push or phone notifications, or post anywhere. Do not use social media.
