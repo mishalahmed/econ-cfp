@@ -5,11 +5,7 @@
   "name": "Essen Health Conference 2027",
   "edition": null,
   "organizer": "University of Duisburg-Essen (Chair of Health Economics) and CINCH - Competent in Competition and Health",
-  "fields": [
-    "Health",
-    "Labor",
-    "Education"
-  ],
+  "fields": ["Labor"],
   "region": "Europe",
   "city": "Essen",
   "country": "Germany",

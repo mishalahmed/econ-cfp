@@ -5,7 +5,7 @@
   "name": "2027 ESA World Meeting",
   "edition": null,
   "organizer": "Economic Science Association (ESA)",
-  "fields": ["Behavioral & Experimental"],
+  "fields": ["Other fields", "Behavioral & Experimental"],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-06-29",
   "expected_note": "Estimated from last edition's stated deadline ('June 29th, 2026 - Talk submissions deadline' on the 2026 site, unusually close to the July meeting; treat as rough). World Meetings move between continents; venue may be outside the dashboard's regions.",
-  "last_edition": {"year": 2026, "deadline": "2026-06-29", "conf_start": "2026-07-14", "conf_end": "2026-07-17", "city": "Marina del Rey, CA", "country": "USA", "cfp_url": "https://sites.google.com/view/esa2026la/home"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-06-29",
+    "conf_start": "2026-07-14",
+    "conf_end": "2026-07-17",
+    "city": "Marina del Rey, CA",
+    "country": "USA",
+    "cfp_url": "https://sites.google.com/view/esa2026la/home"
+  }
 }

@@ -5,7 +5,7 @@
   "name": "34th European Workshop on Econometrics and Health Economics",
   "edition": "34th Workshop",
   "organizer": "European Workshops on Econometrics and Health Economics (Andrew Jones, University of York; Owen O'Donnell, Erasmus University Rotterdam) with a rotating local host",
-  "fields": ["Health", "Econometrics"],
+  "fields": ["Econometrics"],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-06-01",
   "expected_note": "Host city rotates (mostly in Europe; 2025 was a joint Asian-European workshop in Singapore); 2027 host not yet announced. Estimated from last edition's paper deadline (1 Jun 2026). Papers are selected on full drafts; about 40 participants.",
-  "last_edition": {"year": 2026, "deadline": "2026-06-01", "conf_start": "2026-08-26", "conf_end": "2026-08-28", "city": "Vienna", "country": "Austria", "cfp_url": "https://www.eur.nl/en/eshpm/events/33rd-european-workshops-econometrics-and-health-economics-2026-08-26"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-06-01",
+    "conf_start": "2026-08-26",
+    "conf_end": "2026-08-28",
+    "city": "Vienna",
+    "country": "Austria",
+    "cfp_url": "https://www.eur.nl/en/eshpm/events/33rd-european-workshops-econometrics-and-health-economics-2026-08-26"
+  }
 }

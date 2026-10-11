@@ -5,7 +5,7 @@
   "name": "2027 ESA North American Meeting",
   "edition": null,
   "organizer": "Economic Science Association (ESA)",
-  "fields": ["Behavioral & Experimental"],
+  "fields": ["Other fields", "Behavioral & Experimental"],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-08-03",
   "expected_note": "Estimated from last edition's deadline (3 Aug 2026). The North American meeting is held in the US or Canada at a different host each year; meetings are listed at economicscience.org/conferences.php.",
-  "last_edition": {"year": 2026, "deadline": "2026-08-03", "conf_start": "2026-10-29", "conf_end": "2026-11-01", "city": "Charlottesville, VA", "country": "USA", "cfp_url": "https://members.economicscience.org/Calendar/moreinfo.php?org_id=ESA&eventid=222028"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-08-03",
+    "conf_start": "2026-10-29",
+    "conf_end": "2026-11-01",
+    "city": "Charlottesville, VA",
+    "country": "USA",
+    "cfp_url": "https://members.economicscience.org/Calendar/moreinfo.php?org_id=ESA&eventid=222028"
+  }
 }

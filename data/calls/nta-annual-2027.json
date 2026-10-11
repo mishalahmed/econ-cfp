@@ -5,7 +5,7 @@
   "name": "NTA 120th Annual Conference on Taxation",
   "edition": "120th Annual Conference",
   "organizer": "National Tax Association (NTA)",
-  "fields": ["Public"],
+  "fields": ["Other fields", "Public"],
   "region": "US",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-05-26",
   "expected_note": "Call usually posted in spring for a November conference. Estimated from last edition's deadline (26 May 2026).",
-  "last_edition": {"year": 2026, "deadline": "2026-05-26", "conf_start": "2026-11-12", "conf_end": "2026-11-14", "city": "Pittsburgh, PA", "country": "USA", "cfp_url": "https://ntanet.org/2fmSX"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-05-26",
+    "conf_start": "2026-11-12",
+    "conf_end": "2026-11-14",
+    "city": "Pittsburgh, PA",
+    "country": "USA",
+    "cfp_url": "https://ntanet.org/2fmSX"
+  }
 }

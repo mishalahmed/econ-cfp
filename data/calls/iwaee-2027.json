@@ -5,7 +5,7 @@
   "name": "IWAEE 2027: International Workshop on Applied Economics of Education",
   "edition": null,
   "organizer": "Magna Graecia University of Catanzaro, with Lancaster University and NTNU",
-  "fields": ["Education"],
+  "fields": ["Other fields", "Education"],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-03-31",
   "expected_note": "No 2027 call posted. The 2026 submission deadline is no longer shown on the official site, so this date is only a rough placeholder for sorting (the workshop is held in mid-June; the 2026 registration deadline was 15 May). 2026 fees: EUR 405, EUR 300 for PhD students.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-06-14", "conf_end": "2026-06-16", "city": "Catanzaro", "country": "Italy", "cfp_url": null}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-06-14",
+    "conf_end": "2026-06-16",
+    "city": "Catanzaro",
+    "country": "Italy",
+    "cfp_url": null
+  }
 }

@@ -450,6 +450,534 @@
       "name": "NBER Conference: Innovation in the Agricultural and Food System",
       "removed_on": "2026-10-11",
       "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "sree",
+      "name": "SREE Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "aede",
+      "name": "Meeting of the Economics of Education Association (AEDE)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "leer",
+      "name": "LEER Conference on Education Economics",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ctree",
+      "name": "AEA Conference on Teaching and Research in Economic Education (CTREE)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "tse-edu",
+      "name": "TSE Economics of Education Workshop",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "eaae-seminars",
+      "name": "EAAE Seminars",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "caes",
+      "name": "CAES Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "aes-uk",
+      "name": "Agricultural Economics Society Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "saea",
+      "name": "SAEA Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "waea",
+      "name": "WAEA Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "narea",
+      "name": "NAREA Annual Meeting & Workshop",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ehs",
+      "name": "Economic History Society Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "cliometrics",
+      "name": "Cliometric Society Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ssha",
+      "name": "Social Science History Association Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "apebh",
+      "name": "Asia-Pacific Economic and Business History Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ahec",
+      "name": "Asian Historical Economics Conference (AHEC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "cneh",
+      "name": "Canadian Network for Economic History Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "bhc",
+      "name": "Business History Conference Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ebha",
+      "name": "EBHA Annual Congress",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "esshc",
+      "name": "European Social Science History Conference (ESSHC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ebhs",
+      "name": "Economic and Business History Society Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "esa-ap",
+      "name": "Economic Science Association Asia-Pacific Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "sabe",
+      "name": "SABE Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "m-bees",
+      "name": "Maastricht Behavioral and Experimental Economics Symposium (M-BEES)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "nordic-bee",
+      "name": "Nordic Conference in Behavioral and Experimental Economics (NCBEE)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "iarep",
+      "name": "IAREP Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "fur",
+      "name": "FUR Conference (Foundations of Utility and Risk)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ewget",
+      "name": "SAET-EWET European Workshop in Economic Theory (formerly European Workshop on General Equilibrium Theory, EWGET)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "gts-congress",
+      "name": "World Congress of the Game Theory Society",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "stony-brook-gt",
+      "name": "Stony Brook International Conference on Game Theory",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "acm-ec",
+      "name": "ACM Conference on Economics and Computation (EC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "sing",
+      "name": "SING European Meeting on Game Theory",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "economic-design",
+      "name": "Conference on Economic Design",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "scw",
+      "name": "Society for Social Choice and Welfare Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "uece-lisbon",
+      "name": "Lisbon Meetings in Game Theory and Applications",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "aetw",
+      "name": "Australasian Economic Theory Workshop (AETW)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "afa",
+      "name": "American Finance Association (AFA) Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "fma-annual",
+      "name": "FMA Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "fma-europe",
+      "name": "FMA European Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "fma-asia",
+      "name": "FMA Asia/Pacific Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "sfs-cavalcade-ap",
+      "name": "SFS Cavalcade Asia-Pacific",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "eastern-finance",
+      "name": "Eastern Finance Association Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "southern-finance",
+      "name": "Southern Finance Association (SFA) Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "nfa",
+      "name": "Northern Finance Association (NFA) Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "firs",
+      "name": "FIRS Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "asianfa",
+      "name": "Asian Finance Association (AsianFA) Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "afbc",
+      "name": "Australasian Finance and Banking Conference (AFBC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "dgf",
+      "name": "Annual Meeting of the German Finance Association (DGF)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "paris-dec-finance",
+      "name": "EUROFIDAI-ESSEC Paris December Finance Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "fmr-swiss",
+      "name": "SGF Conference (Swiss Society for Financial Market Research)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "cesifo-wpe",
+      "name": "Workshop on Political Economy (CESifo / ifo Dresden)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "pedd",
+      "name": "International Conference on the Political Economy of Democracy and Dictatorship (PEDD)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "hesg",
+      "name": "Health Economists' Study Group (HESG) Meetings",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "chesg",
+      "name": "Canadian Health Economists' Study Group (CHESG) Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ahes",
+      "name": "Australian Health Economics Society (AHES) Annual Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "nhesg",
+      "name": "Nordic Health Economists' Study Group (NHESG) Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "oxford-cbt",
+      "name": "Oxford Centre for Business Taxation Academic Symposium",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "matax",
+      "name": "MannheimTaxation (MaTax) Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "lagv",
+      "name": "Journées Louis-André Gérard-Varet (LAGV) International Conference in Public Economics",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ieb-public",
+      "name": "IEB Workshop on the Economics of Taxation",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "zew-public",
+      "name": "ZEW Public Finance Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "cesifo-public",
+      "name": "CESifo Area Conference on Public Economics",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "cepr-public",
+      "name": "CEPR Public Economics Annual Symposium",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "cebra",
+      "name": "CEBRA Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "mmf",
+      "name": "Annual Conference of the Money, Macro and Finance Society (MMF)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "t2m",
+      "name": "T2M Conference: Theories and Methods in Macroeconomics",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "dynare",
+      "name": "Annual Dynare Conference",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "vienna-macro",
+      "name": "Vienna Macroeconomics Workshop (Vienna Global Macro Workshop)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "icmaif",
+      "name": "International Conference on Macroeconomic Analysis and International Finance (ICMAIF)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "wams",
+      "name": "Workshop of the Australasian Macroeconomics Society (WAMS)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "bsf-macro",
+      "name": "BSE Summer Forum: macroeconomics workshops",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "global-research-forum",
+      "name": "Global Research Forum on International Macroeconomics and Finance",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "eiit",
+      "name": "Empirical Investigations in International Trade (EIIT)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "eiti",
+      "name": "Empirical Investigations in Trade and Investment (EITI)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "metc",
+      "name": "Melbourne Empirical Trade Conference (METC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "rmet",
+      "name": "Rocky Mountain Empirical Trade Conference (RMET)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "setc",
+      "name": "Sardinian Empirical Trade Conference (SETC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ketc",
+      "name": "Korean Empirical Trade Conference (KETC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "apts",
+      "name": "Asia Pacific Trade Seminars (APTS) Annual Meeting",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "atw",
+      "name": "Australasian Trade Workshop (ATW)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "pacdev",
+      "name": "Pacific Conference for Development Economics (PacDev)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "mwiedc",
+      "name": "Midwest International Economic Development Conference (MWIEDC)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "ncde",
+      "name": "Nordic Conference in Development Economics (NCDE)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "vfs-gde",
+      "name": "German Development Economics Conference (VfS Standing Field Committee for Development Economics)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "adew",
+      "name": "Australasian Development Economics Workshop (ADEW)",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "bsf-development",
+      "name": "BSE Summer Forum: Development Economics",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "bsf-macro-development",
+      "name": "BSE Summer Forum: Macro Development",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "uknde",
+      "name": "Annual Meeting of the UK Network of Development Economists",
+      "removed_on": "2026-10-12",
+      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
     }
   ]
 }

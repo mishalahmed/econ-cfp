@@ -5,9 +5,7 @@
   "name": "Midwest Macroeconomics Meetings, Spring 2027",
   "edition": null,
   "organizer": "Midwest Macroeconomics Group; host not yet announced",
-  "fields": [
-    "Macro & Monetary"
-  ],
+  "fields": ["Other fields", "Macro & Monetary"],
   "region": "US",
   "city": null,
   "country": "USA",

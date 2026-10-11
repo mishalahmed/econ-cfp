@@ -5,7 +5,7 @@
   "name": "BSE Summer Forum 2027: Geography, Trade and Growth",
   "edition": null,
   "organizer": "Barcelona School of Economics (BSE) Summer Forum / CREI",
-  "fields": ["Trade", "Urban & Transport"],
+  "fields": ["Urban & Transport"],
   "region": "Europe",
   "city": "Barcelona",
   "country": "Spain",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-28",
   "expected_note": "Estimated from last edition's deadline (28 Feb 2026). 2026 terms: full paper or extended abstract via app-summerforum.bse.eu; no registration fee; no travel support.",
-  "last_edition": {"year": 2026, "deadline": "2026-02-28", "conf_start": "2026-06-09", "conf_end": "2026-06-10", "city": "Barcelona", "country": "Spain", "cfp_url": "https://crei.cat/wp-content/uploads/2026/02/SF26-Call-for-Papers-GTG.pdf"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-28",
+    "conf_start": "2026-06-09",
+    "conf_end": "2026-06-10",
+    "city": "Barcelona",
+    "country": "Spain",
+    "cfp_url": "https://crei.cat/wp-content/uploads/2026/02/SF26-Call-for-Papers-GTG.pdf"
+  }
 }

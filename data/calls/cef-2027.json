@@ -5,10 +5,7 @@
   "name": "CEF 2027: 33rd International Conference on Computing in Economics and Finance",
   "edition": "33rd",
   "organizer": "Society for Computational Economics (SCE)",
-  "fields": [
-    "Macro & Monetary",
-    "Econometrics"
-  ],
+  "fields": ["Econometrics"],
   "region": "Rotating",
   "city": null,
   "country": null,

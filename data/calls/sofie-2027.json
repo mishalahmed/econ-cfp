@@ -5,10 +5,7 @@
   "name": "19th Annual SoFiE Conference (2027)",
   "edition": "19th",
   "organizer": "Society for Financial Econometrics (SoFiE)",
-  "fields": [
-    "Econometrics",
-    "Finance"
-  ],
+  "fields": ["Econometrics"],
   "region": "Rotating",
   "city": null,
   "country": null,

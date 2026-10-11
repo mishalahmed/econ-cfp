@@ -5,7 +5,7 @@
   "name": "EuHEA Conference 2028",
   "edition": null,
   "organizer": "European Health Economics Association (EuHEA)",
-  "fields": ["Health"],
+  "fields": ["Other fields", "Health"],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2028-02-08",
   "expected_note": "Biennial conference (even years); 2028 venue and call not yet announced. Estimated from last edition's abstract deadline (8 Feb 2026), shifted by one two-year cycle.",
-  "last_edition": {"year": 2026, "deadline": "2026-02-08", "conf_start": "2026-07-14", "conf_end": "2026-07-17", "city": "Rotterdam", "country": "Netherlands", "cfp_url": "https://euhea.eu/call_for_abstracts_conference_2026.html"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-08",
+    "conf_start": "2026-07-14",
+    "conf_end": "2026-07-17",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "cfp_url": "https://euhea.eu/call_for_abstracts_conference_2026.html"
+  }
 }

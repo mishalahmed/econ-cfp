@@ -5,7 +5,7 @@
   "name": "CSAE Conference 2028",
   "edition": null,
   "organizer": "Centre for the Study of African Economies (CSAE), University of Oxford",
-  "fields": ["Development"],
+  "fields": ["Other fields", "Development"],
   "region": "Europe",
   "city": "Oxford",
   "country": "UK",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-09-13",
   "expected_note": "Estimated from last edition's general deadline (13 Sep 2026); funding applications had an earlier deadline (9 Aug 2026). The 2027 call was posted around May 2026.",
-  "last_edition": {"year": 2027, "deadline": "2026-09-13", "conf_start": "2027-03-21", "conf_end": "2027-03-23", "city": "Oxford", "country": "UK", "cfp_url": "https://csae.site.ox.ac.uk/sitefiles/csae2027-cfps.pdf"}
+  "last_edition": {
+    "year": 2027,
+    "deadline": "2026-09-13",
+    "conf_start": "2027-03-21",
+    "conf_end": "2027-03-23",
+    "city": "Oxford",
+    "country": "UK",
+    "cfp_url": "https://csae.site.ox.ac.uk/sitefiles/csae2027-cfps.pdf"
+  }
 }

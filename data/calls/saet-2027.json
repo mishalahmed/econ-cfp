@@ -5,7 +5,7 @@
   "name": "SAET Conference 2027",
   "edition": null,
   "organizer": "Society for the Advancement of Economic Theory (SAET)",
-  "fields": ["Theory"],
+  "fields": ["Other fields", "Theory"],
   "region": "Europe",
   "city": "Faro",
   "country": "Portugal",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-03-01",
   "expected_note": "Rough estimate only: no submission deadline was found for the 2026 (Rio) meeting, whose program was built largely from organized sessions ('Confirmed session organizers can complete this form'). Check saet.uiowa.edu for the 2027 submission/session procedure.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-07-13", "conf_end": "2026-07-18", "city": "Rio de Janeiro", "country": "Brazil", "cfp_url": "https://saet.uiowa.edu/2026-conference"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-07-13",
+    "conf_end": "2026-07-18",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "cfp_url": "https://saet.uiowa.edu/2026-conference"
+  }
 }

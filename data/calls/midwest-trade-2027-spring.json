@@ -5,7 +5,7 @@
   "name": "Midwest International Trade & Theory Conference, Spring 2027",
   "edition": null,
   "organizer": "Midwest International Economics Group / Midwest Economic Theory; hosted by University of Colorado Boulder",
-  "fields": ["Trade", "Theory"],
+  "fields": ["Other fields", "Trade"],
   "region": "US",
   "city": "Boulder",
   "country": "USA",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-15",
   "expected_note": "Rough placeholder: the conference site does not show past submission deadlines, so this is not shifted from a known date. Host and dates (U of Colorado Boulder, 16-18 April 2027) are listed under future meetings on the conference site; calls go out via the MWIEG mailing list.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-10-16", "conf_end": "2026-10-18", "city": "Toronto", "country": "Canada", "cfp_url": "https://sites.google.com/view/midwesttradetheoryconference"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-10-16",
+    "conf_end": "2026-10-18",
+    "city": "Toronto",
+    "country": "Canada",
+    "cfp_url": "https://sites.google.com/view/midwesttradetheoryconference"
+  }
 }

@@ -5,10 +5,7 @@
   "name": "SoFiE sponsored joint Financial Econometrics Conference (FINEC2027)",
   "edition": null,
   "organizer": "Lancaster University Management School (EMP Centre, Department of Accounting and Finance, Department of Economics); sponsored by SoFiE",
-  "fields": [
-    "Econometrics",
-    "Finance"
-  ],
+  "fields": ["Econometrics"],
   "region": "Europe",
   "city": "Lancaster",
   "country": "UK",

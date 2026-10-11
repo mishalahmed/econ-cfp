@@ -5,7 +5,7 @@
   "name": "2nd Human Capital Conference (TSE-CEPR)",
   "edition": null,
   "organizer": "TSE Human Capital Center with the support of CEPR",
-  "fields": ["Labor", "Education"],
+  "fields": ["Labor"],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-15",
   "expected_note": "Dates announced, call not yet published. Estimated from last edition's deadline (15 Feb 2026, per TSE listing).",
-  "last_edition": {"year": 2026, "deadline": "2026-02-15", "conf_start": "2026-06-22", "conf_end": "2026-06-23", "city": "Toulouse", "country": "France", "cfp_url": "https://cepr.org/events/1st-human-capital-conference"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-15",
+    "conf_start": "2026-06-22",
+    "conf_end": "2026-06-23",
+    "city": "Toulouse",
+    "country": "France",
+    "cfp_url": "https://cepr.org/events/1st-human-capital-conference"
+  }
 }

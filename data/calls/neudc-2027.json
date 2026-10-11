@@ -5,7 +5,7 @@
   "name": "NEUDC 2027",
   "edition": null,
   "organizer": "Northeast Universities Development Consortium; hosted by Brown University (Andrew Foster)",
-  "fields": ["Development"],
+  "fields": ["Other fields", "Development"],
   "region": "US",
   "city": null,
   "country": "USA",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-08-09",
   "expected_note": "neudc.org lists Brown University as the 2027 host; call not yet published. Estimated from last edition's deadline (9 Aug 2026).",
-  "last_edition": {"year": 2026, "deadline": "2026-08-09", "conf_start": "2026-11-07", "conf_end": "2026-11-08", "city": "Ithaca, NY", "country": "USA", "cfp_url": "https://cidercornell.github.io/neudc2026/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-08-09",
+    "conf_start": "2026-11-07",
+    "conf_end": "2026-11-08",
+    "city": "Ithaca, NY",
+    "country": "USA",
+    "cfp_url": "https://cidercornell.github.io/neudc2026/"
+  }
 }

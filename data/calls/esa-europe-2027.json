@@ -5,7 +5,7 @@
   "name": "2027 ESA European Meeting",
   "edition": null,
   "organizer": "Economic Science Association (ESA)",
-  "fields": ["Behavioral & Experimental"],
+  "fields": ["Other fields", "Behavioral & Experimental"],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-05-11",
   "expected_note": "Estimated from last edition's deadline (11 May 2026). Host changes each year; meetings are listed at economicscience.org/conferences.php.",
-  "last_edition": {"year": 2026, "deadline": "2026-05-11", "conf_start": "2026-09-02", "conf_end": "2026-09-05", "city": "Barcelona", "country": "Spain", "cfp_url": "https://members.economicscience.org/Calendar/moreinfo.php?eventid=184719"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-05-11",
+    "conf_start": "2026-09-02",
+    "conf_end": "2026-09-05",
+    "city": "Barcelona",
+    "country": "Spain",
+    "cfp_url": "https://members.economicscience.org/Calendar/moreinfo.php?eventid=184719"
+  }
 }

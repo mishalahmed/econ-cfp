@@ -12,9 +12,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 
-FIELDS = {"General", "Agricultural", "Behavioral & Experimental", "Development", "Econometrics", "Economic History",
-          "Education", "Environmental", "Finance", "Health", "IO", "Labor", "Macro & Monetary", "Political Economy",
-          "Public", "Theory", "Trade", "Urban & Transport"}
+CORE = {"General", "IO", "Labor", "Environmental", "Urban & Transport", "Econometrics", "Other fields"}
+SUBFIELDS = {"Agricultural", "Behavioral & Experimental", "Development", "Economic History", "Education", "Finance",
+             "Health", "Macro & Monetary", "Political Economy", "Public", "Theory", "Trade"}
+FIELDS = CORE | SUBFIELDS
+
+
+def field_problems(where, fields):
+    out = [f"{where}: unknown field '{f}'" for f in fields if f not in FIELDS]
+    if any(f in SUBFIELDS for f in fields) and "Other fields" not in fields:
+        out.append(f"{where}: field labels {sorted(set(fields) & SUBFIELDS)} are only allowed together with 'Other fields'")
+    if "Other fields" in fields and len(set(fields) & SUBFIELDS) != 1:
+        out.append(f"{where}: 'Other fields' needs exactly one specific field label (e.g. 'Health')")
+    return out
 REGIONS = {"US", "Canada", "Europe", "Far East", "Australia & NZ", "Rotating"}
 KEYS = ["id", "series_id", "status", "name", "edition", "organizer", "fields", "region", "city", "country", "venue",
         "conf_start", "conf_end", "conf_dates_note", "format", "call_type", "deadline", "deadline_time", "deadline_tz",
@@ -50,9 +60,7 @@ def main():
         if sid in series:
             problems.append(f"sources.json: duplicate series_id {sid}")
         series[sid] = s
-        for f in s.get("fields") or []:
-            if f not in FIELDS:
-                problems.append(f"sources.json: {sid}: unknown field '{f}'")
+        problems.extend(field_problems(f"sources.json: {sid}", s.get("fields") or []))
 
     cutoff = (date.today() - timedelta(days=60)).isoformat()
     n = 0
@@ -76,9 +84,7 @@ def main():
             problems.append(f"{name}: bad change_kind '{c.get('change_kind')}'")
         if not c.get("fields"):
             problems.append(f"{name}: fields is empty")
-        for f in c.get("fields") or []:
-            if f not in FIELDS:
-                problems.append(f"{name}: unknown field '{f}'")
+        problems.extend(field_problems(name, c.get("fields") or []))
         if c.get("region") not in REGIONS:
             problems.append(f"{name}: bad region '{c.get('region')}'")
         for k in ("conf_start", "conf_end", "deadline", "expected_deadline", "first_seen", "last_verified", "updated_at"):

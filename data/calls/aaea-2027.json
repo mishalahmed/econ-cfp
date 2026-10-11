@@ -5,9 +5,7 @@
   "name": "2027 AAEA Annual Meeting",
   "edition": null,
   "organizer": "Agricultural & Applied Economics Association (AAEA)",
-  "fields": [
-    "Agricultural"
-  ],
+  "fields": ["Other fields", "Agricultural"],
   "region": "US",
   "city": "Philadelphia",
   "country": "USA",

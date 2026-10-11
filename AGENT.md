@@ -18,28 +18,37 @@ data/archive/              old call files moved here (never delete files)
 
 ## 1. Scope
 
-**Fields** (use these exact labels; a conference can have several):
+**Fields** (use these exact labels; a conference can have several). Six categories are tracked in full:
 
 | Label | Covers |
 |---|---|
-| `General` | General-interest meetings: AEA/ASSA, EEA-ESEM, RES, Southern, Western (WEAI), Eastern, Midwest, Missouri Valley, CEA, Econometric Society regional meetings, national economics associations' annual meetings, IEA World Congress |
-| `Agricultural` | Agricultural, food and agribusiness economics (AAEA, EAAE, AARES, CAES, IAAE, ...) |
-| `Behavioral & Experimental` | Behavioral and experimental economics (ESA, SABE, BEAM, ...) |
-| `Development` | Development economics |
-| `Econometrics` | Econometrics and statistical methods for economics (IAAE, Econometric Society meetings, ...) |
-| `Economic History` | Economic history and cliometrics (EHA, EHES, EHS, WEHC, Cliometric Society, ...) |
-| `Education` | Economics of education **and** economic education (teaching economics, e.g. AEA CTREE) |
-| `Environmental` | Environmental, energy and natural-resource economics |
-| `Finance` | Financial economics and finance (AFA, EFA, WFA, FMA, SFS Cavalcade, ...) |
-| `Health` | Health economics (iHEA, ASHEcon, EuHEA, ...) |
+| `General` | General-interest meetings (AEA/ASSA, EEA-ESEM, RES, Econometric Society meetings, large regional US meetings, ...) |
 | `IO` | Industrial organization, competition policy, regulation, digital/platform economics, organizational economics |
 | `Labor` | Labor, personnel, population/family economics as it relates to labor markets |
-| `Macro & Monetary` | Macroeconomics, monetary economics, international macro, central-bank research conferences with open calls |
-| `Political Economy` | Political economy and public choice |
-| `Public` | Public economics, taxation, public finance (IIPF, NTA, ...) |
-| `Theory` | Economic theory and game theory (SAET, Game Theory Society, ...) |
-| `Trade` | International trade and international economics |
+| `Environmental` | Environmental, energy and natural-resource economics |
 | `Urban & Transport` | Urban, regional/spatial, urban real estate (e.g. AREUEA), transport economics |
+| `Econometrics` | Econometrics and statistical methods for economics |
+
+All other fields are tracked **only** through their flagship open meetings, labelled `Other fields` plus exactly one
+specific field label. This is the complete list; do not add other series in these fields:
+
+| Specific label | Flagship series (series_id) |
+|---|---|
+| `Agricultural` | AAEA Annual Meeting (`aaea`), EAAE Congress (`eaae-congress`) |
+| `Behavioral & Experimental` | ESA North American (`esa-na`), European (`esa-europe`) and World (`esa-world`) meetings |
+| `Development` | NEUDC (`neudc`), CSAE Conference (`csae`) |
+| `Economic History` | EHA Annual Meeting (`eha`), EHES Conference (`ehes`) |
+| `Education` | AEFP Annual Conference (`aefp`), IWAEE (`iwaee`) |
+| `Finance` | Midwest Finance Association (`mfa`), EFMA Annual Meeting (`efma`) |
+| `Health` | ASHEcon (`ashecon`), EuHEA (`euhea`) |
+| `Macro & Monetary` | Midwest Macro Meetings (`midwest-macro`), SED Annual Meeting (`sed`) |
+| `Political Economy` | Public Choice Society (`pcs`), European Public Choice Society (`epcs`) |
+| `Public` | NTA Annual Conference (`nta-annual`), IIPF Congress (`iipf`) |
+| `Theory` | Midwest Economic Theory Meetings (`midwest-theory`), SAET Conference (`saet`) |
+| `Trade` | Midwest International Trade Conference (`midwest-trade`), ETSG (`etsg`) |
+
+Example: ASHEcon's `fields` is `["Other fields", "Health"]`. A conference in one of the six tracked categories that
+also covers another field is labelled with its tracked categories only (e.g. APPAM is `["Labor"]`).
 
 **Regions**, determined by the conference venue (use these exact labels):
 

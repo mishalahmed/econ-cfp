@@ -5,9 +5,7 @@
   "name": "Midwest Macroeconomics Meetings, Fall 2026",
   "edition": null,
   "organizer": "Midwest Macroeconomics Group; hosted by Texas Tech University, Department of Economics",
-  "fields": [
-    "Macro & Monetary"
-  ],
+  "fields": ["Other fields", "Macro & Monetary"],
   "region": "US",
   "city": "Lubbock, TX",
   "country": "USA",

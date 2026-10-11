@@ -5,9 +5,7 @@
   "name": "19th EAAE Congress 2027",
   "edition": "19th Congress",
   "organizer": "European Association of Agricultural Economists (EAAE); organised by the Faculty of Agriculture, University of Zagreb",
-  "fields": [
-    "Agricultural"
-  ],
+  "fields": ["Other fields", "Agricultural"],
   "region": "Europe",
   "city": "Šibenik",
   "country": "Croatia",

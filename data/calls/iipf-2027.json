@@ -5,7 +5,7 @@
   "name": "83rd Annual Congress of the International Institute of Public Finance (IIPF 2027)",
   "edition": "83rd Annual Congress",
   "organizer": "International Institute of Public Finance (IIPF); local organization Piotr Żoch, Joanna Tyrowicz, Krzysztof Makarski (University of Warsaw / GRAPE / Warsaw School of Economics)",
-  "fields": ["Public"],
+  "fields": ["Other fields", "Public"],
   "region": "Europe",
   "city": "Warsaw",
   "country": "Poland",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-15",
   "expected_note": "Venue (Warsaw, second half of August 2027) announced; call not yet posted. Estimated from last edition's deadline (15 Feb 2026). In 2026: completed papers only, EUR 20 submission fee for non-members, presenters must join IIPF; selected papers to an International Tax and Public Finance special issue.",
-  "last_edition": {"year": 2026, "deadline": "2026-02-15", "conf_start": "2026-08-24", "conf_end": "2026-08-26", "city": "Lisbon", "country": "Portugal", "cfp_url": "https://www.iipf.org/papers/Call%20for%20Papers_IIPF%202026_print.pdf"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-15",
+    "conf_start": "2026-08-24",
+    "conf_end": "2026-08-26",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "cfp_url": "https://www.iipf.org/papers/Call%20for%20Papers_IIPF%202026_print.pdf"
+  }
 }
