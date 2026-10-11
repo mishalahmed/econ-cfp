@@ -60,6 +60,19 @@ that have an **open** call for papers; one-off conferences of such institutes wi
 East); online-only events; invitation-only meetings with no open call; PhD-student, job-market or
 "young economists" events; summer schools; journal special-issue calls; one-off university seminars.
 
+**Also exclude (trimmed by the maintainer on 2026-10-11):**
+- every NBER meeting or conference (Summer Institute, program meetings, one-off conferences, NBER co-sponsored
+  series such as ISOM, TRIO and NBER-NSF);
+- meetings that accept under ~10% of submissions or are mainly by invitation (e.g. SFS Cavalcade, WFA, EFA, BEAM,
+  BREAD, the FTC Microeconomics Conference);
+- conferences whose submissions are limited to members of a research network (e.g. CESifo network-only calls);
+- national or local association meetings of mainly domestic interest (e.g. the Norwegian, Finnish, Swedish,
+  Czech, Japanese, Korean, Taiwanese, New Zealand associations; Missouri Valley; Southwestern; regional
+  transport research forums).
+
+`data/removed/series.json` lists the series already removed. Never re-add any of them, and do not add new
+conferences of these kinds during discovery. Never edit or move files in `data/removed/`.
+
 ---
 
 ## 2. Rules for facts

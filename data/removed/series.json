@@ -1,0 +1,455 @@
+{
+  "note": "Series removed from tracking. The weekly check must not re-add these or similar conferences (see AGENT.md section 1).",
+  "series": [
+    {
+      "series_id": "nber-si-edu",
+      "name": "NBER Summer Institute: Economics of Education",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-community-colleges",
+      "name": "NBER Conference on the Economics of Community Colleges",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "dee",
+      "name": "Developments in Economics Education Conference (DEE)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "occasional-workshop",
+      "name": "Occasional Workshop in Environmental and Resource Economics",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "power-conf",
+      "name": "POWER Conference on Energy Research and Policy",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "iaere",
+      "name": "IAERE Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "aerna",
+      "name": "AERNA Conference (Spanish-Portuguese Association of Natural Resource and Environmental Economics)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "fea-finland",
+      "name": "Annual Meeting of the Finnish Economic Association (Kansantaloustieteen päivät)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "swedish-econ-conf",
+      "name": "Swedish Conference in Economics (Nationalekonomiska konferensen)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "cse-czech",
+      "name": "Biennial Conference of the Czech Economic Society",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "forskermotet",
+      "name": "Annual Meeting of the Norwegian Association of Economists (Forskermøtet)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nber-japan",
+      "name": "NBER Japan Project Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "jea-spring",
+      "name": "Japanese Economic Association Spring Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "jea-autumn",
+      "name": "Japanese Economic Association Autumn Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "kaea",
+      "name": "Korea's Allied Economic Associations Annual Meeting (경제학 공동학술대회)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "kwe",
+      "name": "Korea and the World Economy Conference (AKES International Conference)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "tea-taiwan",
+      "name": "Taiwan Economic Association Annual Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nzae",
+      "name": "New Zealand Association of Economists Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "mvea",
+      "name": "Missouri Valley Economic Association Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "scse",
+      "name": "Congrès annuel de la Société canadienne de science économique",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "acea",
+      "name": "Atlantic Canada Economics Association Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "swea",
+      "name": "Southwestern Economics Association Annual Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "ftc-micro",
+      "name": "FTC Microeconomics Conference",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "nber-si-io",
+      "name": "NBER Summer Institute: Industrial Organization",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-regulation",
+      "name": "NBER Conference: Economic Analysis of Regulation",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-labor-market-power",
+      "name": "NBER Conference: Measuring and Modeling Market Power in the Labor Market",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "iwh-iab",
+      "name": "IWH/IAB Workshop on Labour Market Policy",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nber-si-labor",
+      "name": "NBER Summer Institute: Labor Studies",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-race-stratification",
+      "name": "NBER Race and Stratification in the Economy Conference",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-demographic-labor",
+      "name": "NBER Conference: Demographic Forces and US Labor Market Dynamics",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-executive-compensation",
+      "name": "NBER Conference: Compensation of Top Executives",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "almr",
+      "name": "Australian Labour Market Research (ALMR) Workshop",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "anzrsai",
+      "name": "ANZRSAI Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "prsco",
+      "name": "Pacific Conference of the Regional Science Association International (PRSCO)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nber-transport-spillovers",
+      "name": "NBER Conference on Spatial Spillovers from Transport Infrastructure Investments",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-si-urban",
+      "name": "NBER Summer Institute: Urban Economics and Real Estate",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "etc",
+      "name": "European Transport Conference (ETC)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "trf",
+      "name": "Transportation Research Forum (TRF) Annual Forum",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "ctrf",
+      "name": "Canadian Transportation Research Forum (CTRF) Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "atrf",
+      "name": "Australasian Transport Research Forum (ATRF)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "easts",
+      "name": "International Conference of the Eastern Asia Society for Transportation Studies (EASTS)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "hksts",
+      "name": "HKSTS International Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "gewisola",
+      "name": "GEWISOLA Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "sfer",
+      "name": "Journées de Recherches en Sciences Sociales (JRSS)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "aieaa",
+      "name": "AIEAA Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nzares",
+      "name": "NZARES Annual Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "beam",
+      "name": "Behavioral Economics Annual Meeting (BEAM)",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "cesifo-behavioral",
+      "name": "CESifo Area Conference on Behavioral Economics",
+      "removed_on": "2026-10-11",
+      "reason": "Submissions limited to CESifo network members"
+    },
+    {
+      "series_id": "wfa",
+      "name": "Western Finance Association (WFA) Annual Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "efa",
+      "name": "European Finance Association (EFA) Annual Meeting",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "fma-napa",
+      "name": "UC Davis-FMA Napa Finance Conference",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "sfs-cavalcade",
+      "name": "SFS Cavalcade North America",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "nber-si-asset-pricing",
+      "name": "NBER Summer Institute: Asset Pricing",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-si-corporate-finance",
+      "name": "NBER Summer Institute: Corporate Finance",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-si-political-economy",
+      "name": "NBER Summer Institute: Political Economy",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "apcc",
+      "name": "Australasian Public Choice Conference",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "bsf-political-economy",
+      "name": "BSE Summer Forum: Political Economy",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "dggo",
+      "name": "Jahrestagung der Deutschen Gesellschaft für Gesundheitsökonomie (dggö)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "aes-spain",
+      "name": "Jornadas de Economía de la Salud (AES)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nber-si-health",
+      "name": "NBER Summer Institute: Economics of Health",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-medical-innovation",
+      "name": "NBER Conference: Assessing the US Medical Innovation System",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-health-variations",
+      "name": "NBER Conference: Health and Healthcare Variations across the Population",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-si-public",
+      "name": "NBER Summer Institute: Public Economics",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "isom",
+      "name": "NBER International Seminar on Macroeconomics (ISOM)",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-trio",
+      "name": "NBER-TCER-CEPR TRIO Conference",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "macro-conference-japan",
+      "name": "Annual Macro Conference (Japan)",
+      "removed_on": "2026-10-11",
+      "reason": "National or local meeting of mainly domestic interest"
+    },
+    {
+      "series_id": "nber-si-macro",
+      "name": "NBER Summer Institute: macroeconomics, monetary and forecasting workshops",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-nsf-time-series",
+      "name": "NBER-NSF Time Series Conference",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "isot",
+      "name": "International Seminar on Trade (ISoT)",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "nber-tariffs",
+      "name": "NBER Conference: Tariffs and Economic Performance",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-si-iti",
+      "name": "NBER Summer Institute: International Trade and Investment",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-si-dev",
+      "name": "NBER Summer Institute: Development Economics",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "bread",
+      "name": "BREAD Conference on Development Economics (spring conference)",
+      "removed_on": "2026-10-11",
+      "reason": "Invitation-only or accepts under ~10% of submissions"
+    },
+    {
+      "series_id": "nber-firearms",
+      "name": "NBER Conference: The Economics of Firearm Markets, Crime, and Gun Violence",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    },
+    {
+      "series_id": "nber-agri-innovation",
+      "name": "NBER Conference: Innovation in the Agricultural and Food System",
+      "removed_on": "2026-10-11",
+      "reason": "NBER meeting (by invitation; very selective)"
+    }
+  ]
+}
