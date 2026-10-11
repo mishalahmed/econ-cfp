@@ -5,7 +5,7 @@
   "name": "Korea and the World Economy Conference (AKES International Conference), next edition",
   "edition": null,
   "organizer": "Association of Korean Economic Studies (AKES)",
-  "fields": ["General"],
+  "fields": ["General", "Trade", "Development"],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-06-30",
   "expected_note": "No 2026/2027 edition announced; year of next edition uncertain (recent editions 2021, 2022, 2023, 2025). Venues alternate inside and outside Korea, so the next one may be out of scope. The last call gave no specific deadline (papers or abstracts to conference@akes.or.kr), so this date is a rough placeholder for a summer conference.",
-  "last_edition": {"year": 2025, "deadline": null, "conf_start": "2025-09-05", "conf_end": "2025-09-07", "city": null, "country": "Japan", "cfp_url": "http://www.akes.or.kr/conf/"}
+  "last_edition": {
+    "year": 2025,
+    "deadline": null,
+    "conf_start": "2025-09-05",
+    "conf_end": "2025-09-07",
+    "city": null,
+    "country": "Japan",
+    "cfp_url": "http://www.akes.or.kr/conf/"
+  }
 }

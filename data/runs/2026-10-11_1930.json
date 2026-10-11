@@ -1,0 +1,22 @@
+{
+  "started": "2026-10-11T18:35:00Z",
+  "finished": "2026-10-11T19:30:00Z",
+  "status": "complete",
+  "trigger": "seed",
+  "scope": "monthly-full",
+  "sources_checked": 155,
+  "new": [],
+  "changed": [],
+  "expected_added": [],
+  "series_added": [],
+  "archived": [],
+  "unreachable": [
+    {"series_id": "isf", "url": "https://forecasters.org/", "error": "HTTP 403"},
+    {"series_id": "sofie", "url": "https://sofie.stern.nyu.edu/", "error": "HTTP 403"},
+    {"series_id": "aes-spain", "url": "https://www.aes.es/", "error": "HTTP 429"},
+    {"series_id": "ieb-public", "url": "https://ieb.ub.edu/", "error": "HTTP 429"},
+    {"series_id": "apcc", "url": "https://www.qut.edu.au/", "error": "HTTP 403"},
+    {"series_id": null, "url": "https://cepr.org/events", "error": "Blocks automated access"}
+  ],
+  "notes": "Seed of 12 additional fields (Trade, Development, Health, Public, Macro & Monetary, Econometrics, Finance, Political Economy, Behavioral & Experimental, Theory, Agricultural, Economic History): 155 new series, 191 call records. Existing series re-tagged where they span fields. Web-search quota ran out during part of the seed; central-bank calls (ECB, BoE, BoJ, BIS) and some East Asian field meetings were not checked and will be picked up by the monthly full check and discovery."
+}

@@ -77,7 +77,7 @@
   .alert.critical { background: var(--critical-soft); border-color: var(--critical); }
   .alert.serious { background: var(--serious-soft); border-color: var(--serious); }
 
-  .tiles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
   .tile {
     text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
     padding: 10px 14px; cursor: pointer; transition: border-color .12s;
@@ -126,7 +126,7 @@
   tr.row.is-hidden { opacity: .55; }
   tr.row.expected .dl { color: var(--text-2); }
   tr.details td { background: var(--surface-2); padding: 14px 16px 16px; }
-  col.c-dl { width: 172px; } col.c-when { width: 170px; } col.c-where { width: 210px; } col.c-act { width: 128px; }
+  col.c-dl { width: 172px; } col.c-when { width: 170px; } col.c-where { width: 210px; } col.c-act { width: 84px; }
 
   .dl { font-weight: 600; white-space: nowrap; }
   .sub { color: var(--text-2); font-size: 12.5px; }
@@ -146,7 +146,6 @@
   .badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .03em; border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 2px; }
   .badge.new { background: var(--accent); color: #fff; }
   .badge.changed { background: var(--accent-soft); color: var(--accent-ink); border: 1px solid var(--accent); }
-  .badge.sub { background: var(--surface-2); color: var(--good); border: 1px solid var(--good); }
   .badge.hid { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
 
   .acts { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
@@ -155,8 +154,6 @@
     min-width: 30px; height: 28px; padding: 0 7px; display: inline-flex; align-items: center; justify-content: center; gap: 4px; font-size: 13px; color: var(--text-2);
   }
   .ib:hover { border-color: var(--muted); }
-  .ib.star[aria-pressed="true"] { color: var(--star); border-color: var(--star); }
-  .ib.subm[aria-pressed="true"] { color: var(--good); border-color: var(--good); }
   a.ib { text-decoration: none; }
 
   .dgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 22px; }
@@ -179,7 +176,7 @@
   #toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--text); color: var(--bg); padding: 8px 14px; border-radius: 8px; font-size: 13px; display: none; }
 
   @media (max-width: 1000px) {
-    .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .dgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
   @media (max-width: 720px) {
@@ -219,15 +216,17 @@
   <details class="panel" id="sources-panel"><summary>Monitored conference series</summary><div class="inner" id="sources"></div></details>
   <details class="panel" id="runs-panel"><summary>Check history</summary><div class="inner" id="runs"></div></details>
   <footer id="footer">
-    Data are maintained by a weekly Claude agent (Mondays 09:00; missed runs catch up when the Claude desktop app next opens).
-    Agent instructions: <a href="AGENT.md" target="_blank">AGENT.md</a>. Click a conference for every detail.
+    Calls for papers for economics conferences in the US, Canada, Europe, East Asia (Japan, South Korea, Taiwan, Hong Kong, Singapore)
+    and Australia/NZ, checked weekly against the organizers' websites by an AI agent. Always confirm details on the official call before submitting.
+    Click a conference for every detail. Hidden series and NEW flags are remembered in this browser only.
   </footer>
 </div>
 <div id="toast" role="status"></div>
 
 <script>
 "use strict";
-const FIELDS = ["General", "IO", "Labor", "Education", "Environmental", "Urban & Transport"];
+const FIELDS = ["General", "Agricultural", "Behavioral & Experimental", "Development", "Econometrics", "Economic History", "Education",
+  "Environmental", "Finance", "Health", "IO", "Labor", "Macro & Monetary", "Political Economy", "Public", "Theory", "Trade", "Urban & Transport"];
 const REGIONS = ["US", "Canada", "Europe", "Far East", "Australia & NZ", "Rotating"];
 const SOON_DAYS = 14;
 const STALE_DAYS = 8;
@@ -235,7 +234,7 @@ const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","
 const WD = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 
 let DATA = { calls: [], runs: [], sources: null, marks: {}, errors: [] };
-let MARKS = { seen: {}, star: {}, submitted: {}, hidden_series: {} };
+let MARKS = { seen: {}, hidden_series: {} };
 let SERIES = new Map();
 let loadedOnce = false;
 const UI = { fields: new Set(), regions: new Set(), quick: null, q: "", showClosed: false, showHidden: false, open: new Set() };
@@ -389,8 +388,6 @@ function passesQuick(c) {
     case "soon": return isSoon(c);
     case "open": return stateOf(c) === "open";
     case "expected": return stateOf(c) === "expected";
-    case "star": return !!MARKS.star[c.id];
-    case "sub": return !!MARKS.submitted[c.id];
     default: return true;
   }
 }
@@ -441,7 +438,7 @@ function renderAlerts() {
   const last = runs.find(r => r.status === "complete");
   if (last) {
     const age = (Date.now() - new Date(last.finished || last.started)) / 864e5;
-    if (age > STALE_DAYS) out.push(`<div class="alert critical">⚠ <b>Checks are overdue.</b> The last complete check was ${Math.floor(age)} days ago.${MODE === "static" ? "" : " Open the Claude desktop app — the weekly task “Weekly econ CFP check” runs automatically when the app is open, or press <i>Run now</i> on it."}</div>`);
+    if (age > STALE_DAYS) out.push(`<div class="alert critical">⚠ <b>Checks are overdue.</b> The last complete check was ${Math.floor(age)} days ago.</div>`);
   } else if (loadedOnce && runs.length === 0) {
     out.push(`<div class="alert serious">⚠ No check has been logged yet.</div>`);
   }
@@ -456,12 +453,10 @@ function renderTiles(base) {
     soon: base.filter(isSoon).length,
     open: base.filter(c => stateOf(c) === "open").length,
     expected: base.filter(c => stateOf(c) === "expected").length,
-    star: base.filter(c => MARKS.star[c.id]).length,
-    sub: base.filter(c => MARKS.submitted[c.id]).length,
   };
   const tiles = [
     ["new", "🔔", "New or changed"], ["soon", "⏰", `Closing within ${SOON_DAYS} days`], ["open", "📬", "Open calls"],
-    ["expected", "📅", "Expected (not yet posted)"], ["star", "★", "Starred"], ["sub", "✓", "Submitted"],
+    ["expected", "📅", "Expected (not yet posted)"],
   ];
   document.getElementById("tiles").innerHTML = tiles.map(([k, ico, label]) =>
     `<button class="tile" data-act="quick" data-k="${k}" aria-pressed="${UI.quick === k}"><div class="n">${n[k]}</div><div class="l"><span class="ico" aria-hidden="true">${ico}</span>${label}</div></button>`).join("");
@@ -485,7 +480,7 @@ function renderSections(list) {
   const open = list.filter(c => stateOf(c) === "open").sort((a, b) => sortKeyOpen(a) - sortKeyOpen(b));
   const exp = list.filter(c => stateOf(c) === "expected").sort((a, b) => sortKeyExp(a) - sortKeyExp(b));
   const closed = list.filter(c => stateOf(c) === "closed").sort((a, b) => sortKeyConf(a) - sortKeyConf(b));
-  const showClosed = UI.showClosed || ["new", "star", "sub"].includes(UI.quick);
+  const showClosed = UI.showClosed || UI.quick === "new";
   let html = "";
   if (!DATA.calls.length) {
     html = `<div class="empty">No conference data yet. The first check fills this in.</div>`;
@@ -537,7 +532,6 @@ function rowHtml(c, kind) {
   const expanded = UI.open.has(c.id);
   const badges =
     (flagged ? `<span class="badge ${c.change_kind === "new" ? "new" : "changed"}">${c.change_kind === "new" ? "NEW" : "CHANGED"}</span>` : "") +
-    (MARKS.submitted[c.id] ? `<span class="badge sub">SUBMITTED</span>` : "") +
     (hidden ? `<span class="badge hid">HIDDEN</span>` : "");
   const when = fmtRange(c.conf_start, c.conf_end);
   const whenHtml = (when ? `<div>${when}</div>` : (c.conf_dates_note ? "" : `<div class="na">not stated</div>`)) +
@@ -560,8 +554,6 @@ function rowHtml(c, kind) {
     <td>${whenHtml}</td>
     <td>${whereHtml}</td>
     <td><div class="acts">
-      <button class="ib star" data-act="star" data-id="${esc(c.id)}" aria-pressed="${!!MARKS.star[c.id]}" title="Star">${MARKS.star[c.id] ? "★" : "☆"}</button>
-      <button class="ib subm" data-act="sub" data-id="${esc(c.id)}" aria-pressed="${!!MARKS.submitted[c.id]}" title="Mark as submitted">✓</button>
       ${callLink ? `<a class="ib" href="${esc(callLink)}" target="_blank" rel="noopener" title="${kind === "expected" ? "Open the series website" : "Open the call for papers"}" data-act="link">${linkLabel}</a>` : ""}
     </div></td></tr>`;
   if (expanded) html += `<tr class="details"><td colspan="5">${detailsHtml(c, kind)}</td></tr>`;
@@ -642,11 +634,9 @@ function detailsHtml(c, kind) {
   ]));
   const hidden = isHiddenSeries(c);
   const bar = `<div class="dbar">
-    <button class="btn" data-act="star" data-id="${esc(c.id)}">${MARKS.star[c.id] ? "★ Starred" : "☆ Star"}</button>
-    <button class="btn" data-act="sub" data-id="${esc(c.id)}">${MARKS.submitted[c.id] ? "✓ Submitted" : "Mark as submitted"}</button>
     ${di ? `<button class="btn" data-act="ics" data-id="${esc(c.id)}">📅 Add deadline to calendar (.ics)</button>` : ""}
     <button class="btn" data-act="hide" data-id="${esc(c.id)}">${hidden ? "Unhide this series" : "Hide this series"}</button>
-    <span class="hint">${hidden ? "" : MODE === "static" ? "Stars, Submitted and Hide are saved in this browser only." : "Hiding stops the weekly check from flagging this conference series."}</span>
+    <span class="hint">${hidden ? "" : "Hidden series are remembered in this browser only."}</span>
   </div>`;
   return `<div class="dgrid">${groups.join("")}</div>${bar}`;
 }
@@ -710,27 +700,10 @@ function downloadIcs(c) {
 }
 
 // ---------- marks ----------
-// MODE "server": local dashboard server, marks saved to data\marks.json.
-// MODE "static": published copy (GitHub Pages), marks saved in this browser only.
-let MODE = "server";
+// Seen flags and hidden series are kept in this browser (localStorage).
 const MARKS_KEY = "cfp-marks";
-let saveTimer = null;
 function saveMarks() {
-  clearTimeout(saveTimer);
-  if (MODE === "static") {
-    try { localStorage.setItem(MARKS_KEY, JSON.stringify(MARKS)); } catch (e) { toast("Couldn't save your marks in this browser."); }
-    return;
-  }
-  saveTimer = setTimeout(async () => {
-    try {
-      const r = await fetch("/api/marks", { method: "POST", headers: { "Content-Type": "application/json", "X-CFP-Dashboard": "1" }, body: JSON.stringify(MARKS, null, 1) });
-      if (!r.ok) throw new Error("HTTP " + r.status);
-    } catch (e) { toast("Couldn't save your marks. Is the dashboard server running?"); }
-  }, 250);
-}
-function toggleMark(kind, id) {
-  if (MARKS[kind][id]) delete MARKS[kind][id]; else MARKS[kind][id] = true;
-  saveMarks(); render();
+  try { localStorage.setItem(MARKS_KEY, JSON.stringify(MARKS)); } catch (e) { toast("Couldn't save in this browser."); }
 }
 function markSeen(c) { if (isFlagged(c)) { MARKS.seen[c.id] = c.updated_at; saveMarks(); } }
 let toastTimer = null;
@@ -752,8 +725,6 @@ document.addEventListener("click", ev => {
       if (UI.open.has(id)) UI.open.delete(id); else { UI.open.add(id); const c = byId(id); if (c) markSeen(c); }
       render(); break;
     }
-    case "star": toggleMark("star", id); break;
-    case "sub": toggleMark("submitted", id); break;
     case "ics": { const c = byId(id); if (c) downloadIcs(c); break; }
     case "hide": {
       const c = byId(id); if (!c) break;
@@ -785,30 +756,19 @@ async function fetchJson(url) {
 }
 async function load() {
   try {
-    if (location.protocol === "file:") throw new Error("file");
-    try { DATA = await fetchJson("/api/data"); MODE = "server"; }
-    catch (e) {
-      DATA = await fetchJson("data.json");
-      MODE = "static";
-      try { DATA.marks = JSON.parse(localStorage.getItem(MARKS_KEY) || "{}"); } catch (e2) { DATA.marks = {}; }
-    }
+    DATA = await fetchJson("data.json");
   } catch (e) {
-    const fileMode = location.protocol === "file:";
     document.getElementById("runline").textContent = "";
-    document.getElementById("sections").innerHTML = `<div class="alert critical">⚠ ${fileMode
-      ? "This page must be opened through the dashboard server: <a href='http://localhost:8765/'>http://localhost:8765/</a>."
-      : "Can't reach the dashboard server. It starts automatically when you sign in to Windows. To start it now, double-click <b>Start dashboard server</b> in <code>P:\\pCloud\\Research\\Conferences\\CFP Dashboard</code>, then reload this page."}</div>`;
+    document.getElementById("sections").innerHTML = `<div class="alert critical">⚠ Couldn't load the conference data. Please reload the page in a minute.</div>`;
     return;
   }
-  const m = DATA.marks && typeof DATA.marks === "object" ? DATA.marks : {};
-  MARKS = { seen: {}, star: {}, submitted: {}, hidden_series: {}, ...m };
-  for (const k of ["seen", "star", "submitted", "hidden_series"]) if (!MARKS[k] || typeof MARKS[k] !== "object" || Array.isArray(MARKS[k])) MARKS[k] = {};
+  let m = {};
+  try { m = JSON.parse(localStorage.getItem(MARKS_KEY) || "{}"); } catch (e) { m = {}; }
+  MARKS = { seen: {}, hidden_series: {} };
+  for (const k of ["seen", "hidden_series"]) if (m[k] && typeof m[k] === "object" && !Array.isArray(m[k])) MARKS[k] = m[k];
   DATA.calls = (DATA.calls || []).filter(c => c && c.id);
   SERIES = new Map(((DATA.sources && DATA.sources.series) || []).map(s => [s.series_id, s]));
   loadedOnce = true;
-  if (MODE === "static") {
-    document.getElementById("footer").innerHTML = "Calls for papers for economics conferences (general interest, IO, labor, education, environmental, urban &amp; transport) in the US, Canada, Europe, East Asia and Australia/NZ, checked weekly against the organizers' websites. Always confirm details on the official call before submitting. Stars, Submitted and Hide are saved in your browser only.";
-  }
   render();
 }
 loadPrefs();

@@ -5,7 +5,7 @@
   "name": "2027 Australasia Meeting of the Econometric Society (ESAM 2027)",
   "edition": null,
   "organizer": "Econometric Society; hosted by Griffith University",
-  "fields": ["General"],
+  "fields": ["General", "Econometrics"],
   "region": "Australia & NZ",
   "city": "Gold Coast",
   "country": "Australia",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-07-17",
   "expected_note": "Host and dates listed by the Econometric Society; call not yet published. ESAM 2026 submissions opened late May with a July deadline. Estimated from last edition's deadline (17 Jul 2026, extended from 10 Jul). In 2026 submitters had to be ES members; non-member early registration was US$1,000.",
-  "last_edition": {"year": 2026, "deadline": "2026-07-17", "conf_start": "2026-11-24", "conf_end": "2026-11-27", "city": "Adelaide", "country": "Australia", "cfp_url": "https://www.econometricsociety.org/regional-activities/schedule/2026/11/24/2026-Australasia-Meeting-South-Australia"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-07-17",
+    "conf_start": "2026-11-24",
+    "conf_end": "2026-11-27",
+    "city": "Adelaide",
+    "country": "Australia",
+    "cfp_url": "https://www.econometricsociety.org/regional-activities/schedule/2026/11/24/2026-Australasia-Meeting-South-Australia"
+  }
 }

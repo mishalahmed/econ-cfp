@@ -5,7 +5,7 @@
   "name": "BSE Summer Forum 2027: Workshop on Relational Contracts",
   "edition": "13th",
   "organizer": "Barcelona School of Economics (BSE) Summer Forum",
-  "fields": ["IO"],
+  "fields": ["IO", "Theory"],
   "region": "Europe",
   "city": "Barcelona",
   "country": "Spain",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-03-01",
   "expected_note": "Organizational economics workshop (empirical and theoretical). Rough placeholder: the 2026 call deadline is no longer shown on the workshop page. Edition number inferred (2026 was the 12th).",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-06-15", "conf_end": "2026-06-16", "city": "Barcelona", "country": "Spain", "cfp_url": "https://bse.eu/workshop/relational-contracts"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-06-15",
+    "conf_end": "2026-06-16",
+    "city": "Barcelona",
+    "country": "Spain",
+    "cfp_url": "https://bse.eu/workshop/relational-contracts"
+  }
 }

@@ -5,7 +5,7 @@
   "name": "2027 North American Summer Meeting of the Econometric Society",
   "edition": null,
   "organizer": "Econometric Society",
-  "fields": ["General"],
+  "fields": ["General", "Econometrics"],
   "region": "US",
   "city": "Baltimore, MD",
   "country": "USA",
@@ -40,6 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-10",
   "expected_note": "Dates and host listed by the Econometric Society; call not yet posted. For 2026, submissions opened 20 Nov 2025 and closed 10 Feb 2026 (extended date; the original deadline was earlier in February). Estimated from that deadline; the 2027 deadline may be earlier.",
-  "last_edition": {"year": 2026, "deadline": "2026-02-10", "conf_start": "2026-06-04", "conf_end": "2026-06-07",
-                   "city": "Atlanta, GA", "country": "USA", "cfp_url": "https://www.econometricsociety.org/regional-activities/schedule/2026/06/04/2026-North-American-Summer-Meeting-Atlanta-Georgia"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-10",
+    "conf_start": "2026-06-04",
+    "conf_end": "2026-06-07",
+    "city": "Atlanta, GA",
+    "country": "USA",
+    "cfp_url": "https://www.econometricsociety.org/regional-activities/schedule/2026/06/04/2026-North-American-Summer-Meeting-Atlanta-Georgia"
+  }
 }

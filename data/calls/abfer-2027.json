@@ -5,7 +5,7 @@
   "name": "ABFER 14th Annual Conference (2027)",
   "edition": "14th Annual Conference",
   "organizer": "Asian Bureau of Finance and Economic Research (ABFER)",
-  "fields": ["Labor", "Urban & Transport", "IO"],
+  "fields": ["Labor", "Urban & Transport", "IO", "Finance"],
   "region": "Far East",
   "city": "Singapore",
   "country": "Singapore",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-01-15",
   "expected_note": "2027 call not yet posted (ABFER site lists 'Call for Papers 2026'). The 2027 program list (updated 25 Sep 2026) includes Labour Economics (directors Patricia Cortes, Jessica Pan), Real Estate and Urban Economics (joint with IREUS; Lu Han, Stijn Van Nieuwerburgh) and Tech, Digital Markets and AI (Lin William Cong, Pulak Ghosh), alongside finance programs. Estimated from the 2026 deadline (15 Jan 2026) shifted one year. 2026 call: conference fee waived for presenters and discussants; capped sponsorship for one author and one discussant per paper; only selected authors notified.",
-  "last_edition": {"year": 2026, "deadline": "2026-01-15", "conf_start": "2026-05-18", "conf_end": "2026-05-21", "city": "Singapore", "country": "Singapore", "cfp_url": "https://www.abfer.org/events/abfer-events/annual-conference/417:accfp2026"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-01-15",
+    "conf_start": "2026-05-18",
+    "conf_end": "2026-05-21",
+    "city": "Singapore",
+    "country": "Singapore",
+    "cfp_url": "https://www.abfer.org/events/abfer-events/annual-conference/417:accfp2026"
+  }
 }

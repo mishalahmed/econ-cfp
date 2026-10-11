@@ -2,7 +2,7 @@
   "started": "2026-10-10T22:40:00+03:00",
   "finished": "2026-10-10T23:51:00+03:00",
   "status": "complete",
-  "trigger": "manual",
+  "trigger": "seed",
   "sources_checked": 158,
   "new": [],
   "changed": [],

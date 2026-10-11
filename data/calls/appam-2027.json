@@ -5,7 +5,7 @@
   "name": "2027 APPAM Fall Research Conference",
   "edition": null,
   "organizer": "Association for Public Policy Analysis & Management (APPAM)",
-  "fields": ["Education", "Labor"],
+  "fields": ["Education", "Labor", "Public"],
   "region": "US",
   "city": "Indianapolis",
   "country": "USA",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-04-22",
   "expected_note": "Call opened in February in 2026. Estimated from last edition's deadline (22 Apr 2026); dates and venue of the 2027 conference are listed on APPAM's future-conferences page.",
-  "last_edition": {"year": 2026, "deadline": "2026-04-22", "conf_start": "2026-11-05", "conf_end": "2026-11-07", "city": "Boston", "country": "USA", "cfp_url": "https://www.appam.org/fall-conference/2026appam-submissions/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-04-22",
+    "conf_start": "2026-11-05",
+    "conf_end": "2026-11-07",
+    "city": "Boston",
+    "country": "USA",
+    "cfp_url": "https://www.appam.org/fall-conference/2026appam-submissions/"
+  }
 }

@@ -5,7 +5,7 @@
   "name": "2027 Asian Meeting of the Econometric Society (Asia Main Meeting), Tokyo",
   "edition": null,
   "organizer": "Econometric Society; hosted by Waseda University",
-  "fields": ["General"],
+  "fields": ["General", "Econometrics"],
   "region": "Far East",
   "city": "Tokyo",
   "country": "Japan",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-01-31",
   "expected_note": "Meeting listed by the Econometric Society (local organizer Yukihiko Funaki, program chair Kozo Ueda, Waseda), but its 'Submission & Registration' section is empty. Estimated from the 2026 East & Southeast Asia meeting deadline (31 Jan 2026). In 2026: one paper per person, at least one author an ES member, PDF via Oxford Abstracts. The 2027 Asia-China meeting (Wuhan, 25-27 Jun 2027) is out of scope.",
-  "last_edition": {"year": 2026, "deadline": "2026-01-31", "conf_start": "2026-07-31", "conf_end": "2026-08-02", "city": "Hanoi", "country": "Vietnam", "cfp_url": "https://www.econometricsociety.org/regional-activities/schedule/2026/07/31/2026-Asia-Meeting-East-Southeast-Hanoi-Vietnam"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-01-31",
+    "conf_start": "2026-07-31",
+    "conf_end": "2026-08-02",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "cfp_url": "https://www.econometricsociety.org/regional-activities/schedule/2026/07/31/2026-Asia-Meeting-East-Southeast-Hanoi-Vietnam"
+  }
 }

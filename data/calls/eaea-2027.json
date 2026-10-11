@@ -5,7 +5,7 @@
   "name": "East Asian Economic Association International Convention (next edition)",
   "edition": null,
   "organizer": "East Asian Economic Association (EAEA)",
-  "fields": ["General"],
+  "fields": ["General", "Trade", "Development"],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-04-15",
   "expected_note": "Year and venue of the next (22nd) convention not announced; recent conventions were Manila 2025 and Siem Reap 2026, both outside scope. Only a convention held in JP/KR/TW/HK/SG is in scope. Estimated from the 21st convention's abstract deadline (15 Apr 2026 on the convention site; the call PDF v2 states 30 May 2026).",
-  "last_edition": {"year": 2026, "deadline": "2026-04-15", "conf_start": "2026-11-14", "conf_end": "2026-11-15", "city": "Siem Reap", "country": "Cambodia", "cfp_url": "https://eaea21.pfm.gov.kh/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-04-15",
+    "conf_start": "2026-11-14",
+    "conf_end": "2026-11-15",
+    "city": "Siem Reap",
+    "country": "Cambodia",
+    "cfp_url": "https://eaea21.pfm.gov.kh/"
+  }
 }

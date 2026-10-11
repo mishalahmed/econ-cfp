@@ -5,7 +5,7 @@
   "name": "SIOE 2027 Annual Conference",
   "edition": "31st",
   "organizer": "Society for Institutional & Organizational Economics (SIOE)",
-  "fields": ["IO"],
+  "fields": ["IO", "Political Economy"],
   "region": "Europe",
   "city": "Coventry",
   "country": "UK",
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-01-15",
   "expected_note": "SIOE usually launches its call in early December (individual papers and panels; complete papers encouraged but not required). The 2026 deadline was not shown on the site; estimate based on the 2025 deadline (15 Jan 2025). Edition number inferred (2026 was the 30th).",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-07-13", "conf_end": "2026-07-15", "city": "Fontainebleau", "country": "France", "cfp_url": "https://www.sioe.org/news/papers-and-awards-submissions-sioe-2026"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-07-13",
+    "conf_end": "2026-07-15",
+    "city": "Fontainebleau",
+    "country": "France",
+    "cfp_url": "https://www.sioe.org/news/papers-and-awards-submissions-sioe-2026"
+  }
 }

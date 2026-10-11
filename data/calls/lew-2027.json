@@ -5,7 +5,7 @@
   "name": "Labour Econometrics Workshop 2027",
   "edition": null,
   "organizer": "Labour Econometrics Workshop (hosted by a different Australian/NZ university each year)",
-  "fields": ["Labor"],
+  "fields": ["Labor", "Econometrics"],
   "region": "Australia & NZ",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-04-10",
   "expected_note": "2027 host and call not yet announced. Estimated from last edition's deadline (10 Apr 2026, AWST).",
-  "last_edition": {"year": 2026, "deadline": "2026-04-10", "conf_start": "2026-07-16", "conf_end": "2026-07-17", "city": "Perth", "country": "Australia", "cfp_url": "https://www.uwa.edu.au/schools/business/events/labour-econometrics-workshop"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-04-10",
+    "conf_start": "2026-07-16",
+    "conf_end": "2026-07-17",
+    "city": "Perth",
+    "country": "Australia",
+    "cfp_url": "https://www.uwa.edu.au/schools/business/events/labour-econometrics-workshop"
+  }
 }
