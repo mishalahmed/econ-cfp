@@ -5,7 +5,9 @@
   "name": "2027 AAEA Annual Meeting",
   "edition": null,
   "organizer": "Agricultural & Applied Economics Association (AAEA)",
-  "fields": ["Agricultural"],
+  "fields": [
+    "Agricultural"
+  ],
   "region": "US",
   "city": "Philadelphia",
   "country": "USA",
@@ -13,7 +15,7 @@
   "conf_start": "2027-07-25",
   "conf_end": "2027-07-27",
   "conf_dates_note": null,
-  "format": null,
+  "format": "In-person",
   "call_type": "Selected papers and posters; organized symposia",
   "deadline": "2027-01-13",
   "deadline_time": "23:59",

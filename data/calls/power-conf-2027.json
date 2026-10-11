@@ -5,7 +5,9 @@
   "name": "POWER Conference on Energy Research and Policy 2027",
   "edition": null,
   "organizer": "Energy Institute at Haas, UC Berkeley",
-  "fields": ["Environmental"],
+  "fields": [
+    "Environmental"
+  ],
   "region": "US",
   "city": "Berkeley, CA",
   "country": "USA",
@@ -34,11 +36,19 @@
   "contact": null,
   "source_url": "https://haas.berkeley.edu/energy-institute/events/power-conference/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2026-12-01",
   "expected_note": "Conference page: \"check back on this webpage in October 2026 for our paper submission guidelines\"; registration opens January 2027. Past deadlines are not shown on the site, so 1 Dec 2026 is a rough placeholder for sorting.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-03-20", "conf_end": "2026-03-20", "city": "Berkeley, CA", "country": "USA", "cfp_url": "https://haas.berkeley.edu/energy-institute/events/power-conference/2026-power-conference/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-03-20",
+    "conf_end": "2026-03-20",
+    "city": "Berkeley, CA",
+    "country": "USA",
+    "cfp_url": "https://haas.berkeley.edu/energy-institute/events/power-conference/2026-power-conference/"
+  }
 }

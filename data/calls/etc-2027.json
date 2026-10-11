@@ -5,7 +5,9 @@
   "name": "European Transport Conference 2027 (ETC 2027)",
   "edition": null,
   "organizer": "Association for European Transport (AET)",
-  "fields": ["Urban & Transport"],
+  "fields": [
+    "Urban & Transport"
+  ],
   "region": "Europe",
   "city": "Porto",
   "country": "Portugal",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://aetransport.org/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

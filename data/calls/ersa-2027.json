@@ -5,7 +5,9 @@
   "name": "66th ERSA Congress (ERSA2027): Regions and Cities in an Era of Geopolitical Risks",
   "edition": "66th Congress",
   "organizer": "European Regional Science Association (ERSA)",
-  "fields": ["Urban & Transport"],
+  "fields": [
+    "Urban & Transport"
+  ],
   "region": "Europe",
   "city": "Milan",
   "country": "Italy",
@@ -34,7 +36,7 @@
   "contact": "congress@ersa.org",
   "source_url": "https://ersa.org/home-2/66th-ersa-congress-home/66th-ersa-congress-call-for-special-session/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

@@ -5,7 +5,11 @@
   "name": "Essen Health Conference 2027",
   "edition": null,
   "organizer": "University of Duisburg-Essen (Chair of Health Economics) and CINCH - Competent in Competition and Health",
-  "fields": ["Health", "Labor", "Education"],
+  "fields": [
+    "Health",
+    "Labor",
+    "Education"
+  ],
   "region": "Europe",
   "city": "Essen",
   "country": "Germany",
@@ -18,7 +22,7 @@
   "deadline": "2027-01-20",
   "deadline_time": null,
   "deadline_tz": null,
-  "deadline_note": "Stated as 'The deadline for submissions is 20 January 2027.' The submission form link is listed as 'TBA'.",
+  "deadline_note": "Stated as 'The deadline for submissions is 20 January 2027.' The submission form link is listed as 'TBA'. The page also states 'The application process is closed.'",
   "full_paper_required": null,
   "submission_requirements": "Papers in health, education or labour economics, especially at their intersections; early career researchers encouraged. Selected authors present their paper, discuss another paper, and must attend the full conference.",
   "submission_fee": null,
@@ -36,8 +40,13 @@
   "first_seen": "2026-10-11",
   "last_verified": "2026-10-11",
   "updated_at": "2026-10-11",
-  "change_kind": "seed",
-  "history": [],
+  "change_kind": "changed",
+  "history": [
+    {
+      "date": "2026-10-11",
+      "change": "Page now states 'The application process is closed' while still listing a 20 January 2027 deadline; form link still TBA"
+    }
+  ],
   "expected_deadline": null,
   "expected_note": null,
   "last_edition": null

@@ -5,7 +5,9 @@
   "name": "WEAI 19th International Conference (Seoul 2027)",
   "edition": "19th International Conference",
   "organizer": "Western Economic Association International (WEAI), in partnership with Sogang University",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Far East",
   "city": "Seoul",
   "country": "South Korea",
@@ -34,7 +36,7 @@
   "contact": "submissions@weai.org (papers); sessions@weai.org (organized sessions, discussants, chairs)",
   "source_url": "https://www.weai.org/events/19th-international-conference",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

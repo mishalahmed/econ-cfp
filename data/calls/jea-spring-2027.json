@@ -5,7 +5,9 @@
   "name": "Japanese Economic Association 2027 Spring Meeting",
   "edition": null,
   "organizer": "Japanese Economic Association (JEA)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Far East",
   "city": null,
   "country": "Japan",
@@ -34,11 +36,19 @@
   "contact": null,
   "source_url": "https://www.jeaweb.org/meetings",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2027-01-15",
   "expected_note": "Host and dates announced; the JEA meetings page says no presentation applications are currently open. The 2026 spring application guide was posted in Nov 2025, but its deadline could not be read (PDF not accessible), so this date is a rough placeholder, not a shifted known deadline.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-05-23", "conf_end": "2026-05-24", "city": "Osaka", "country": "Japan", "cfp_url": "https://www.jeaweb.org/meetings/2026"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-05-23",
+    "conf_end": "2026-05-24",
+    "city": "Osaka",
+    "country": "Japan",
+    "cfp_url": "https://www.jeaweb.org/meetings/2026"
+  }
 }

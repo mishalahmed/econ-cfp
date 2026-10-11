@@ -5,7 +5,9 @@
   "name": "2027 Korea's Allied Economic Associations Annual Meeting (경제학 공동학술대회)",
   "edition": null,
   "organizer": "Korean Economic Association (KEA) with participating economics associations",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Far East",
   "city": null,
   "country": "South Korea",
@@ -34,11 +36,19 @@
   "contact": null,
   "source_url": "https://www.kea.ne.kr/kor/article/ATCL640a06621",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2026-12-15",
   "expected_note": "Held in early February (2026: 5-6 Feb, Chung-Ang University, Seoul). Paper calls are issued by each participating association; KEA runs plenary, special and graduate-student sessions. No 2026 or 2027 call deadline found; estimate based on KEA's calls for the 2024 meeting (deadline 15 Dec 2023). Largely Korean-language.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-02-05", "conf_end": "2026-02-06", "city": "Seoul", "country": "South Korea", "cfp_url": "https://www.kea.ne.kr/kor/article/ATCL640a06621"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-02-05",
+    "conf_end": "2026-02-06",
+    "city": "Seoul",
+    "country": "South Korea",
+    "cfp_url": "https://www.kea.ne.kr/kor/article/ATCL640a06621"
+  }
 }

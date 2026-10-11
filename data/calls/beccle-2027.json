@@ -5,7 +5,9 @@
   "name": "11th BECCLE Competition Policy Conference",
   "edition": "11th",
   "organizer": "Bergen Center for Competition Law and Economics (BECCLE): NHH and University of Bergen",
-  "fields": ["IO"],
+  "fields": [
+    "IO"
+  ],
   "region": "Europe",
   "city": "Bergen",
   "country": "Norway",
@@ -34,11 +36,19 @@
   "contact": null,
   "source_url": "https://beccle.no/save-the-date-beccle-conference-2027-on-3-4-june/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2027-02-01",
   "expected_note": "BECCLE says a Call for Papers will be circulated and posted at www.beccle.no later in 2026. No conference fee in 2026. Estimated from the 2025 call's deadline (1 Feb); the 2026 deadline was not found.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-06-04", "conf_end": "2026-06-05", "city": "Bergen", "country": "Norway", "cfp_url": "https://www.nhh.no/en/calendar/economics/2026/beccle_2026/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-06-04",
+    "conf_end": "2026-06-05",
+    "city": "Bergen",
+    "country": "Norway",
+    "cfp_url": "https://www.nhh.no/en/calendar/economics/2026/beccle_2026/"
+  }
 }

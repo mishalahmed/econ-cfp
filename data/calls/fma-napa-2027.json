@@ -5,7 +5,9 @@
   "name": "2027 UC Davis-FMA Napa Finance Conference",
   "edition": null,
   "organizer": "FMA International and UC Davis",
-  "fields": ["Finance"],
+  "fields": [
+    "Finance"
+  ],
   "region": "US",
   "city": "Napa Valley, CA",
   "country": "USA",
@@ -20,7 +22,7 @@
   "deadline_tz": null,
   "deadline_note": null,
   "full_paper_required": null,
-  "submission_requirements": null,
+  "submission_requirements": "Papers submitted through the OpenConf system; full details in the Call for Papers PDF",
   "submission_fee": "USD 125",
   "registration_fee": null,
   "registration_fee_usd": null,
@@ -29,7 +31,7 @@
   "notification_date": null,
   "keynotes": null,
   "journal": "Co-hosted with Financial Management (FMA flagship journal)",
-  "submit_url": null,
+  "submit_url": "https://www.openconf.org/2027NapaConference/openconf.php",
   "cfp_url": "https://www.fma.org/2027-uc-davis-fma-napa-finance-conference",
   "contact": null,
   "source_url": "https://www.fma.org/2027-uc-davis-fma-napa-finance-conference",

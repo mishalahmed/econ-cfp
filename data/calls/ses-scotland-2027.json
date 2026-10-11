@@ -5,7 +5,9 @@
   "name": "Scottish Economic Society Annual Conference 2027",
   "edition": null,
   "organizer": "Scottish Economic Society (SES)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Europe",
   "city": "Edinburgh",
   "country": "UK",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://ses27.oa-event.com/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

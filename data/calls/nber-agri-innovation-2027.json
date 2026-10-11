@@ -1,0 +1,52 @@
+{
+  "id": "nber-agri-innovation-2027",
+  "series_id": "nber-agri-innovation",
+  "status": "announced",
+  "name": "NBER Conference: Innovation in the Agricultural and Food System",
+  "edition": null,
+  "organizer": "National Bureau of Economic Research (NBER); organizers GianCarlo Moschini, Paul Rhode; supported by USDA ERS",
+  "fields": [
+    "Agricultural",
+    "IO"
+  ],
+  "region": "US",
+  "city": "Washington, DC",
+  "country": "USA",
+  "venue": null,
+  "conf_start": "2027-05-21",
+  "conf_end": "2027-05-21",
+  "conf_dates_note": null,
+  "format": null,
+  "call_type": "Papers",
+  "deadline": "2027-02-15",
+  "deadline_time": "23:59",
+  "deadline_tz": "ET",
+  "deadline_note": "Page states 'Tuesday, February 15, 2027' (15 Feb 2027 is a Monday); date as stated",
+  "full_paper_required": "Yes",
+  "submission_requirements": "Complete or nearly complete papers ready by May 2027; disclose agricultural-industry ties on first page; do not submit papers published by May 2027",
+  "submission_fee": null,
+  "registration_fee": null,
+  "registration_fee_usd": null,
+  "registration_deadline": null,
+  "membership_required": null,
+  "notification_date": "Early March 2027",
+  "keynotes": null,
+  "journal": null,
+  "submit_url": "https://conference.nber.org/confsubmit/backend/cfp?id=AEs27",
+  "cfp_url": "https://www.nber.org/calls-papers-and-proposals/innovation-agricultural-and-food-system",
+  "contact": "confer@nber.org",
+  "source_url": "https://www.nber.org/calls-papers-and-proposals/innovation-agricultural-and-food-system",
+  "first_seen": "2026-10-11",
+  "last_verified": "2026-10-11",
+  "updated_at": "2026-10-11",
+  "change_kind": "new",
+  "history": [
+    {
+      "date": "2026-10-11",
+      "change": "Call announced"
+    }
+  ],
+  "expected_deadline": null,
+  "expected_note": null,
+  "last_edition": null
+}

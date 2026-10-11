@@ -1,0 +1,126 @@
+{
+  "started": "2026-10-11T19:02:00Z",
+  "finished": "2026-10-11T19:05:00Z",
+  "status": "partial",
+  "trigger": "manual",
+  "scope": "weekly",
+  "sources_checked": 116,
+  "new": [
+    {
+      "id": "nber-firearms-2027",
+      "name": "NBER: Economics of Firearm Markets, Crime, and Gun Violence",
+      "deadline": "2026-10-28"
+    },
+    {
+      "id": "nber-agri-innovation-2027",
+      "name": "NBER: Innovation in the Agricultural and Food System",
+      "deadline": "2027-02-15"
+    }
+  ],
+  "changed": [
+    {
+      "id": "iaee-europe-2027",
+      "name": "IAEE European Conference 2027",
+      "change": "Registration deadline now stated: null \u2192 2027-04-19"
+    },
+    {
+      "id": "essen-health-2027",
+      "name": "Essen Health Conference 2027",
+      "change": "Page now states the application process is closed (deadline 2027-01-20 still shown, form link TBA)"
+    }
+  ],
+  "expected_added": [],
+  "series_added": [
+    "nber-firearms",
+    "nber-agri-innovation"
+  ],
+  "archived": [],
+  "unreachable": [
+    {
+      "series_id": "cepr-applied-io",
+      "url": "https://cepr.org/events/event-series/cepr-annual-applied-industrial-organisation-conference/27th-cepr-jie-conference",
+      "error": "HTTP 403 (bot check)"
+    },
+    {
+      "series_id": "scse",
+      "url": "https://scsecongresannuel.com/appel-de-communications2.html",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "eha",
+      "url": "https://eh.net/eha/",
+      "error": "empty page"
+    },
+    {
+      "series_id": "saea",
+      "url": "https://saea.org/annual-meeting/",
+      "error": "empty page"
+    },
+    {
+      "series_id": "cepr-public",
+      "url": "https://cepr.org/events",
+      "error": "HTTP 403 (bot check)"
+    },
+    {
+      "series_id": "epcs",
+      "url": "https://www.epcs-home.org/",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "iaae",
+      "url": "https://www.iaae.org/",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "cresse",
+      "url": "https://www.cresse.info/call-for-papers/",
+      "error": "empty page"
+    },
+    {
+      "series_id": "swea",
+      "url": "https://site.pheedloop.com/portal/event/EVEXRDJYSWYCV/submission/CALM4JU0OLYC3RE/application",
+      "error": "empty (JS-only) page"
+    },
+    {
+      "series_id": "efma",
+      "url": "https://www.efmaefm.org/0EFMAMEETINGS/EFMA%20ANNUAL%20MEETINGS/2027-Leeds/2027%20meetings.php",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "seta",
+      "url": "https://fbe.unimelb.edu.au/conferences/21st-international-symposium-on-econometric-theory-and-methods",
+      "error": "HTTP 403"
+    },
+    {
+      "series_id": "mea",
+      "url": "https://mea.sites.grinnell.edu/forms-and-guidelines/",
+      "error": "HTTP 503 / connection reset"
+    },
+    {
+      "series_id": "sofie",
+      "url": "https://sofie.stern.nyu.edu/conferences",
+      "error": "DNS failure / HTTP 502"
+    },
+    {
+      "series_id": null,
+      "url": "https://cepr.org/events",
+      "error": "HTTP 403 (bot check)"
+    },
+    {
+      "series_id": null,
+      "url": "https://www.iza.org/events",
+      "error": "HTTP 500"
+    },
+    {
+      "series_id": null,
+      "url": "https://www.zew.de/en/events-and-professional-training",
+      "error": "HTTP 404"
+    },
+    {
+      "series_id": null,
+      "url": "https://www.econbiz.de/eb/en/events/",
+      "error": "HTTP 404"
+    }
+  ],
+  "notes": "Discovery covered NBER open calls (2 new in-scope calls) and INOMICS/CESifo only superficially; IZA, ZEW, EconBiz and CEPR not readable. Please re-check mea-2027: a search snippet suggested an abstract deadline of 2026-10-15 vs the recorded 2026-10-25 (not from an official page, so unchanged). etc-2027 last_edition (Porto) may be wrong: ETC 2026 programme page shows Antwerp."
+}

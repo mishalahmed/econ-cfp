@@ -1,0 +1,53 @@
+{
+  "id": "nber-firearms-2027",
+  "series_id": "nber-firearms",
+  "status": "announced",
+  "name": "NBER Conference: The Economics of Firearm Markets, Crime, and Gun Violence",
+  "edition": null,
+  "organizer": "National Bureau of Economic Research (NBER); organizers Marcella Alsan, Philip Cook, Sara Heller",
+  "fields": [
+    "Public",
+    "Labor",
+    "IO"
+  ],
+  "region": "US",
+  "city": "Cambridge, MA",
+  "country": "USA",
+  "venue": null,
+  "conf_start": "2027-02-06",
+  "conf_end": "2027-02-06",
+  "conf_dates_note": null,
+  "format": null,
+  "call_type": "Papers",
+  "deadline": "2026-10-28",
+  "deadline_time": "23:59",
+  "deadline_tz": "ET",
+  "deadline_note": "Stated as 'Wednesday, October 28, 2026'",
+  "full_paper_required": null,
+  "submission_requirements": "Upload completed papers or work in progress via NBER submission system; do not submit published/accepted papers; no policy recommendations",
+  "submission_fee": null,
+  "registration_fee": null,
+  "registration_fee_usd": null,
+  "registration_deadline": null,
+  "membership_required": null,
+  "notification_date": null,
+  "keynotes": null,
+  "journal": null,
+  "submit_url": "https://conference.nber.org/confsubmit/backend/cfp?id=GVs27",
+  "cfp_url": "https://www.nber.org/calls-papers-and-proposals/economics-firearm-markets-crime-and-gun-violence",
+  "contact": "confer@nber.org",
+  "source_url": "https://www.nber.org/calls-papers-and-proposals/economics-firearm-markets-crime-and-gun-violence",
+  "first_seen": "2026-10-11",
+  "last_verified": "2026-10-11",
+  "updated_at": "2026-10-11",
+  "change_kind": "new",
+  "history": [
+    {
+      "date": "2026-10-11",
+      "change": "Call announced"
+    }
+  ],
+  "expected_deadline": null,
+  "expected_note": null,
+  "last_edition": null
+}

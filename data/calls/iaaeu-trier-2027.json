@@ -5,7 +5,9 @@
   "name": "19th Workshop on Labour Economics (IAAEU, Trier)",
   "edition": "19th Workshop on Labour Economics",
   "organizer": "IAAEU and Chair of Personnel Economics, Trier University",
-  "fields": ["Labor"],
+  "fields": [
+    "Labor"
+  ],
   "region": "Europe",
   "city": "Trier",
   "country": "Germany",
@@ -34,7 +36,7 @@
   "contact": "wle@iaaeu.de",
   "source_url": "https://www.iaaeu.de/images/Sonstiges/WLE_2027_Call_for_Papers.pdf",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

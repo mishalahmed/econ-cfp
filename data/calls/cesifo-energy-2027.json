@@ -5,7 +5,9 @@
   "name": "CESifo Area Conference on Energy and Climate Economics 2027",
   "edition": null,
   "organizer": "CESifo",
-  "fields": ["Environmental"],
+  "fields": [
+    "Environmental"
+  ],
   "region": "Europe",
   "city": "Munich",
   "country": "Germany",
@@ -34,11 +36,19 @@
   "contact": "warren@cesifo.de",
   "source_url": "https://www.ifo.de/en/cesifo/calls-papers",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2027-01-10",
   "expected_note": "No 2027 energy/climate call on the CESifo calls page as of 10 Oct 2026. The 2026 main-conference deadline is not shown on its event page; estimate based on the 2026 Junior Workshop deadline (6 Jan 2026) and the 11 Jan 2027 deadlines of other CESifo area conferences.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-04-24", "conf_end": "2026-04-25", "city": "Munich", "country": "Germany", "cfp_url": "https://www.ifo.de/en/cesifo/event/2026-04-24/cesifo-area-conference-energy-and-climate-economics-2026"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-04-24",
+    "conf_end": "2026-04-25",
+    "city": "Munich",
+    "country": "Germany",
+    "cfp_url": "https://www.ifo.de/en/cesifo/event/2026-04-24/cesifo-area-conference-energy-and-climate-economics-2026"
+  }
 }

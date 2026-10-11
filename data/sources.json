@@ -5321,6 +5321,40 @@
       "typical_conference": "May",
       "associated_journal": null,
       "notes": "Host rotates among US universities (Stanford 2026, Yale 2027); early-stage session for non-tenured presenters."
+    },
+    {
+      "series_id": "nber-firearms",
+      "name": "NBER Conference: The Economics of Firearm Markets, Crime, and Gun Violence",
+      "organizer": "National Bureau of Economic Research (NBER)",
+      "fields": ["Public", "Labor", "IO"],
+      "home_region": "US",
+      "frequency": "One-off",
+      "homepage": "https://www.nber.org/",
+      "cfp_page": "https://www.nber.org/calls-papers-and-proposals/economics-firearm-markets-crime-and-gun-violence",
+      "has_permanent_site": true,
+      "site_note": null,
+      "typical_call_posted": null,
+      "typical_deadline": null,
+      "typical_conference": null,
+      "associated_journal": null,
+      "notes": "2027 call (deadline 28 Oct 2026); recurrence unknown"
+    },
+    {
+      "series_id": "nber-agri-innovation",
+      "name": "NBER Conference: Innovation in the Agricultural and Food System",
+      "organizer": "National Bureau of Economic Research (NBER)",
+      "fields": ["Agricultural", "IO"],
+      "home_region": "US",
+      "frequency": "One-off",
+      "homepage": "https://www.nber.org/",
+      "cfp_page": "https://www.nber.org/calls-papers-and-proposals/innovation-agricultural-and-food-system",
+      "has_permanent_site": true,
+      "site_note": null,
+      "typical_call_posted": null,
+      "typical_deadline": null,
+      "typical_conference": null,
+      "associated_journal": null,
+      "notes": "2027 call (deadline 15 Feb 2027); recurrence unknown"
     }
   ]
 }

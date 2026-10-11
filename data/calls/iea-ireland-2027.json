@@ -5,7 +5,9 @@
   "name": "40th Annual Irish Economic Association Conference",
   "edition": null,
   "organizer": "Irish Economic Association (IEA)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Europe",
   "city": null,
   "country": "Ireland",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.iea.ie/iea-annual-conference/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

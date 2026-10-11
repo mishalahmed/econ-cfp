@@ -5,7 +5,9 @@
   "name": "SGF Conference 2027",
   "edition": null,
   "organizer": "Swiss Society for Financial Market Research (SGF); University of Zurich Department of Finance",
-  "fields": ["Finance"],
+  "fields": [
+    "Finance"
+  ],
   "region": "Europe",
   "city": "Zurich",
   "country": "Switzerland",

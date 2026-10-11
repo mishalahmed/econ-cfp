@@ -5,7 +5,9 @@
   "name": "Asia-Pacific Economic and Business History Conference 2027",
   "edition": null,
   "organizer": "Economic History Society of Australia and New Zealand (EHSANZ); ANU Centre for Economic History",
-  "fields": ["Economic History"],
+  "fields": [
+    "Economic History"
+  ],
   "region": "Australia & NZ",
   "city": "Canberra",
   "country": "Australia",
@@ -22,7 +24,7 @@
   "full_paper_required": "No (abstract)",
   "submission_requirements": "Abstract or full paper by email; session proposals of one page outlining objectives and potential participants",
   "submission_fee": null,
-  "registration_fee": "Early (before 12 Jan 2027): AUD 150 EHSANZ members / AUD 250 non-members; conference dinner AUD 120",
+  "registration_fee": "Early (before 12 Jan 2027): AUD 150 EHSANZ members / AUD 250 non-members; late (from 12 Jan 2027): AUD 200 members / AUD 300 non-members; conference dinner AUD 120; graduate students free with proof of enrolment and paper acceptance",
   "registration_fee_usd": 165,
   "registration_deadline": "2027-01-12",
   "membership_required": null,

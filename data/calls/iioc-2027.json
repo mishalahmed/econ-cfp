@@ -5,7 +5,9 @@
   "name": "25th Annual International Industrial Organization Conference (IIOC 2027)",
   "edition": "25th",
   "organizer": "Industrial Organization Society (IOS)",
-  "fields": ["IO"],
+  "fields": [
+    "IO"
+  ],
   "region": "US",
   "city": "Baltimore, MD",
   "country": "USA",
@@ -34,11 +36,19 @@
   "contact": null,
   "source_url": "https://www.indorgsociety.org/conference",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2027-01-10",
   "expected_note": "IOS site: 'The call for papers will be out in December, 2026.' Submissions usually via Editorial Express, no submission fee. Estimated from last edition's deadline (10 Jan 2026).",
-  "last_edition": {"year": 2026, "deadline": "2026-01-10", "conf_start": "2026-04-10", "conf_end": "2026-04-12", "city": "Boston, MA", "country": "USA", "cfp_url": "https://www.indorgsociety.org/news/iioc-2026-submission-portal-now-open"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-01-10",
+    "conf_start": "2026-04-10",
+    "conf_end": "2026-04-12",
+    "city": "Boston, MA",
+    "country": "USA",
+    "cfp_url": "https://www.indorgsociety.org/news/iioc-2026-submission-portal-now-open"
+  }
 }

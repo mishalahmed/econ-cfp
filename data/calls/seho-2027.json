@@ -5,7 +5,9 @@
   "name": "SEHO 2027 Annual Meeting",
   "edition": null,
   "organizer": "Society of Economics of the Household (SEHO); hosted by the University of Pittsburgh",
-  "fields": ["Labor"],
+  "fields": [
+    "Labor"
+  ],
   "region": "US",
   "city": "Pittsburgh, PA",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": "osea.giuntella@pitt.edu",
   "source_url": "https://sites.google.com/view/seho2027/call-for-papers",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

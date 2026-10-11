@@ -5,7 +5,10 @@
   "name": "NBER Conference: Assessing the US Medical Innovation System",
   "edition": null,
   "organizer": "National Bureau of Economic Research (NBER), Center for Aging and Health Research; organizers Stacie Dusetzina, Bhaven Sampat",
-  "fields": ["Health", "IO"],
+  "fields": [
+    "Health",
+    "IO"
+  ],
   "region": "US",
   "city": "Cambridge, MA",
   "country": "USA",

@@ -5,7 +5,9 @@
   "name": "68th International Meeting of the Transportation Research Forum",
   "edition": "68th Annual Forum",
   "organizer": "Transportation Research Forum (TRF)",
-  "fields": ["Urban & Transport"],
+  "fields": [
+    "Urban & Transport"
+  ],
   "region": "US",
   "city": "Kansas City, MO",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://annualforum.trforum.org/abstract-paper-submission-3/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-11",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
