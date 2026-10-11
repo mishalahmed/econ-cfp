@@ -1,0 +1,17 @@
+{
+  "started": "2026-10-11T18:56:00Z",
+  "finished": "2026-10-11T19:05:00Z",
+  "status": "partial",
+  "trigger": "manual",
+  "scope": "weekly",
+  "sources_checked": 0,
+  "new": [],
+  "changed": [],
+  "expected_added": [],
+  "series_added": [],
+  "archived": [],
+  "unreachable": [
+    {"series_id": null, "url": "all organizer sites and aggregators (nber.org, aere.org, aefpweb.org, abfer.org, cepr.org, inomics.com, iza.org, cesifo.org, zew.de, econbiz.de, and others)", "error": "Run environment blocked outbound access (proxy CONNECT 403 / DNS failure); no official page could be read"}
+  ],
+  "notes": "Weekly check could not be performed: the run environment denied all outbound web access, so none of the 110 selected records (67 announced, 43 expected) were verified and no discovery was done. No records were changed and last_verified was left untouched. Time-sensitive records to recheck first: aefp-2027 (deadline 2026-10-12), aere-eea-2027 (2026-10-12), forskermotet-2026 (2026-10-11), weai-pacific-rim-2027 (2026-10-15), apebh-2027 (2026-10-23), mea-2027 (2026-10-25)."
+}
