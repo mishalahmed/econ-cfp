@@ -1,0 +1,24 @@
+{
+  "started": "2026-10-10T22:40:00+03:00",
+  "finished": "2026-10-10T23:51:00+03:00",
+  "status": "complete",
+  "trigger": "manual",
+  "sources_checked": 158,
+  "new": [],
+  "changed": [],
+  "expected_added": [],
+  "series_added": [],
+  "unreachable": [
+    {"series_id": "earie", "url": "https://earie.org/earie-conference-intro/", "error": "Bot check (Cloudflare); EARIE 2027 call not found elsewhere"},
+    {"series_id": "cepr-human-capital", "url": "https://cepr.org/events", "error": "Blocks automated access"},
+    {"series_id": "iaes-north-america", "url": "https://www.iaes.org/", "error": "Blocks simple fetching"},
+    {"series_id": "nber-si-labor", "url": "https://www.nber.org/conferences/summer-institute", "error": "HTTP 403 on the Summer Institute call page"},
+    {"series_id": "atrf", "url": "https://www.atrf.info/", "error": "Connection refused"},
+    {"series_id": "ieb-urban", "url": "https://ieb.ub.edu/", "error": "HTTP 429 (rate limited)"},
+    {"series_id": "hksts", "url": "https://www.hksts.org/en/conference/563/", "error": "Call for papers posted only as an image; deadline not readable"},
+    {"series_id": "scse", "url": "https://scsecongresannuel.com/", "error": "Unreachable on 2026-10-10"},
+    {"series_id": null, "url": "https://www.econbiz.de/eb/en/events/", "error": "Bot check"},
+    {"series_id": null, "url": "https://www.iza.org/events", "error": "HTTP 500"}
+  ],
+  "notes": "Initial seed: 158 series, 190 call records (71 announced, of which 39 open; 119 expected). Seed records are not flagged as NEW. Web-search quota ran out during part of the seed, so some smaller Asian and national meetings may be missing; the weekly discovery step will add them."
+}

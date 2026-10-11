@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Econ Calls for Papers</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='5' width='26' height='24' rx='4' fill='%232a78d6'/%3E%3Crect x='3' y='5' width='26' height='7' rx='3' fill='%23184f95'/%3E%3Ctext x='16' y='26' font-family='Segoe UI,Arial' font-size='13' font-weight='700' text-anchor='middle' fill='white'%3ECFP%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f3f2ef;
+    --surface: #fcfcfb;
+    --surface-2: #f6f5f2;
+    --border: #e2e0da;
+    --text: #0b0b0b;
+    --text-2: #52514e;
+    --muted: #77756f;
+    --accent: #2a78d6;
+    --accent-ink: #1c5cab;
+    --accent-soft: #e3eefc;
+    --good: #0ca30c;
+    --warning: #fab219;
+    --serious: #ec835a;
+    --critical: #d03b3b;
+    --critical-soft: #fbe7e6;
+    --serious-soft: #fdeee7;
+    --warning-soft: #fef5df;
+    --star: #c98500;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg: #121211;
+      --surface: #1a1a19;
+      --surface-2: #222220;
+      --border: #33332f;
+      --text: #ffffff;
+      --text-2: #c3c2b7;
+      --muted: #94938a;
+      --accent: #3987e5;
+      --accent-ink: #86b6ef;
+      --accent-soft: #1c2c42;
+      --critical-soft: #3a1f1e;
+      --serious-soft: #3a2a22;
+      --warning-soft: #3a3220;
+      --star: #eda100;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #121211; --surface: #1a1a19; --surface-2: #222220; --border: #33332f;
+    --text: #ffffff; --text-2: #c3c2b7; --muted: #94938a;
+    --accent: #3987e5; --accent-ink: #86b6ef; --accent-soft: #1c2c42;
+    --critical-soft: #3a1f1e; --serious-soft: #3a2a22; --warning-soft: #3a3220; --star: #eda100;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font: 14px/1.45 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  .wrap { max-width: 1320px; margin: 0 auto; padding: 20px 16px 48px; }
+  a { color: var(--accent-ink); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  button { font: inherit; color: inherit; }
+
+  header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; margin-bottom: 14px; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+  .runline { color: var(--text-2); font-size: 13px; }
+  .runline .sep { color: var(--muted); margin: 0 6px; }
+  .linkbtn { background: none; border: 0; padding: 0; color: var(--accent-ink); cursor: pointer; }
+  .linkbtn:hover { text-decoration: underline; }
+
+  .alert { border-radius: 8px; padding: 10px 14px; margin: 0 0 14px; border: 1px solid var(--border); background: var(--surface); }
+  .alert.critical { background: var(--critical-soft); border-color: var(--critical); }
+  .alert.serious { background: var(--serious-soft); border-color: var(--serious); }
+
+  .tiles { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .tile {
+    text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 14px; cursor: pointer; transition: border-color .12s;
+  }
+  .tile:hover { border-color: var(--muted); }
+  .tile[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  .tile .n { font-size: 24px; font-weight: 650; line-height: 1.15; }
+  .tile .l { color: var(--text-2); font-size: 12.5px; }
+  .tile .l .ico { margin-right: 4px; }
+
+  .filters { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 16px; }
+  .frow { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; padding: 4px 0; }
+  .flabel { width: 56px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--surface-2); border-radius: 999px;
+    padding: 3px 11px; cursor: pointer; font-size: 13px; color: var(--text-2);
+  }
+  .chip:hover { border-color: var(--muted); }
+  .chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--text); }
+  .chip .c { color: var(--muted); margin-left: 4px; font-size: 12px; }
+  .spacer { flex: 1; }
+  input[type="search"] {
+    font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 8px; padding: 5px 10px; min-width: 260px;
+  }
+  .btn {
+    border: 1px solid var(--border); background: var(--surface-2); border-radius: 8px; padding: 4px 10px; cursor: pointer;
+  }
+  .btn:hover { border-color: var(--muted); }
+  .hint { color: var(--muted); font-size: 12.5px; }
+
+  section.block { margin-bottom: 22px; }
+  .shead { display: flex; align-items: baseline; gap: 10px; margin: 0 0 8px; }
+  .shead h2 { font-size: 16px; margin: 0; }
+  .shead .count { color: var(--muted); }
+  .shead .desc { color: var(--muted); font-size: 12.5px; }
+
+  table.calls { width: 100%; border-collapse: separate; border-spacing: 0; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  table.calls th { text-align: left; font-weight: 600; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; padding: 8px 12px; border-bottom: 1px solid var(--border); background: var(--surface-2); }
+  table.calls td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.calls tr:last-child td { border-bottom: 0; }
+  tr.row { cursor: pointer; }
+  tr.row:hover td { background: var(--surface-2); }
+  tr.row.flagged td:first-child { box-shadow: inset 3px 0 0 var(--accent); }
+  tr.row.is-hidden { opacity: .55; }
+  tr.row.expected .dl { color: var(--text-2); }
+  tr.details td { background: var(--surface-2); padding: 14px 16px 16px; }
+  col.c-dl { width: 172px; } col.c-when { width: 170px; } col.c-where { width: 210px; } col.c-act { width: 128px; }
+
+  .dl { font-weight: 600; white-space: nowrap; }
+  .sub { color: var(--text-2); font-size: 12.5px; }
+  .muted { color: var(--muted); }
+  .na { color: var(--muted); font-style: italic; font-weight: 400; }
+  .name { background: none; border: 0; padding: 0; text-align: left; font-weight: 600; cursor: pointer; font-size: 14.5px; }
+  .name:hover { color: var(--accent-ink); }
+  .tags { margin-top: 3px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .tag { font-size: 11.5px; color: var(--text-2); border: 1px solid var(--border); border-radius: 4px; padding: 0 6px; }
+
+  .pill { display: inline-flex; align-items: center; gap: 4px; margin-top: 4px; font-size: 12px; font-weight: 600; border-radius: 999px; padding: 1px 8px; border: 1px solid transparent; white-space: nowrap; }
+  .pill.critical { background: var(--critical-soft); border-color: var(--critical); }
+  .pill.serious { background: var(--serious-soft); border-color: var(--serious); }
+  .pill.warning { background: var(--warning-soft); border-color: var(--warning); }
+  .pill.plain { color: var(--text-2); font-weight: 400; padding-left: 0; }
+  .pill.closed { color: var(--muted); border-color: var(--border); font-weight: 500; }
+  .badge { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .03em; border-radius: 4px; padding: 0 6px; margin-left: 6px; vertical-align: 2px; }
+  .badge.new { background: var(--accent); color: #fff; }
+  .badge.changed { background: var(--accent-soft); color: var(--accent-ink); border: 1px solid var(--accent); }
+  .badge.sub { background: var(--surface-2); color: var(--good); border: 1px solid var(--good); }
+  .badge.hid { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+
+  .acts { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+  .ib {
+    border: 1px solid var(--border); background: var(--surface); border-radius: 6px; cursor: pointer;
+    min-width: 30px; height: 28px; padding: 0 7px; display: inline-flex; align-items: center; justify-content: center; gap: 4px; font-size: 13px; color: var(--text-2);
+  }
+  .ib:hover { border-color: var(--muted); }
+  .ib.star[aria-pressed="true"] { color: var(--star); border-color: var(--star); }
+  .ib.subm[aria-pressed="true"] { color: var(--good); border-color: var(--good); }
+  a.ib { text-decoration: none; }
+
+  .dgrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 22px; }
+  .dgroup h3 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .kv { display: grid; grid-template-columns: 128px minmax(0, 1fr); gap: 3px 10px; font-size: 13px; }
+  .kv dt { color: var(--text-2); }
+  .kv dd { margin: 0; overflow-wrap: anywhere; }
+  .dbar { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border); }
+  .hist { margin: 0; padding-left: 18px; }
+
+  details.panel { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin-bottom: 12px; }
+  details.panel > summary { cursor: pointer; padding: 10px 14px; font-weight: 600; }
+  details.panel .inner { padding: 0 14px 14px; }
+  table.simple { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.simple th, table.simple td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.simple th { color: var(--muted); font-weight: 600; font-size: 12px; }
+
+  .empty { background: var(--surface); border: 1px dashed var(--border); border-radius: 10px; padding: 16px; color: var(--text-2); }
+  footer { color: var(--muted); font-size: 12.5px; margin-top: 24px; }
+  #toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--text); color: var(--bg); padding: 8px 14px; border-radius: 8px; font-size: 13px; display: none; }
+
+  @media (max-width: 1000px) {
+    .tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .dgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 720px) {
+    .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .dgrid { grid-template-columns: minmax(0, 1fr); }
+    input[type="search"] { min-width: 0; width: 100%; }
+    table.calls thead { display: none; }
+    table.calls, table.calls tbody, table.calls tr, table.calls td { display: block; width: 100%; }
+    table.calls colgroup { display: none; }
+    tr.row td { border-bottom: 0; padding: 4px 12px; }
+    tr.row td:first-child { padding-top: 12px; }
+    tr.row td:last-child { padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+    .kv { grid-template-columns: 110px minmax(0, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Econ Calls for Papers</h1>
+    <div class="runline" id="runline">Loading…</div>
+  </header>
+  <div id="alerts"></div>
+  <div class="tiles" id="tiles"></div>
+  <div class="filters">
+    <div class="frow"><span class="flabel">Field</span><div class="chips" id="f-field"></div></div>
+    <div class="frow"><span class="flabel">Region</span><div class="chips" id="f-region"></div></div>
+    <div class="frow">
+      <span class="flabel">Show</span>
+      <div class="chips" id="f-show"></div>
+      <span class="spacer"></span>
+      <input type="search" id="q" placeholder="Search conference, organizer, city…" aria-label="Search">
+      <button class="btn" id="markall" title="Clear all NEW / CHANGED flags">Mark all as seen</button>
+    </div>
+  </div>
+  <main id="sections"></main>
+  <details class="panel" id="sources-panel"><summary>Monitored conference series</summary><div class="inner" id="sources"></div></details>
+  <details class="panel" id="runs-panel"><summary>Check history</summary><div class="inner" id="runs"></div></details>
+  <footer id="footer">
+    Data are maintained by a weekly Claude agent (Mondays 09:00; missed runs catch up when the Claude desktop app next opens).
+    Agent instructions: <a href="AGENT.md" target="_blank">AGENT.md</a>. Click a conference for every detail.
+  </footer>
+</div>
+<div id="toast" role="status"></div>
+
+<script>
+"use strict";
+const FIELDS = ["General", "IO", "Labor", "Education", "Environmental", "Urban & Transport"];
+const REGIONS = ["US", "Canada", "Europe", "Far East", "Australia & NZ", "Rotating"];
+const SOON_DAYS = 14;
+const STALE_DAYS = 8;
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const WD = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+let DATA = { calls: [], runs: [], sources: null, marks: {}, errors: [] };
+let MARKS = { seen: {}, star: {}, submitted: {}, hidden_series: {} };
+let SERIES = new Map();
+let loadedOnce = false;
+const UI = { fields: new Set(), regions: new Set(), quick: null, q: "", showClosed: false, showHidden: false, open: new Set() };
+
+// ---------- persisted UI preferences (per browser; optional) ----------
+function loadPrefs() {
+  try {
+    const p = JSON.parse(localStorage.getItem("cfp-ui") || "{}");
+    (p.fields || []).forEach(f => UI.fields.add(f));
+    (p.regions || []).forEach(r => UI.regions.add(r));
+    UI.showClosed = !!p.showClosed; UI.showHidden = !!p.showHidden;
+  } catch (e) { /* storage unavailable: defaults */ }
+}
+function savePrefs() {
+  try {
+    localStorage.setItem("cfp-ui", JSON.stringify({ fields: [...UI.fields], regions: [...UI.regions], showClosed: UI.showClosed, showHidden: UI.showHidden }));
+  } catch (e) { /* ignore */ }
+}
+
+// ---------- helpers ----------
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+const isUrl = u => typeof u === "string" && /^https?:\/\//i.test(u.trim());
+const link = (u, text) => isUrl(u) ? `<a href="${esc(u.trim())}" target="_blank" rel="noopener">${esc(text || u)}</a>` : (u ? esc(u) : NS);
+const NS = '<span class="na">not stated</span>';
+const val = v => (v === null || v === undefined || v === "") ? NS : esc(v);
+
+function parseDate(s) {
+  if (typeof s !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(s)) return null;
+  const [y, m, d] = s.split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+function today0() { const d = new Date(); d.setHours(0, 0, 0, 0); return d; }
+function startOfDay(d) { const x = new Date(d); x.setHours(0, 0, 0, 0); return x; }
+const dayDiff = (a, b) => Math.round((startOfDay(a) - startOfDay(b)) / 864e5);
+const fmt = d => `${d.getDate()} ${MON[d.getMonth()]} ${d.getFullYear()}`;
+const fmtW = d => `${WD[d.getDay()]} ${fmt(d)}`;
+const hhmm = d => `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+function fmtIso(s) { const d = parseDate(s); return d ? fmt(d) : (s ? esc(s) : null); }
+function fmtRange(a, b) {
+  const A = parseDate(a), B = parseDate(b);
+  if (!A) return null;
+  if (!B || +A === +B) return fmt(A);
+  if (A.getFullYear() === B.getFullYear() && A.getMonth() === B.getMonth()) return `${A.getDate()}–${B.getDate()} ${MON[A.getMonth()]} ${A.getFullYear()}`;
+  if (A.getFullYear() === B.getFullYear()) return `${A.getDate()} ${MON[A.getMonth()]} – ${B.getDate()} ${MON[B.getMonth()]} ${A.getFullYear()}`;
+  return `${fmt(A)} – ${fmt(B)}`;
+}
+function fmtDateTime(iso) {
+  const d = new Date(iso);
+  return isNaN(d) ? esc(iso) : `${fmtW(d)}, ${hhmm(d)}`;
+}
+
+// ---------- deadline time zones ----------
+const TZ_RULES = [
+  [/\bAOE\b|ANYWHERE ON EARTH/, "Etc/GMT+12"],
+  [/\bCES?T\b|CENTRAL EUROPEAN|BRUSSELS|PARIS|BERLIN|ROME|MADRID|AMSTERDAM|VIENNA|ZURICH/, "Europe/Paris"],
+  [/\bWES?T\b|WESTERN EUROPEAN|LISBON/, "Europe/Lisbon"],
+  [/\bEES?T\b|EASTERN EUROPEAN|ATHENS|HELSINKI/, "Europe/Athens"],
+  [/\bBST\b|BRITISH|\bUK\b|LONDON/, "Europe/London"],
+  [/\bAE[SD]T\b|SYDNEY|MELBOURNE|CANBERRA|AUSTRALIAN EASTERN/, "Australia/Sydney"],
+  [/\bAC[SD]T\b|ADELAIDE/, "Australia/Adelaide"],
+  [/\bAWST\b|PERTH/, "Australia/Perth"],
+  [/\bNZ[SD]?T\b|NEW ZEALAND|AUCKLAND|WELLINGTON/, "Pacific/Auckland"],
+  [/\bJST\b|JAPAN|TOKYO/, "Asia/Tokyo"],
+  [/\bKST\b|KOREA|SEOUL/, "Asia/Seoul"],
+  [/\bHKT\b|HONG KONG/, "Asia/Hong_Kong"],
+  [/\bSGT\b|SINGAPORE/, "Asia/Singapore"],
+  [/TAIPEI|TAIWAN/, "Asia/Taipei"],
+  [/\bE[SD]?T\b|EASTERN|NEW YORK/, "America/New_York"],
+  [/\bC[SD]?T\b|CENTRAL|CHICAGO/, "America/Chicago"],
+  [/\bM[SD]?T\b|MOUNTAIN|DENVER/, "America/Denver"],
+  [/\bP[SD]?T\b|PACIFIC|LOS ANGELES|CALIFORNIA/, "America/Los_Angeles"],
+  [/\bUTC\b|\bGMT\b|\bZ\b/, "UTC"],
+];
+function tzZone(tz, region) {
+  if (!tz) return null;
+  const t = String(tz).toUpperCase().replace(/[().,]/g, " ").replace(/\s+/g, " ").trim();
+  const off = t.match(/^(?:UTC|GMT)\s*([+-])\s*(\d{1,2})(?::?(\d{2}))?$/);
+  if (off) return { offsetMin: (off[1] === "-" ? -1 : 1) * (Number(off[2]) * 60 + Number(off[3] || 0)) };
+  if (/\bCST\b/.test(t) && region === "Far East") return { iana: "Asia/Taipei" };
+  for (const [re, iana] of TZ_RULES) if (re.test(t)) return { iana };
+  return null;
+}
+function parseTime(s) {
+  if (!s) return null;
+  const t = String(s).toLowerCase();
+  if (/midnight/.test(t)) return [23, 59];
+  if (/noon/.test(t)) return [12, 0];
+  let m = t.match(/(\d{1,2})[:.](\d{2})\s*(a\.?m\.?|p\.?m\.?)?/);
+  if (!m) { m = t.match(/(\d{1,2})\s*(a\.?m\.?|p\.?m\.?)/); if (m) m = [m[0], m[1], "00", m[2]]; }
+  if (!m) return null;
+  let h = Number(m[1]); const mi = Number(m[2]);
+  if (m[3]) { const pm = m[3].startsWith("p"); if (h === 12) h = pm ? 12 : 0; else if (pm) h += 12; }
+  return (h < 24 && mi < 60) ? [h, mi] : null;
+}
+const FMT_CACHE = {};
+function tzOffsetMs(ts, iana) {
+  const f = FMT_CACHE[iana] || (FMT_CACHE[iana] = new Intl.DateTimeFormat("en-US", { timeZone: iana, hourCycle: "h23", year: "numeric", month: "numeric", day: "numeric", hour: "numeric", minute: "numeric", second: "numeric" }));
+  const p = {}; for (const x of f.formatToParts(new Date(ts))) p[x.type] = x.value;
+  const asUtc = Date.UTC(+p.year, +p.month - 1, +p.day, (+p.hour) % 24, +p.minute, +p.second);
+  return asUtc - Math.floor(ts / 1000) * 1000;
+}
+// Deadline as an absolute instant (ms), or null when the time or zone is not stated / not recognised.
+function deadlineUtc(c) {
+  const d = parseDate(c.deadline), t = parseTime(c.deadline_time), z = tzZone(c.deadline_tz, c.region);
+  if (!d || !t || !z) return null;
+  const wall = Date.UTC(d.getFullYear(), d.getMonth(), d.getDate(), t[0], t[1]);
+  if (z.offsetMin != null) return wall - z.offsetMin * 60000;
+  try {
+    const o1 = tzOffsetMs(wall, z.iana); let utc = wall - o1;
+    const o2 = tzOffsetMs(utc, z.iana); if (o2 !== o1) utc = wall - o2;
+    return utc;
+  } catch (e) { return null; }
+}
+
+// ---------- classification ----------
+function dlInfo(c) {
+  const date = parseDate(c.deadline);
+  if (!date) return null;
+  const utc = deadlineUtc(c);
+  const days = utc != null ? dayDiff(new Date(utc), today0()) : dayDiff(date, today0());
+  const passed = utc != null ? utc < Date.now() : days < 0;
+  return { date, utc, days, passed };
+}
+function stateOf(c) {
+  if (c.status === "expected") return "expected";
+  const di = dlInfo(c);
+  if (!di) return /^\s*closed\b|call for papers (is )?(now )?closed|submissions? (are |is )?(now )?closed|are now closed/i.test(c.deadline_note || "") ? "closed" : "open";
+  return di.passed ? "closed" : "open";
+}
+const isSoon = c => { if (stateOf(c) !== "open") return false; const di = dlInfo(c); return !!di && di.days <= SOON_DAYS; };
+const isFlagged = c => (c.change_kind === "new" || c.change_kind === "changed") && MARKS.seen[c.id] !== c.updated_at;
+const isHiddenSeries = c => !!MARKS.hidden_series[c.series_id];
+const sortKeyOpen = c => { const di = dlInfo(c); return di ? (di.utc != null ? di.utc : +di.date + 86399000) : Infinity; };
+const sortKeyExp = c => { const d = parseDate(c.expected_deadline); return d ? +d : Infinity; };
+const sortKeyConf = c => { const d = parseDate(c.conf_start); return d ? +d : Infinity; };
+
+function haystack(c) {
+  const s = SERIES.get(c.series_id) || {};
+  return [c.name, c.organizer, c.city, c.country, c.venue, c.edition, c.keynotes, s.name, s.organizer, (c.fields || []).join(" "), c.region].join(" ").toLowerCase();
+}
+function passesBase(c) {
+  if (isHiddenSeries(c) && !UI.showHidden) return false;
+  if (UI.fields.size && !(c.fields || []).some(f => UI.fields.has(f))) return false;
+  if (UI.regions.size && !UI.regions.has(c.region)) return false;
+  if (UI.q) { const h = haystack(c); if (!UI.q.split(/\s+/).every(w => h.includes(w))) return false; }
+  return true;
+}
+function passesQuick(c) {
+  switch (UI.quick) {
+    case "new": return isFlagged(c);
+    case "soon": return isSoon(c);
+    case "open": return stateOf(c) === "open";
+    case "expected": return stateOf(c) === "expected";
+    case "star": return !!MARKS.star[c.id];
+    case "sub": return !!MARKS.submitted[c.id];
+    default: return true;
+  }
+}
+
+// ---------- rendering ----------
+function render() {
+  renderRunline();
+  renderAlerts();
+  const base = DATA.calls.filter(passesBase);
+  renderTiles(base);
+  renderFilters();
+  renderSections(base.filter(passesQuick));
+  renderSources();
+  renderRuns();
+}
+
+function lastRuns() {
+  return [...(DATA.runs || [])].sort((a, b) => String(b.finished || b.started || "").localeCompare(String(a.finished || a.started || "")));
+}
+function nextCheck() {
+  const d = new Date(); d.setHours(9, 0, 0, 0);
+  d.setDate(d.getDate() + ((1 - d.getDay() + 7) % 7));
+  if (d <= new Date()) d.setDate(d.getDate() + 7);
+  return d;
+}
+function renderRunline() {
+  const runs = lastRuns();
+  const last = runs.find(r => r.status === "complete");
+  const nc = nextCheck();
+  let html;
+  if (!last) {
+    html = `No completed check yet<span class="sep">·</span>Next check ${WD[nc.getDay()]} ${nc.getDate()} ${MON[nc.getMonth()]}, 09:00`;
+  } else {
+    const parts = [`Last checked ${fmtDateTime(last.finished || last.started)}`];
+    if (last.sources_checked != null) parts.push(`${last.sources_checked} sources`);
+    parts.push(`${(last.new || []).length} new`, `${(last.changed || []).length} changed`);
+    const un = (last.unreachable || []).length;
+    if (un) parts.push(`${un} unreachable`);
+    parts.push(`Next check ${WD[nc.getDay()]} ${nc.getDate()} ${MON[nc.getMonth()]}, 09:00`);
+    html = parts.join('<span class="sep">·</span>');
+  }
+  html += `<span class="sep">·</span><button class="linkbtn" data-act="show-runs">History</button>`;
+  document.getElementById("runline").innerHTML = html;
+}
+function renderAlerts() {
+  const out = [];
+  const runs = lastRuns();
+  const last = runs.find(r => r.status === "complete");
+  if (last) {
+    const age = (Date.now() - new Date(last.finished || last.started)) / 864e5;
+    if (age > STALE_DAYS) out.push(`<div class="alert critical">⚠ <b>Checks are overdue.</b> The last complete check was ${Math.floor(age)} days ago.${MODE === "static" ? "" : " Open the Claude desktop app — the weekly task “Weekly econ CFP check” runs automatically when the app is open, or press <i>Run now</i> on it."}</div>`);
+  } else if (loadedOnce && runs.length === 0) {
+    out.push(`<div class="alert serious">⚠ No check has been logged yet.</div>`);
+  }
+  if (runs[0] && runs[0].status === "partial") out.push(`<div class="alert serious">⚠ The most recent check (${fmtDateTime(runs[0].finished || runs[0].started)}) did not finish. ${esc(runs[0].notes || "")}</div>`);
+  if ((DATA.errors || []).length) out.push(`<div class="alert serious">⚠ ${DATA.errors.length} data file(s) could not be read and are not shown: ${DATA.errors.map(esc).join(", ")}</div>`);
+  document.getElementById("alerts").innerHTML = out.join("");
+}
+
+function renderTiles(base) {
+  const n = {
+    new: base.filter(isFlagged).length,
+    soon: base.filter(isSoon).length,
+    open: base.filter(c => stateOf(c) === "open").length,
+    expected: base.filter(c => stateOf(c) === "expected").length,
+    star: base.filter(c => MARKS.star[c.id]).length,
+    sub: base.filter(c => MARKS.submitted[c.id]).length,
+  };
+  const tiles = [
+    ["new", "🔔", "New or changed"], ["soon", "⏰", `Closing within ${SOON_DAYS} days`], ["open", "📬", "Open calls"],
+    ["expected", "📅", "Expected (not yet posted)"], ["star", "★", "Starred"], ["sub", "✓", "Submitted"],
+  ];
+  document.getElementById("tiles").innerHTML = tiles.map(([k, ico, label]) =>
+    `<button class="tile" data-act="quick" data-k="${k}" aria-pressed="${UI.quick === k}"><div class="n">${n[k]}</div><div class="l"><span class="ico" aria-hidden="true">${ico}</span>${label}</div></button>`).join("");
+}
+
+function renderFilters() {
+  const all = DATA.calls.filter(c => UI.showHidden || !isHiddenSeries(c));
+  const cnt = (pred) => all.filter(pred).length;
+  document.getElementById("f-field").innerHTML = FIELDS.map(f =>
+    `<button class="chip" data-act="field" data-v="${esc(f)}" aria-pressed="${UI.fields.has(f)}">${esc(f)}<span class="c">${cnt(c => (c.fields || []).includes(f))}</span></button>`).join("");
+  document.getElementById("f-region").innerHTML = REGIONS.map(r =>
+    `<button class="chip" data-act="region" data-v="${esc(r)}" aria-pressed="${UI.regions.has(r)}">${esc(r)}<span class="c">${cnt(c => c.region === r)}</span></button>`).join("");
+  const hiddenN = Object.keys(MARKS.hidden_series).length;
+  document.getElementById("f-show").innerHTML =
+    `<button class="chip" data-act="show-closed" aria-pressed="${UI.showClosed}">Closed calls</button>` +
+    `<button class="chip" data-act="show-hidden" aria-pressed="${UI.showHidden}">Hidden series<span class="c">${hiddenN}</span></button>` +
+    ((UI.fields.size || UI.regions.size || UI.quick || UI.q) ? `<button class="chip" data-act="clear">Clear filters</button>` : "");
+}
+
+function renderSections(list) {
+  const open = list.filter(c => stateOf(c) === "open").sort((a, b) => sortKeyOpen(a) - sortKeyOpen(b));
+  const exp = list.filter(c => stateOf(c) === "expected").sort((a, b) => sortKeyExp(a) - sortKeyExp(b));
+  const closed = list.filter(c => stateOf(c) === "closed").sort((a, b) => sortKeyConf(a) - sortKeyConf(b));
+  const showClosed = UI.showClosed || ["new", "star", "sub"].includes(UI.quick);
+  let html = "";
+  if (!DATA.calls.length) {
+    html = `<div class="empty">No conference data yet. The first check fills this in.</div>`;
+  } else {
+    if (UI.quick !== "expected") html += section("Open calls", open, "Sorted by deadline", "open");
+    if (!["soon", "open"].includes(UI.quick)) html += section("Expected calls", exp, "Recurring conferences whose call is not posted yet. Deadlines are estimates from the last edition.", "expected");
+    if (showClosed && !["soon", "open", "expected"].includes(UI.quick)) html += section("Closed calls", closed, "Deadline passed; conference still upcoming", "closed");
+    if (!html.includes("<tr")) html += `<div class="empty">Nothing matches the current filters.</div>`;
+  }
+  document.getElementById("sections").innerHTML = html;
+}
+
+function section(title, rows, desc, kind) {
+  if (!rows.length && (UI.quick || UI.q || UI.fields.size || UI.regions.size)) return "";
+  const body = rows.length ? rows.map(c => rowHtml(c, kind)).join("") :
+    `<tr><td colspan="5" class="muted">None.</td></tr>`;
+  return `<section class="block"><div class="shead"><h2>${esc(title)}</h2><span class="count">${rows.length}</span><span class="desc">${esc(desc)}</span></div>
+    <table class="calls"><colgroup><col class="c-dl"><col><col class="c-when"><col class="c-where"><col class="c-act"></colgroup>
+    <thead><tr><th>${kind === "expected" ? "Est. deadline" : "Deadline"}</th><th>Conference</th><th>Dates</th><th>Location</th><th></th></tr></thead>
+    <tbody>${body}</tbody></table></section>`;
+}
+
+function deadlineCell(c, kind) {
+  if (kind === "expected") {
+    const d = parseDate(c.expected_deadline);
+    if (!d) return `<div class="dl na">unknown</div><div class="sub">estimate</div>`;
+    const days = dayDiff(d, today0());
+    let pill = "";
+    if (days < 0) pill = `<span class="pill warning">⚠ usual deadline passed; call not posted</span>`;
+    else if (days <= 45) pill = `<span class="pill plain">call expected soon</span>`;
+    return `<div class="dl">≈ ${fmt(d)}</div><div class="sub">estimate</div>${pill}`;
+  }
+  const di = dlInfo(c);
+  if (!di) return `<div class="dl na">not stated</div>` + (kind === "closed" ? `<span class="pill closed">closed</span>` : "");
+  let time = (c.deadline_time || c.deadline_tz) ? `<div class="sub">${esc(c.deadline_time || "")} ${esc(c.deadline_tz || "")}</div>` : "";
+  if (di.utc != null) { const loc = new Date(di.utc); time += `<div class="sub muted" title="Deadline in your time zone">= ${WD[loc.getDay()]} ${loc.getDate()} ${MON[loc.getMonth()]}, ${hhmm(loc)} yours</div>`; }
+  let pill;
+  if (kind === "closed") pill = `<span class="pill closed">closed</span>`;
+  else if (di.days <= 0) pill = `<span class="pill critical">⏰ closes today</span>`;
+  else if (di.days <= 3) pill = `<span class="pill critical">⏰ ${di.days} day${di.days === 1 ? "" : "s"} left</span>`;
+  else if (di.days <= SOON_DAYS) pill = `<span class="pill serious">⏰ ${di.days} days left</span>`;
+  else pill = `<span class="pill plain">in ${di.days} days</span>`;
+  return `<div class="dl">${fmtW(di.date)}</div>${time}${pill}`;
+}
+
+function rowHtml(c, kind) {
+  const flagged = isFlagged(c);
+  const hidden = isHiddenSeries(c);
+  const expanded = UI.open.has(c.id);
+  const badges =
+    (flagged ? `<span class="badge ${c.change_kind === "new" ? "new" : "changed"}">${c.change_kind === "new" ? "NEW" : "CHANGED"}</span>` : "") +
+    (MARKS.submitted[c.id] ? `<span class="badge sub">SUBMITTED</span>` : "") +
+    (hidden ? `<span class="badge hid">HIDDEN</span>` : "");
+  const when = fmtRange(c.conf_start, c.conf_end);
+  const whenHtml = (when ? `<div>${when}</div>` : (c.conf_dates_note ? "" : `<div class="na">not stated</div>`)) +
+    (c.conf_dates_note ? `<div class="sub">${esc(c.conf_dates_note)}</div>` : "");
+  const place = [c.city, c.country].filter(Boolean).join(", ");
+  const whereHtml = (place ? `<div>${esc(place)}</div>` : `<div class="na">${kind === "expected" ? "TBA" : "not stated"}</div>`) +
+    (c.venue ? `<div class="sub">${esc(c.venue)}</div>` : "") +
+    (c.format === "Hybrid" ? `<div class="sub">Hybrid</div>` : "");
+  const s = SERIES.get(c.series_id) || {};
+  const callLink = kind === "expected"
+    ? [s.cfp_page, s.homepage, c.source_url].find(isUrl) || null
+    : [c.cfp_url, c.source_url].find(isUrl) || null;
+  const linkLabel = kind === "expected" ? "Site ↗" : "Call ↗";
+  const cls = ["row", kind, flagged ? "flagged" : "", hidden ? "is-hidden" : ""].join(" ");
+  let html = `<tr class="${cls}" data-act="toggle" data-id="${esc(c.id)}">
+    <td>${deadlineCell(c, kind)}</td>
+    <td><button class="name" data-act="toggle" data-id="${esc(c.id)}" aria-expanded="${expanded}">${esc(c.name)}</button>${badges}
+      <div class="sub">${esc(c.organizer || "")}${c.edition ? ` · ${esc(c.edition)}` : ""}</div>
+      <div class="tags">${(c.fields || []).map(f => `<span class="tag">${esc(f)}</span>`).join("")}<span class="tag">${esc(c.region || "?")}</span></div></td>
+    <td>${whenHtml}</td>
+    <td>${whereHtml}</td>
+    <td><div class="acts">
+      <button class="ib star" data-act="star" data-id="${esc(c.id)}" aria-pressed="${!!MARKS.star[c.id]}" title="Star">${MARKS.star[c.id] ? "★" : "☆"}</button>
+      <button class="ib subm" data-act="sub" data-id="${esc(c.id)}" aria-pressed="${!!MARKS.submitted[c.id]}" title="Mark as submitted">✓</button>
+      ${callLink ? `<a class="ib" href="${esc(callLink)}" target="_blank" rel="noopener" title="${kind === "expected" ? "Open the series website" : "Open the call for papers"}" data-act="link">${linkLabel}</a>` : ""}
+    </div></td></tr>`;
+  if (expanded) html += `<tr class="details"><td colspan="5">${detailsHtml(c, kind)}</td></tr>`;
+  return html;
+}
+
+function kv(rows) {
+  return `<dl class="kv">${rows.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v}</dd>`).join("")}</dl>`;
+}
+function group(title, rows) { return `<div class="dgroup"><h3>${esc(title)}</h3>${kv(rows)}</div>`; }
+
+function detailsHtml(c, kind) {
+  const s = SERIES.get(c.series_id) || {};
+  const di = dlInfo(c);
+  let dl = NS;
+  if (di) {
+    dl = `${fmtW(di.date)}${c.deadline_time ? ", " + esc(c.deadline_time) : ""}${c.deadline_tz ? " " + esc(c.deadline_tz) : ""}`;
+    if (di.utc != null) { const loc = new Date(di.utc); dl += `<br><span class="sub">= ${fmtW(loc)}, ${hhmm(loc)} your time</span>`; }
+  }
+  const fee = c.registration_fee ? esc(c.registration_fee) + (c.registration_fee_usd != null ? ` <span class="sub">(≈ US$${esc(Math.round(c.registration_fee_usd))})</span>` : "") :
+    (c.registration_fee_usd != null ? `≈ US$${esc(Math.round(c.registration_fee_usd))}` : NS);
+  const groups = [];
+  if (kind === "expected") {
+    const le = c.last_edition || {};
+    const leWhen = fmtRange(le.conf_start, le.conf_end);
+    groups.push(group("Expected call", [
+      ["Est. deadline", c.expected_deadline ? `≈ ${fmtIso(c.expected_deadline)} <span class="sub">(estimate)</span>` : NS],
+      ["Note", val(c.expected_note)],
+      ["Usually posted", val(s.typical_call_posted)],
+      ["Usual deadline", val(s.typical_deadline)],
+      ["Usual dates", val(s.typical_conference)],
+    ]));
+    groups.push(group(`Last edition${le.year ? " (" + esc(le.year) + ")" : ""}`, [
+      ["Deadline", le.deadline ? fmtIso(le.deadline) : NS],
+      ["Dates", leWhen || NS],
+      ["Location", [le.city, le.country].filter(Boolean).map(esc).join(", ") || NS],
+      ["Call", link(le.cfp_url, "last call ↗")],
+    ]));
+  }
+  groups.push(group("Call", [
+    ["Type", val(c.call_type)],
+    ["Deadline", dl + (c.deadline_note ? `<br><span class="sub">${esc(c.deadline_note)}</span>` : "")],
+    ["Full paper needed", val(c.full_paper_required)],
+    ["Requirements", val(c.submission_requirements)],
+    ["Submission fee", val(c.submission_fee)],
+    ["Notification", parseDate(c.notification_date) ? fmtIso(c.notification_date) : val(c.notification_date)],
+  ]));
+  groups.push(group("Conference", [
+    ["Dates", (fmtRange(c.conf_start, c.conf_end) || NS) + (c.conf_dates_note ? `<br><span class="sub">${esc(c.conf_dates_note)}</span>` : "")],
+    ["City", val([c.city, c.country].filter(Boolean).join(", "))],
+    ["Venue", val(c.venue)],
+    ["Format", val(c.format)],
+    ["Edition", val(c.edition)],
+    ["Keynotes", val(c.keynotes)],
+  ]));
+  groups.push(group("Registration", [
+    ["Fee", fee],
+    ["Reg. deadline", c.registration_deadline ? (fmtIso(c.registration_deadline) || esc(c.registration_deadline)) : NS],
+    ["Membership", val(c.membership_required)],
+  ]));
+  groups.push(group("Journal", [
+    ["Associated journal", val(s.associated_journal)],
+    ["Special issue / fast track", val(c.journal)],
+  ]));
+  groups.push(group("Links & contact", [
+    ["Call for papers", link(c.cfp_url, "open ↗")],
+    ["Submit", link(c.submit_url, "submission page ↗")],
+    ["Series website", s.has_permanent_site === false ? `<span class="na">no permanent site</span>${s.site_note ? `<br><span class="sub">${esc(s.site_note)}</span>` : ""}` : link(s.homepage, "homepage ↗")],
+    ["Contact", c.contact ? (/^[^@\s]+@[^@\s]+$/.test(c.contact) ? `<a href="mailto:${esc(c.contact)}">${esc(c.contact)}</a>` : esc(c.contact)) : NS],
+  ]));
+  const hist = (c.history || []).length ? `<ul class="hist">${c.history.map(h => `<li>${esc(fmtIso(h.date) || h.date)}: ${esc(h.change)}</li>`).join("")}</ul>` : `<span class="muted">no changes recorded</span>`;
+  groups.push(group("Record", [
+    ["Source", link(c.source_url, "page checked ↗")],
+    ["First seen", c.first_seen ? fmtIso(c.first_seen) : NS],
+    ["Last verified", c.last_verified ? fmtIso(c.last_verified) : NS],
+    ["Changes", hist],
+    ["Series notes", val(s.notes)],
+  ]));
+  const hidden = isHiddenSeries(c);
+  const bar = `<div class="dbar">
+    <button class="btn" data-act="star" data-id="${esc(c.id)}">${MARKS.star[c.id] ? "★ Starred" : "☆ Star"}</button>
+    <button class="btn" data-act="sub" data-id="${esc(c.id)}">${MARKS.submitted[c.id] ? "✓ Submitted" : "Mark as submitted"}</button>
+    ${di ? `<button class="btn" data-act="ics" data-id="${esc(c.id)}">📅 Add deadline to calendar (.ics)</button>` : ""}
+    <button class="btn" data-act="hide" data-id="${esc(c.id)}">${hidden ? "Unhide this series" : "Hide this series"}</button>
+    <span class="hint">${hidden ? "" : MODE === "static" ? "Stars, Submitted and Hide are saved in this browser only." : "Hiding stops the weekly check from flagging this conference series."}</span>
+  </div>`;
+  return `<div class="dgrid">${groups.join("")}</div>${bar}`;
+}
+
+function renderSources() {
+  const ser = ((DATA.sources && DATA.sources.series) || []).slice().sort((a, b) => String(a.name).localeCompare(String(b.name)));
+  const noSite = ser.filter(s => s.has_permanent_site === false);
+  document.querySelector("#sources-panel > summary").textContent = `Monitored conference series (${ser.length})`;
+  if (!ser.length) { document.getElementById("sources").innerHTML = `<p class="muted">No series list yet.</p>`; return; }
+  const rows = ser.map(s => {
+    const hidden = !!MARKS.hidden_series[s.series_id];
+    const site = s.has_permanent_site === false ? `<span class="na">no permanent site</span>${s.site_note ? `<div class="sub">${esc(s.site_note)}</div>` : ""}` : link(s.homepage || s.cfp_page, "site ↗");
+    return `<tr><td><b>${esc(s.name)}</b><div class="sub">${esc(s.organizer || "")}</div></td><td>${esc((s.fields || []).join(", "))}</td><td>${esc(s.home_region || "")}</td>
+      <td>${esc(s.typical_deadline || "—")}<div class="sub">${s.typical_conference ? "meets " + esc(s.typical_conference) : ""}</div></td><td>${site}${isUrl(s.cfp_page) && s.cfp_page !== s.homepage ? ` · ${link(s.cfp_page, "call page ↗")}` : ""}</td>
+      <td>${hidden ? `<button class="btn" data-act="unhide-series" data-v="${esc(s.series_id)}">Unhide</button>` : ""}</td></tr>`;
+  }).join("");
+  document.getElementById("sources").innerHTML =
+    `<p class="hint">${ser.length} series are checked every week. ${noSite.length} have no permanent website (each edition is hosted on a different page)${noSite.length ? ": " + noSite.map(s => esc(s.name)).join("; ") : ""}.</p>
+     <table class="simple"><thead><tr><th>Series</th><th>Fields</th><th>Home region</th><th>Usual deadline</th><th>Website</th><th></th></tr></thead><tbody>${rows}</tbody></table>`;
+}
+
+function renderRuns() {
+  const runs = lastRuns();
+  if (!runs.length) { document.getElementById("runs").innerHTML = `<p class="muted">No checks logged yet.</p>`; return; }
+  document.getElementById("runs").innerHTML = `<table class="simple"><thead><tr><th>Finished</th><th>Trigger</th><th>Status</th><th>Sources</th><th>New</th><th>Changed</th><th>Unreachable</th><th>Notes</th></tr></thead><tbody>` +
+    runs.map(r => `<tr><td>${fmtDateTime(r.finished || r.started)}</td><td>${esc(r.trigger || "")}</td><td>${esc(r.status || "")}</td><td>${esc(r.sources_checked ?? "")}</td>
+      <td>${(r.new || []).map(x => esc(x.name || x.id)).join("<br>") || "0"}</td>
+      <td>${(r.changed || []).map(x => esc((x.name || x.id) + (x.change ? ": " + x.change : ""))).join("<br>") || "0"}</td>
+      <td>${(r.unreachable || []).map(x => link(x.url, x.series_id || x.url) + (x.error ? ` <span class="sub">${esc(x.error)}</span>` : "")).join("<br>") || "0"}</td>
+      <td>${esc(r.notes || "")}</td></tr>`).join("") + `</tbody></table>`;
+}
+
+// ---------- calendar export ----------
+function icsEsc(s) { return String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n"); }
+function icsFold(line) { const out = []; while (line.length > 73) { out.push(line.slice(0, 73)); line = " " + line.slice(73); } out.push(line); return out.join("\r\n"); }
+const icsStamp = ms => new Date(ms).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
+const icsDate = d => `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, "0")}${String(d.getDate()).padStart(2, "0")}`;
+function downloadIcs(c) {
+  const di = dlInfo(c); if (!di) return;
+  const when = fmtRange(c.conf_start, c.conf_end);
+  const desc = [
+    `Deadline: ${fmt(di.date)}${c.deadline_time ? " " + c.deadline_time : ""}${c.deadline_tz ? " " + c.deadline_tz : ""}`,
+    `Conference: ${when || "dates not stated"}, ${[c.city, c.country].filter(Boolean).join(", ") || "location not stated"}`,
+    `Full paper required: ${c.full_paper_required || "not stated"}`,
+    c.submit_url ? `Submit: ${c.submit_url}` : null,
+    c.cfp_url ? `Call: ${c.cfp_url}` : null,
+  ].filter(Boolean).join("\n");
+  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//CFP Dashboard//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "BEGIN:VEVENT",
+    `UID:${c.id}-deadline@cfp-dashboard.local`, `DTSTAMP:${icsStamp(Date.now())}`];
+  if (di.utc != null) { lines.push(`DTSTART:${icsStamp(di.utc - 30 * 60000)}`, `DTEND:${icsStamp(di.utc)}`); }
+  else { const n = new Date(di.date); n.setDate(n.getDate() + 1); lines.push(`DTSTART;VALUE=DATE:${icsDate(di.date)}`, `DTEND;VALUE=DATE:${icsDate(n)}`); }
+  lines.push(`SUMMARY:${icsEsc("CFP deadline: " + c.name)}`, `DESCRIPTION:${icsEsc(desc)}`);
+  if (isUrl(c.cfp_url)) lines.push(`URL:${c.cfp_url.trim()}`);
+  for (const trig of ["-P7D", "-P1D"]) lines.push("BEGIN:VALARM", "ACTION:DISPLAY", `DESCRIPTION:${icsEsc("CFP deadline: " + c.name)}`, `TRIGGER:${trig}`, "END:VALARM");
+  lines.push("END:VEVENT", "END:VCALENDAR");
+  const blob = new Blob([lines.map(icsFold).join("\r\n") + "\r\n"], { type: "text/calendar;charset=utf-8" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = `${c.id}-deadline.ics`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+
+// ---------- marks ----------
+// MODE "server": local dashboard server, marks saved to data\marks.json.
+// MODE "static": published copy (GitHub Pages), marks saved in this browser only.
+let MODE = "server";
+const MARKS_KEY = "cfp-marks";
+let saveTimer = null;
+function saveMarks() {
+  clearTimeout(saveTimer);
+  if (MODE === "static") {
+    try { localStorage.setItem(MARKS_KEY, JSON.stringify(MARKS)); } catch (e) { toast("Couldn't save your marks in this browser."); }
+    return;
+  }
+  saveTimer = setTimeout(async () => {
+    try {
+      const r = await fetch("/api/marks", { method: "POST", headers: { "Content-Type": "application/json", "X-CFP-Dashboard": "1" }, body: JSON.stringify(MARKS, null, 1) });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+    } catch (e) { toast("Couldn't save your marks. Is the dashboard server running?"); }
+  }, 250);
+}
+function toggleMark(kind, id) {
+  if (MARKS[kind][id]) delete MARKS[kind][id]; else MARKS[kind][id] = true;
+  saveMarks(); render();
+}
+function markSeen(c) { if (isFlagged(c)) { MARKS.seen[c.id] = c.updated_at; saveMarks(); } }
+let toastTimer = null;
+function toast(msg) {
+  const t = document.getElementById("toast"); t.textContent = msg; t.style.display = "block";
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.style.display = "none"; }, 4000);
+}
+
+// ---------- events ----------
+const byId = id => DATA.calls.find(c => c.id === id);
+document.addEventListener("click", ev => {
+  const el = ev.target.closest("[data-act]");
+  if (!el) return;
+  const act = el.dataset.act, id = el.dataset.id, v = el.dataset.v;
+  if (act === "link") { ev.stopPropagation(); return; }
+  ev.stopPropagation();
+  switch (act) {
+    case "toggle": {
+      if (UI.open.has(id)) UI.open.delete(id); else { UI.open.add(id); const c = byId(id); if (c) markSeen(c); }
+      render(); break;
+    }
+    case "star": toggleMark("star", id); break;
+    case "sub": toggleMark("submitted", id); break;
+    case "ics": { const c = byId(id); if (c) downloadIcs(c); break; }
+    case "hide": {
+      const c = byId(id); if (!c) break;
+      if (MARKS.hidden_series[c.series_id]) delete MARKS.hidden_series[c.series_id];
+      else { MARKS.hidden_series[c.series_id] = new Date().toISOString().slice(0, 10); toast("Series hidden. Turn on “Hidden series” to see it again."); }
+      saveMarks(); render(); break;
+    }
+    case "unhide-series": delete MARKS.hidden_series[v]; saveMarks(); render(); break;
+    case "quick": UI.quick = UI.quick === el.dataset.k ? null : el.dataset.k; render(); break;
+    case "field": UI.fields.has(v) ? UI.fields.delete(v) : UI.fields.add(v); savePrefs(); render(); break;
+    case "region": UI.regions.has(v) ? UI.regions.delete(v) : UI.regions.add(v); savePrefs(); render(); break;
+    case "show-closed": UI.showClosed = !UI.showClosed; savePrefs(); render(); break;
+    case "show-hidden": UI.showHidden = !UI.showHidden; savePrefs(); render(); break;
+    case "clear": UI.fields.clear(); UI.regions.clear(); UI.quick = null; UI.q = ""; document.getElementById("q").value = ""; savePrefs(); render(); break;
+    case "show-runs": { const p = document.getElementById("runs-panel"); p.open = true; p.scrollIntoView({ behavior: "smooth" }); break; }
+  }
+});
+document.getElementById("q").addEventListener("input", e => { UI.q = e.target.value.trim().toLowerCase(); render(); });
+document.getElementById("markall").addEventListener("click", () => {
+  let n = 0; for (const c of DATA.calls) if (isFlagged(c)) { MARKS.seen[c.id] = c.updated_at; n++; }
+  if (n) { saveMarks(); render(); toast(`${n} item${n === 1 ? "" : "s"} marked as seen`); } else toast("Nothing new to mark");
+});
+
+// ---------- loading ----------
+async function fetchJson(url) {
+  const r = await fetch(url, { cache: "no-store" });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return r.json();
+}
+async function load() {
+  try {
+    if (location.protocol === "file:") throw new Error("file");
+    try { DATA = await fetchJson("/api/data"); MODE = "server"; }
+    catch (e) {
+      DATA = await fetchJson("data.json");
+      MODE = "static";
+      try { DATA.marks = JSON.parse(localStorage.getItem(MARKS_KEY) || "{}"); } catch (e2) { DATA.marks = {}; }
+    }
+  } catch (e) {
+    const fileMode = location.protocol === "file:";
+    document.getElementById("runline").textContent = "";
+    document.getElementById("sections").innerHTML = `<div class="alert critical">⚠ ${fileMode
+      ? "This page must be opened through the dashboard server: <a href='http://localhost:8765/'>http://localhost:8765/</a>."
+      : "Can't reach the dashboard server. It starts automatically when you sign in to Windows. To start it now, double-click <b>Start dashboard server</b> in <code>P:\\pCloud\\Research\\Conferences\\CFP Dashboard</code>, then reload this page."}</div>`;
+    return;
+  }
+  const m = DATA.marks && typeof DATA.marks === "object" ? DATA.marks : {};
+  MARKS = { seen: {}, star: {}, submitted: {}, hidden_series: {}, ...m };
+  for (const k of ["seen", "star", "submitted", "hidden_series"]) if (!MARKS[k] || typeof MARKS[k] !== "object" || Array.isArray(MARKS[k])) MARKS[k] = {};
+  DATA.calls = (DATA.calls || []).filter(c => c && c.id);
+  SERIES = new Map(((DATA.sources && DATA.sources.series) || []).map(s => [s.series_id, s]));
+  loadedOnce = true;
+  if (MODE === "static") {
+    document.getElementById("footer").innerHTML = "Calls for papers for economics conferences (general interest, IO, labor, education, environmental, urban &amp; transport) in the US, Canada, Europe, East Asia and Australia/NZ, checked weekly against the organizers' websites. Always confirm details on the official call before submitting. Stars, Submitted and Hide are saved in your browser only.";
+  }
+  render();
+}
+loadPrefs();
+load();
+setInterval(() => { if (document.visibilityState === "visible") load(); }, 10 * 60 * 1000);
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible" && loadedOnce) load(); });
+</script>
+</body>
+</html>
