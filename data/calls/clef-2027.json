@@ -5,7 +5,9 @@
   "name": "CLEF 2027 Conference",
   "edition": "Third Annual Canadian Labour Economics Forum (CLEF) Conference",
   "organizer": "Canadian Labour Economics Forum (CLEF); hosted by the Department of Economics, University of Calgary",
-  "fields": ["Labor"],
+  "fields": [
+    "Labor"
+  ],
   "region": "Canada",
   "city": "Banff, Alberta",
   "country": "Canada",
@@ -34,7 +36,7 @@
   "contact": "Organizing committee: Jean-William Laliberté (chair, University of Calgary), Marie Connolly (UQAM), Simon Woodcock (Simon Fraser University)",
   "source_url": "https://clef.uqam.ca/conference/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

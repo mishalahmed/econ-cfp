@@ -5,7 +5,9 @@
   "name": "EAERE 2027 - 31st Annual Conference",
   "edition": "31st Annual Conference",
   "organizer": "European Association of Environmental and Resource Economists (EAERE); hosted by Universidad Autónoma de Madrid (UAM)",
-  "fields": ["Environmental"],
+  "fields": [
+    "Environmental"
+  ],
   "region": "Europe",
   "city": "Madrid",
   "country": "Spain",
@@ -34,11 +36,19 @@
   "contact": "eaere@eaere.org",
   "source_url": "https://www.eaere-conferences.org/index.php?p=518",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2027-01-31",
   "expected_note": "Conference site lists dates and venue, but no call yet. Estimated from last edition's deadline (31 Jan 2025, EAERE 2025 Bergen); no EAERE conference was held in 2026 (WCERE year).",
-  "last_edition": {"year": 2025, "deadline": "2025-01-31", "conf_start": "2025-06-16", "conf_end": "2025-06-19", "city": "Bergen", "country": "Norway", "cfp_url": null}
+  "last_edition": {
+    "year": 2025,
+    "deadline": "2025-01-31",
+    "conf_start": "2025-06-16",
+    "conf_end": "2025-06-19",
+    "city": "Bergen",
+    "country": "Norway",
+    "cfp_url": null
+  }
 }

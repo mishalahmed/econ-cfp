@@ -5,7 +5,11 @@
   "name": "ABFER 14th Annual Conference (2027)",
   "edition": "14th Annual Conference",
   "organizer": "Asian Bureau of Finance and Economic Research (ABFER)",
-  "fields": ["Labor", "Urban & Transport", "IO"],
+  "fields": [
+    "Labor",
+    "Urban & Transport",
+    "IO"
+  ],
   "region": "Far East",
   "city": "Singapore",
   "country": "Singapore",
@@ -34,7 +38,7 @@
   "contact": null,
   "source_url": "https://www.abfer.org/media/abfer-events-2027/annual-conference/ABFER-AC2027_PDs-COs_Contacts.pdf",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

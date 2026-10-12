@@ -5,7 +5,10 @@
   "name": "Public Choice Society 2027 Annual Meetings",
   "edition": "64th Annual Meetings",
   "organizer": "Public Choice Society",
-  "fields": ["Other fields", "Political Economy"],
+  "fields": [
+    "Other fields",
+    "Political Economy"
+  ],
   "region": "US",
   "city": "New Orleans, LA",
   "country": "USA",
@@ -34,7 +37,7 @@
   "contact": "admin@publicchoicesociety.org",
   "source_url": "https://www.publicchoicesociety.org/2027-conference/",
   "first_seen": "2026-10-11",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-11",
   "change_kind": "seed",
   "history": [],

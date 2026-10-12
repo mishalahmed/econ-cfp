@@ -5,7 +5,10 @@
   "name": "2027 Asian Meeting of the Econometric Society (Asia Main Meeting), Tokyo",
   "edition": null,
   "organizer": "Econometric Society; hosted by Waseda University",
-  "fields": ["General", "Econometrics"],
+  "fields": [
+    "General",
+    "Econometrics"
+  ],
   "region": "Far East",
   "city": "Tokyo",
   "country": "Japan",
@@ -34,7 +37,7 @@
   "contact": null,
   "source_url": "https://www.econometricsociety.org/regional-activities/schedule/2027/08/03/2027-Asia-Southeast-Asia-ASIA-MAIN-MEETING",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

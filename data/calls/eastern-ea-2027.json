@@ -5,7 +5,9 @@
   "name": "Eastern Economic Association 53rd Annual Meetings",
   "edition": "53rd Annual Meetings",
   "organizer": "Eastern Economic Association (EEA)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "US",
   "city": "New York, NY",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": "eea@ramapo.edu",
   "source_url": "https://www.ramapo.edu/eea/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

@@ -5,7 +5,9 @@
   "name": "75th AFSE Annual Congress",
   "edition": "75th conference of the French Economic Association",
   "organizer": "Association Française de Science Économique (French Economic Association, AFSE)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Europe",
   "city": "Strasbourg",
   "country": "France",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.beta-economics.fr/?p=14817",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

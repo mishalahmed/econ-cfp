@@ -5,7 +5,9 @@
   "name": "18th Paris Conference on Digital Economics",
   "edition": "18th",
   "organizer": "Innovation & Regulation Chair, Institut Polytechnique de Paris (Telecom Paris)",
-  "fields": ["IO"],
+  "fields": [
+    "IO"
+  ],
   "region": "Europe",
   "city": "Palaiseau",
   "country": "France",
@@ -34,7 +36,7 @@
   "contact": "conference@digitaleconomics-paris.fr",
   "source_url": "https://www.digitaleconomics-paris.fr/conference-2027",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

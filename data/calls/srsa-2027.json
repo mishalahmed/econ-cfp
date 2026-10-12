@@ -5,7 +5,9 @@
   "name": "Southern Regional Science Association Annual Meeting 2027",
   "edition": null,
   "organizer": "Southern Regional Science Association (SRSA)",
-  "fields": ["Urban & Transport"],
+  "fields": [
+    "Urban & Transport"
+  ],
   "region": "US",
   "city": null,
   "country": null,
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.srsa.org/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

@@ -5,7 +5,9 @@
   "name": "SOLE 2027 Annual Meeting",
   "edition": "30th Annual Meeting",
   "organizer": "Society of Labor Economists (SOLE)",
-  "fields": ["Labor"],
+  "fields": [
+    "Labor"
+  ],
   "region": "US",
   "city": "Baltimore, MD",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": "bobbie@sole-jole.org",
   "source_url": "https://www.sole-jole.org/upcoming-meeting",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

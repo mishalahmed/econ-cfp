@@ -5,7 +5,10 @@
   "name": "19th EAAE Congress 2027",
   "edition": "19th Congress",
   "organizer": "European Association of Agricultural Economists (EAAE); organised by the Faculty of Agriculture, University of Zagreb",
-  "fields": ["Other fields", "Agricultural"],
+  "fields": [
+    "Other fields",
+    "Agricultural"
+  ],
   "region": "Europe",
   "city": "Šibenik",
   "country": "Croatia",
@@ -34,7 +37,7 @@
   "contact": null,
   "source_url": "https://eaae.org/ItemText.aspx?id=33",
   "first_seen": "2026-10-11",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-11",
   "change_kind": "seed",
   "history": [],

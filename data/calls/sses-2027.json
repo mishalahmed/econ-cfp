@@ -5,7 +5,9 @@
   "name": "SSES Annual Congress 2027: AI and Economics",
   "edition": null,
   "organizer": "Swiss Society of Economics and Statistics (SSES)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Europe",
   "city": "Brig",
   "country": "Switzerland",
@@ -34,7 +36,7 @@
   "contact": "mail@sses.swiss",
   "source_url": "https://www.sses.swiss/conferences/sses2027/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

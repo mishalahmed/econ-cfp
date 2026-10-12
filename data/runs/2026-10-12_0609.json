@@ -1,0 +1,76 @@
+{
+  "started": "2026-10-12T06:08:00Z",
+  "finished": "2026-10-12T06:09:00Z",
+  "status": "partial",
+  "trigger": "scheduled",
+  "scope": "weekly",
+  "sources_checked": 54,
+  "new": [],
+  "changed": [],
+  "expected_added": [],
+  "series_added": [],
+  "archived": [],
+  "unreachable": [
+    {
+      "series_id": "cepr-applied-io",
+      "url": "https://cepr.org/events/event-series/cepr-annual-applied-industrial-organisation-conference/27th-cepr-jie-conference",
+      "error": "HTTP 403"
+    },
+    {
+      "series_id": "cresse",
+      "url": "https://www.cresse.info/call-for-papers/",
+      "error": "empty content"
+    },
+    {
+      "series_id": "efma",
+      "url": "https://www.efmaefm.org/",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "epcs",
+      "url": "http://www.epcs-home.org/",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "mea",
+      "url": "https://mea.sites.grinnell.edu/forms-and-guidelines/",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "eha",
+      "url": "https://eh.net/eha-meeting-theme-call-for-papers/",
+      "error": "empty content"
+    },
+    {
+      "series_id": "iioc",
+      "url": "https://www.indorgsociety.org/conference",
+      "error": "navigation only"
+    },
+    {
+      "series_id": "seta",
+      "url": "https://fbe.unimelb.edu.au/conferences/21st-international-symposium-on-econometric-theory-and-methods",
+      "error": "HTTP 403"
+    },
+    {
+      "series_id": "sofie",
+      "url": "https://sofie.stern.nyu.edu/conferences",
+      "error": "DNS failure"
+    },
+    {
+      "series_id": "res",
+      "url": "https://res.org.uk/event-listing/res2027/",
+      "error": "empty content"
+    },
+    {
+      "series_id": "discovery",
+      "url": "https://cepr.org/events",
+      "error": "HTTP 403"
+    },
+    {
+      "series_id": "discovery",
+      "url": "https://www.econbiz.de/eb/en/events/",
+      "error": "bot check"
+    }
+  ],
+  "notes": "No new calls or material changes found. Discovery found nothing new in scope."
+}

@@ -5,7 +5,9 @@
   "name": "EALE 2027 Annual Conference",
   "edition": null,
   "organizer": "European Association of Labour Economists (EALE)",
-  "fields": ["Labor"],
+  "fields": [
+    "Labor"
+  ],
   "region": "Europe",
   "city": "Munich",
   "country": "Germany",
@@ -34,11 +36,19 @@
   "contact": "eale-sbe@maastrichtuniversity.nl",
   "source_url": "https://eale.nl/about/future-en-past-conferences",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
   "expected_deadline": "2027-02-01",
   "expected_note": "Call not yet published. Estimated from last edition's deadline (1 Feb 2026, 23:59 CET); the 2027 conference is in mid-October rather than the usual late August/September, so the actual deadline may be later.",
-  "last_edition": {"year": 2026, "deadline": "2026-02-01", "conf_start": "2026-08-31", "conf_end": "2026-09-02", "city": "Barcelona", "country": "Spain", "cfp_url": "https://www.ub.edu/school-economics/the-university-of-barcelona-to-host-the-38th-annual-conference-of-the-european-association-of-labour-economists-eale"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-01",
+    "conf_start": "2026-08-31",
+    "conf_end": "2026-09-02",
+    "city": "Barcelona",
+    "country": "Spain",
+    "cfp_url": "https://www.ub.edu/school-economics/the-university-of-barcelona-to-host-the-38th-annual-conference-of-the-european-association-of-labour-economists-eale"
+  }
 }

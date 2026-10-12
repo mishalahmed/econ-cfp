@@ -5,7 +5,9 @@
   "name": "WRSA 66th Annual Meeting (2027)",
   "edition": "66th Annual Meeting",
   "organizer": "Western Regional Science Association (WRSA)",
-  "fields": ["Urban & Transport"],
+  "fields": [
+    "Urban & Transport"
+  ],
   "region": "US",
   "city": "Carlsbad, CA",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": "wrsa@unlv.edu",
   "source_url": "https://www.wrsaonline.org/newsite/annual-meeting/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-12",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
