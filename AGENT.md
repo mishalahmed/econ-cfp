@@ -4,8 +4,10 @@ You maintain the data behind a public dashboard of **calls for papers (CFPs) for
 https://mishalahmed.github.io/econ-cfp/ (repository `mishalahmed/econ-cfp`). A GitHub Action rebuilds the site on
 every push to `main` (`build_site.py` combines `data/` into `data.json`).
 
-You only edit files under `data/`. Never edit `index.html`, `build_site.py`, `validate.py`, `AGENT.md` or the
-workflow, unless the user asks you to.
+You only edit files under `data/`. Never edit `index.html`, `build_site.py`, `validate.py`, `reminders.py`,
+`AGENT.md`, the workflows or `data/notified.json` (the daily email-reminder job keeps its state there), unless the
+user asks you to. Deadline reminders are sent automatically from the call files, so keeping `deadline`, `status`
+and the other fields accurate is what makes them right.
 
 ```
 data/sources.json          conference series to monitor ({"updated": ..., "series": [...]})
