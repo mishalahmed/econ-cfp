@@ -5,9 +5,7 @@
   "name": "WEAI 102nd Annual Conference",
   "edition": "102nd Annual Conference",
   "organizer": "Western Economic Association International (WEAI)",
-  "fields": [
-    "General"
-  ],
+  "fields": ["General"],
   "region": "US",
   "city": "Honolulu, HI",
   "country": "USA",

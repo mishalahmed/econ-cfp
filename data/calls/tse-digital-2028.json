@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-09-01",
   "expected_note": "Annual (January) conference; call usually posted in spring/summer. Edition number inferred. Estimated from last edition's deadline (1 Sep 2026).",
-  "last_edition": {"year": 2027, "deadline": "2026-09-01", "conf_start": "2027-01-07", "conf_end": "2027-01-08", "city": "Toulouse", "country": "France", "cfp_url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/Call_for_paper_19th_Digital_Conference_2027.pdf"}
+  "last_edition": {
+    "year": 2027,
+    "deadline": "2026-09-01",
+    "conf_start": "2027-01-07",
+    "conf_end": "2027-01-08",
+    "city": "Toulouse",
+    "country": "France",
+    "cfp_url": "https://www.tse-fr.eu/sites/default/files/TSE/documents/doc/Call_for_paper_19th_Digital_Conference_2027.pdf"
+  }
 }

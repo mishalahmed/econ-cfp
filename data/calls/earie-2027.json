@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-03-15",
   "expected_note": "earie.org blocks automated access (bot check), so the 2027 host and call could not be checked; please verify on earie.org. Call usually opens 1 February with a mid-March deadline (2026 window reportedly 1 Feb - 15 Mar 2026, not seen on an official page). Each submitter may submit one paper (2025 rule).",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-08-26", "conf_end": "2026-08-28", "city": "Mannheim", "country": "Germany", "cfp_url": "https://www.zew.de/VA4852-1"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-08-26",
+    "conf_end": "2026-08-28",
+    "city": "Mannheim",
+    "country": "Germany",
+    "cfp_url": "https://www.zew.de/VA4852-1"
+  }
 }

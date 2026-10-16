@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-03-01",
   "expected_note": "Rough placeholder: the 2026 call deadline is no longer shown on the workshop page, so it was not shifted from a known date. The workshop page posts the call when open.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-06-02", "conf_end": "2026-06-03", "city": "Barcelona", "country": "Spain", "cfp_url": "https://bse.eu/summer-forum/workshops/applied-industrial-organization"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-06-02",
+    "conf_end": "2026-06-03",
+    "city": "Barcelona",
+    "country": "Spain",
+    "cfp_url": "https://bse.eu/summer-forum/workshops/applied-industrial-organization"
+  }
 }

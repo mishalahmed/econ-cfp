@@ -40,6 +40,13 @@
   "history": [],
   "expected_deadline": "2027-04-01",
   "expected_note": "Call for the January 2028 meeting not yet published; AEA submissions normally open in early spring. Estimated from last edition's deadline (1 Apr 2026 for individual papers; complete sessions 15 Apr 2026).",
-  "last_edition": {"year": 2027, "deadline": "2026-04-01", "conf_start": "2027-01-03", "conf_end": "2027-01-05",
-                   "city": "Washington, DC", "country": "USA", "cfp_url": "https://www.aeaweb.org/conference/submissions"}
+  "last_edition": {
+    "year": 2027,
+    "deadline": "2026-04-01",
+    "conf_start": "2027-01-03",
+    "conf_end": "2027-01-05",
+    "city": "Washington, DC",
+    "country": "USA",
+    "cfp_url": "https://www.aeaweb.org/conference/submissions"
+  }
 }

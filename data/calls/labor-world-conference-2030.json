@@ -5,7 +5,7 @@
   "name": "SOLE-EALE-AASLE World Labor Conference 2030",
   "edition": null,
   "organizer": "SOLE, EALE and AASLE (2030 edition hosted by AASLE)",
-  "fields": ["Labor"],
+  "fields": ["Labor & Education"],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2029-12-01",
   "expected_note": "Held every five years; AASLE site lists 'AASLE/EALE/SOLE World Conference 2030', hosted by AASLE, venue not yet announced. Estimated from last edition's deadline (1 Dec 2024) shifted one five-year cycle.",
-  "last_edition": {"year": 2025, "deadline": "2024-12-01", "conf_start": "2025-06-27", "conf_end": "2025-06-29", "city": "Toronto", "country": "Canada", "cfp_url": "https://www.sole-jole.org/assets/docs/SOLE2025/SOLE%202025%20Call%20for%20Papers.pdf"}
+  "last_edition": {
+    "year": 2025,
+    "deadline": "2024-12-01",
+    "conf_start": "2025-06-27",
+    "conf_end": "2025-06-29",
+    "city": "Toronto",
+    "country": "Canada",
+    "cfp_url": "https://www.sole-jole.org/assets/docs/SOLE2025/SOLE%202025%20Call%20for%20Papers.pdf"
+  }
 }

@@ -40,6 +40,13 @@
   "history": [],
   "expected_deadline": "2027-04-01",
   "expected_note": "Call usually posted in December-January. Estimated from last edition's deadline (1 Apr 2026).",
-  "last_edition": {"year": 2026, "deadline": "2026-04-01", "conf_start": "2026-11-21", "conf_end": "2026-11-23",
-                   "city": "Houston, TX", "country": "USA", "cfp_url": "https://southerneconomic.org/conference/call-for-papers/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-04-01",
+    "conf_start": "2026-11-21",
+    "conf_end": "2026-11-23",
+    "city": "Houston, TX",
+    "country": "USA",
+    "cfp_url": "https://southerneconomic.org/conference/call-for-papers/"
+  }
 }

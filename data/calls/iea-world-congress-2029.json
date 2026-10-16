@@ -40,6 +40,13 @@
   "history": [],
   "expected_deadline": "2028-11-15",
   "expected_note": "Triennial congress; record only if the 2029 venue is in an in-scope region. For 2026 submissions opened 1 Jul 2025 and closed 15 Nov 2025. Estimated from that deadline shifted by one cycle (3 years).",
-  "last_edition": {"year": 2026, "deadline": "2025-11-15", "conf_start": "2026-06-22", "conf_end": "2026-06-26",
-                   "city": "Belgrade", "country": "Serbia", "cfp_url": "https://ieawc2026.org/"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2025-11-15",
+    "conf_start": "2026-06-22",
+    "conf_end": "2026-06-26",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "cfp_url": "https://ieawc2026.org/"
+  }
 }

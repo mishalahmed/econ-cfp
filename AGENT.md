@@ -18,37 +18,16 @@ data/archive/              old call files moved here (never delete files)
 
 ## 1. Scope
 
-**Fields** (use these exact labels; a conference can have several). Six categories are tracked in full:
+The maintainer follows a **closed list of 33 conference series**: exactly the series in `data/sources.json`.
+Do not add new series, and never re-add anything in `data/removed/series.json`. Each series has exactly one
+category (use these exact labels in `fields`):
 
-| Label | Covers |
+| Category | Series (series_id) |
 |---|---|
-| `General` | General-interest meetings (AEA/ASSA, EEA-ESEM, RES, Econometric Society meetings, large regional US meetings, ...) |
-| `IO` | Industrial organization, competition policy, regulation, digital/platform economics, organizational economics |
-| `Labor` | Labor, personnel, population/family economics as it relates to labor markets |
-| `Environmental` | Environmental, energy and natural-resource economics |
-| `Urban & Transport` | Urban, regional/spatial, urban real estate (e.g. AREUEA), transport economics |
-| `Econometrics` | Econometrics and statistical methods for economics |
-
-All other fields are tracked **only** through their flagship open meetings, labelled `Other fields` plus exactly one
-specific field label. This is the complete list; do not add other series in these fields:
-
-| Specific label | Flagship series (series_id) |
-|---|---|
-| `Agricultural` | AAEA Annual Meeting (`aaea`), EAAE Congress (`eaae-congress`) |
-| `Behavioral & Experimental` | ESA North American (`esa-na`), European (`esa-europe`) and World (`esa-world`) meetings |
-| `Development` | NEUDC (`neudc`), CSAE Conference (`csae`) |
-| `Economic History` | EHA Annual Meeting (`eha`), EHES Conference (`ehes`) |
-| `Education` | AEFP Annual Conference (`aefp`), IWAEE (`iwaee`) |
-| `Finance` | Midwest Finance Association (`mfa`), EFMA Annual Meeting (`efma`) |
-| `Health` | ASHEcon (`ashecon`), EuHEA (`euhea`) |
-| `Macro & Monetary` | Midwest Macro Meetings (`midwest-macro`), SED Annual Meeting (`sed`) |
-| `Political Economy` | Public Choice Society (`pcs`), European Public Choice Society (`epcs`) |
-| `Public` | NTA Annual Conference (`nta-annual`), IIPF Congress (`iipf`) |
-| `Theory` | Midwest Economic Theory Meetings (`midwest-theory`), SAET Conference (`saet`) |
-| `Trade` | Midwest International Trade Conference (`midwest-trade`), ETSG (`etsg`) |
-
-Example: ASHEcon's `fields` is `["Other fields", "Health"]`. A conference in one of the six tracked categories that
-also covers another field is labelled with its tracked categories only (e.g. APPAM is `["Labor"]`).
+| `General` | ASSA / AEA (`assa-aea`), Econometric Society North American Winter Meeting (`es-nawm`), North American Summer Meeting (`es-nasm`), European Winter Meeting (`es-ewm`), EEA-ESEM (`eea-esem`), Royal Economic Society (`res`), IEA World Congress (`iea-world-congress`), Southern (`sea`), Midwest (`mea`), Western (`weai-annual`), Canadian Economics Association (`cea`), ABFER (`abfer`) |
+| `IO` | IIOC (`iioc`), EARIE (`earie`), CEPR-JIE Applied IO (`cepr-applied-io`), BSE Summer Forum Applied IO (`bsf-io`), MaCCI (`macci-annual`), ZEW ICT (`zew-ict`), TSE Digital Economics (`tse-digital`), APIOC (`apioc`) |
+| `Labor & Education` | SOLE (`sole`), EALE (`eale`), AASLE (`aasle`), SOLE/EALE/AASLE World Labor Conference (`labor-world-conference`), CESifo Labor (`cesifo-labor`), CESifo Economics of Education (`cesifo-edu`), TSE-CEPR Human Capital (`cepr-human-capital`), AEFP (`aefp`), IWAEE (`iwaee`), APPAM (`appam`) |
+| `Others` | Urban Economics Association North American (`uea-north-america`) and European (`uea-europe`) meetings, AEA CTREE (`ctree`) |
 
 **Regions**, determined by the conference venue (use these exact labels):
 
@@ -57,31 +36,13 @@ also covers another field is labelled with its tracked categories only (e.g. APP
 | `US` | United States |
 | `Canada` | Canada |
 | `Europe` | All of Europe incl. UK, Switzerland, Norway, Iceland |
-| `Far East` | Japan, South Korea, Taiwan, Hong Kong, Singapore **only** |
+| `Far East` | Japan, South Korea, Taiwan, Hong Kong, Singapore |
 | `Australia & NZ` | Australia, New Zealand |
 | `Rotating` | Only for `expected` records of rotating series whose next venue is not yet known |
 
-**Include:** main annual (or biennial) meetings of economics associations, and recurring field conferences and
-workshops of major institutes/networks (NBER, CEPR, IZA, CESifo, ZEW, central banks, Barcelona Summer Forum, etc.)
-that have an **open** call for papers; one-off conferences of such institutes with an open call (frequency "One-off").
-
-**Exclude:** editions held outside the regions above (e.g. mainland China, India, Latin America, Africa, Middle
-East); online-only events; invitation-only meetings with no open call; PhD-student, job-market or
-"young economists" events; summer schools; journal special-issue calls; one-off university seminars.
-
-**Also exclude (trimmed by the maintainer on 2026-10-11):**
-- every NBER meeting or conference (Summer Institute, program meetings, one-off conferences, NBER co-sponsored
-  series such as ISOM, TRIO and NBER-NSF);
-- meetings that accept under ~10% of submissions or are mainly by invitation (e.g. SFS Cavalcade, WFA, EFA, BEAM,
-  BREAD, the FTC Microeconomics Conference);
-- conferences whose submissions are limited to members of a research network (e.g. CESifo network-only calls);
-- national or local association meetings of mainly domestic interest (e.g. the Norwegian, Finnish, Swedish,
-  Czech, Japanese, Korean, Taiwanese, New Zealand associations; Missouri Valley; Southwestern; regional
-  transport research forums).
-
-`data/removed/series.json` lists the series already removed. Never re-add any of them, and do not add new
-conferences of these kinds during discovery. Never edit or move files in `data/removed/`.
-
+Record every edition of the listed series, wherever it is held (a rotating series may meet outside these regions;
+then use the nearest label above and say so in `conf_dates_note`, or `Rotating` if unknown). Online-only editions
+are recorded with `format: null` and a note.
 ---
 
 ## 2. Rules for facts
@@ -114,7 +75,7 @@ conferences of these kinds during discovery. Never edit or move files in `data/r
   "series_id": "example-assoc",
   "name": "Example Association Annual Meeting",
   "organizer": "Example Association of Economists (EAE)",
-  "fields": ["Labor", "Education"],
+  "fields": ["Labor & Education"],
   "home_region": "Europe",
   "frequency": "Annual",
   "homepage": "https://www.example-assoc.org/",
@@ -146,7 +107,7 @@ File name = `<id>.json`. All keys must be present (use `null` when unknown).
   "name": "EAE 2027 Annual Meeting",
   "edition": "25th Annual Meeting",
   "organizer": "Example Association of Economists (EAE)",
-  "fields": ["Labor", "Education"],
+  "fields": ["Labor & Education"],
   "region": "Europe",
   "city": "Lisbon",
   "country": "Portugal",
@@ -224,7 +185,7 @@ For an **expected** record, fill what is known about the coming edition (often o
 }
 ```
 `status` is `"complete"` or `"partial"`. `trigger` is `"scheduled"`, `"manual"` or `"seed"`. `scope` is
-`"weekly"` or `"monthly-full"` (see 4.2).
+`"weekly"`.
 
 ---
 
@@ -234,15 +195,10 @@ For an **expected** record, fill what is known about the coming edition (often o
    `"seed"` finished less than 20 hours ago and your prompt does not say `force`, change nothing; reply
    `Already checked on <date>; nothing to do.` and stop.
 1. **Load** `data/sources.json` and every file in `data/calls/`.
-2. **Decide what to check.** If today is in the first 7 days of the month, or the prompt says `full`, check
-   **every** series (`scope: "monthly-full"`). Otherwise (`scope: "weekly"`) check only:
-   - every `announced` call whose deadline is today or later, or not stated (to catch extensions and changes);
-   - every `expected` record whose `expected_deadline` is within the next 120 days or already passed
-     (its call is likely to appear soon);
-   - every series with no call file whose deadline or expected deadline is today or later.
-3. **Check the selected series.** Use the official `cfp_page` first, then `homepage`, then a web search for the
+2. **Check every series every week** (there are only 33). Set the run log `scope` to `"weekly"`.
+3. **Check each series.** Use the official `cfp_page` first, then `homepage`, then a web search for the
    current edition if the series has no permanent site. To keep this fast, split the series into batches of
-   about 25 and give each batch to a parallel subagent. Each subagent edits only the call files of its own
+   about 8 and give each batch to a parallel subagent. Each subagent edits only the call files of its own
    series, follows sections 2–3 exactly, and returns a list of new / changed / expected-added / unreachable
    items. For each series:
    - **Expected → announced:** if the call for an `expected` record is now published, fill every field, set
@@ -255,13 +211,8 @@ For an **expected** record, fill what is known about the coming edition (often o
    - **Page unreachable:** retry once; then record it under `unreachable` and leave the record unchanged.
 4. **Archive:** move every call file whose conference ended more than 60 days ago to `data/archive/`
    (`git mv`; do not delete).
-5. **Discover new calls in scope** that are not yet in `sources.json`. Check at least: NBER calls for papers
-   (https://www.nber.org/calls-papers), INOMICS conferences (https://inomics.com/search?type=conference),
-   CEPR events (https://cepr.org/events), IZA events (https://www.iza.org/events), CESifo events
-   (https://www.cesifo.org/en/events), ZEW events (https://www.zew.de/en/events-and-professional-training) and
-   EconBiz events (https://www.econbiz.de/eb/en/events/). Some of these block automated access; that is fine,
-   list them under `unreachable`. For each in-scope find, append a series object to the `series` array of
-   `sources.json` (keep the file's formatting) and write a call file with `change_kind: "new"`.
+5. **No discovery.** Do not add series or call files for conferences outside the list. If you happen to see an
+   important new call in IO, labor or education, mention it in the run log `notes` only.
 6. **Validate:** run `python3 validate.py`. It checks every call file, `sources.json` and the run logs against
    this document and prints one line per problem. Fix every problem you caused and re-run until it reports 0
    (or only problems you cannot fix, which you then mention in the run log `notes`).

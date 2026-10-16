@@ -470,12 +470,6 @@
       "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
     },
     {
-      "series_id": "ctree",
-      "name": "AEA Conference on Teaching and Research in Economic Education (CTREE)",
-      "removed_on": "2026-10-12",
-      "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
-    },
-    {
       "series_id": "tse-edu",
       "name": "TSE Economics of Education Workshop",
       "removed_on": "2026-10-12",
@@ -978,6 +972,732 @@
       "name": "Annual Meeting of the UK Network of Development Economists",
       "removed_on": "2026-10-12",
       "reason": "Outside the fields you follow (IO, Labor, Environmental, Urban & Transport, Econometrics, General); not a flagship meeting of another field"
+    },
+    {
+      "series_id": "eaere",
+      "name": "EAERE Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "wcere",
+      "name": "World Congress of Environmental and Resource Economists (WCERE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aere-summer",
+      "name": "AERE Summer Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aere-assa",
+      "name": "AERE Sessions at the ASSA Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aere-eea",
+      "name": "AERE Sessions at the Eastern Economic Association Annual Conference (AERE@EEA)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aere-weai",
+      "name": "AERE Sessions at the WEAI Annual Conference (AERE@WEAI)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aere-mea",
+      "name": "AERE Sessions at the Midwest Economics Association Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aere-sea",
+      "name": "AERE Sessions at the Southern Economic Association Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cree",
+      "name": "CREEA|ACERE Annual Conference (Canadian Resource and Environmental Economics)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aaere",
+      "name": "AAERE Annual Congress (Asian Association of Environmental and Resource Economics; formerly EAAERE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aares",
+      "name": "AARES Annual Conference (Australasian Agricultural & Resource Economics Society)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaee-international",
+      "name": "IAEE International Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaee-europe",
+      "name": "IAEE European Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "usaee",
+      "name": "USAEE/IAEE North American Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaee-asia",
+      "name": "IAEE Asia-Oceania Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaee-assa",
+      "name": "IAEE Sessions at the ASSA Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "zew-energy",
+      "name": "Mannheim Conference on Energy and the Environment (MCEE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "tse-energy-climate",
+      "name": "Toulouse Conference on the Economics of Energy and Climate",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "heartland",
+      "name": "Heartland Environmental and Resource Economics Workshop",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "bioecon",
+      "name": "Annual BIOECON Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "faere",
+      "name": "FAERE Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sured",
+      "name": "Monte Verità Conference on Sustainable Resource Use and Economic Dynamics (SURED)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ulvon",
+      "name": "Ulvön Conference on Environmental Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cesifo-energy",
+      "name": "CESifo Area Conference on Energy and Climate Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "naere",
+      "name": "Nordic Annual Environmental and Resource Economics Workshop (NAERE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "pej",
+      "name": "Annual Meeting of the Portuguese Economic Journal",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "wiem",
+      "name": "Warsaw International Economic Meeting (WIEM)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "wrsa",
+      "name": "Western Regional Science Association (WRSA) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cure",
+      "name": "Annual Conference on Urban and Regional Economics (CURE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "vfs",
+      "name": "Verein für Socialpolitik Annual Conference (VfS Jahrestagung)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "saee",
+      "name": "Simposio of the Spanish Economic Association (SAEe)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sie",
+      "name": "Annual Meeting of the Italian Economic Association (SIE RSA)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "afse",
+      "name": "AFSE Annual Congress",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iea-ireland",
+      "name": "Irish Economic Association Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ses-scotland",
+      "name": "Scottish Economic Society Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "noeg",
+      "name": "Annual Meeting of the Austrian Economic Association (NOeG)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sses",
+      "name": "SSES Annual Congress",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "asset",
+      "name": "ASSET Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ker-intl",
+      "name": "Korean Economic Review (KER) International Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "hkea",
+      "name": "Hong Kong Economic Association Biennial Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "serc",
+      "name": "Singapore Economic Review Conference (SERC)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "eaea",
+      "name": "East Asian Economic Association International Convention",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "es-ames",
+      "name": "Asian Meetings of the Econometric Society (AMES)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "weai-pacific-rim",
+      "name": "WEAI International Conference (formerly Pacific Rim Conference)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ace-esa",
+      "name": "Australian Conference of Economists (ACE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "esam",
+      "name": "Australasia Meeting of the Econometric Society (ESAM)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "eastern-ea",
+      "name": "Eastern Economic Association Annual Meetings",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaes-north-america",
+      "name": "International Atlantic Economic Conference (North America, fall)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cresse",
+      "name": "CRESSE International Conference on Competition and Regulation",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "jei",
+      "name": "Jornadas de Economia Industrial (JEI)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "paris-digital",
+      "name": "Paris Conference on Digital Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ccp-annual",
+      "name": "CCP Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "uk-digital-workshop",
+      "name": "Workshop on UK Digital Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "beccle",
+      "name": "BECCLE Competition Policy Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sioe",
+      "name": "SIOE Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "its-biennial",
+      "name": "ITS Biennial Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "its-europe",
+      "name": "ITS European Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "bsf-relational-contracts",
+      "name": "BSE Summer Forum: Workshop on Relational Contracts",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sydney-org-econ",
+      "name": "Organisational Economics Workshop (University of Sydney)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "espe",
+      "name": "ESPE Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "seho",
+      "name": "Society of Economics of the Household (SEHO) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaaeu-trier",
+      "name": "Workshop on Labour Economics (IAAEU, Trier)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iza-liser",
+      "name": "IZA@LISER Conference in Labour Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "lera",
+      "name": "LERA Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "lera-assa",
+      "name": "LERA Sessions at the ASSA Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "clef",
+      "name": "Canadian Labour Economics Forum (CLEF) Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "lew",
+      "name": "Labour Econometrics Workshop (LEW)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "areuea-assa",
+      "name": "AREUEA-ASSA Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "areuea-national",
+      "name": "AREUEA National Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "areuea-international",
+      "name": "AREUEA International Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ersa",
+      "name": "European Regional Science Association (ERSA) Congress",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "narsc",
+      "name": "North American Meetings of the Regional Science Association International (NARSC)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ieb-urban",
+      "name": "IEB Workshop on Urban Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "smu-jinan-urban",
+      "name": "SMU-Jinan Conference on Urban and Regional Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "itea",
+      "name": "ITEA Annual Conference on Transportation Economics (formerly Kuhmo Nectar)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "heart",
+      "name": "hEART Symposium of the European Association for Research in Transportation",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "trb",
+      "name": "Transportation Research Board (TRB) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "wctr",
+      "name": "World Conference on Transport Research (WCTR)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "thredbo",
+      "name": "Thredbo International Conference Series on Competition and Ownership in Land Passenger Transport",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "srsa",
+      "name": "Southern Regional Science Association (SRSA) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "aaea",
+      "name": "AAEA Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "eaae-congress",
+      "name": "EAAE Congress",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "eha",
+      "name": "Economic History Association Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ehes",
+      "name": "EHES Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "esa-na",
+      "name": "Economic Science Association North American Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "esa-europe",
+      "name": "Economic Science Association European Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "esa-world",
+      "name": "Economic Science Association World Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "saet",
+      "name": "SAET Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "midwest-theory",
+      "name": "Midwest Economic Theory and International Trade Conference (Midwest Theory meetings)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "mfa",
+      "name": "Midwest Finance Association (MFA) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "efma",
+      "name": "European Financial Management Association (EFMA) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "pcs",
+      "name": "Public Choice Society Annual Meetings",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "epcs",
+      "name": "Annual Meeting of the European Public Choice Society (EPCS)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ashecon",
+      "name": "ASHEcon Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "euhea",
+      "name": "EuHEA Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "essen-health",
+      "name": "Essen Health Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ewehe",
+      "name": "European Workshop on Econometrics and Health Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "tse-health",
+      "name": "Health Economics Conference (TSE-CEPR)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iipf",
+      "name": "IIPF Annual Congress",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "nta-annual",
+      "name": "NTA Annual Conference on Taxation",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sed",
+      "name": "Society for Economic Dynamics (SED) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cef",
+      "name": "International Conference on Computing in Economics and Finance (CEF)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "midwest-macro",
+      "name": "Midwest Macroeconomics Meetings",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "snde",
+      "name": "Annual Symposium of the Society for Nonlinear Dynamics and Econometrics (SNDE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "iaae",
+      "name": "IAAE Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ec-squared",
+      "name": "(EC)^2 Conference (European Conferences of the Econometrics Community)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "meg",
+      "name": "Midwest Econometrics Group (MEG) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "isf",
+      "name": "International Symposium on Forecasting (ISF)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cfe-cmstatistics",
+      "name": "CFE-CMStatistics Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "ipdc",
+      "name": "International Panel Data Conference (IPDC)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "sofie",
+      "name": "SoFiE Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cesg",
+      "name": "Canadian Econometrics Study Group (CESG) Annual Meeting",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "anzae",
+      "name": "AE2 Conference of the Australian and New Zealand Association of Econometricians (ANZAE)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "seta",
+      "name": "International Symposium on Econometric Theory and Applications (SETA)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "lancaster-finec",
+      "name": "Lancaster SoFiE Financial Econometrics Conference (FINEC)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "vienna-hdts",
+      "name": "Vienna Workshop on High-Dimensional Time Series in Macroeconomics and Finance",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "etsg",
+      "name": "European Trade Study Group (ETSG) Annual Conference",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "midwest-trade",
+      "name": "Midwest International Trade & Theory Conference (Midwest Economic Theory and International Trade Meetings)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "bsf-gtg",
+      "name": "BSE Summer Forum: Geography, Trade and Growth",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "neudc",
+      "name": "Northeast Universities Development Consortium Conference (NEUDC)",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "csae",
+      "name": "CSAE Conference: Economic Development in Africa",
+      "removed_on": "2026-10-16",
+      "reason": "Not on the maintainer's list of conferences to follow"
     }
   ]
 }

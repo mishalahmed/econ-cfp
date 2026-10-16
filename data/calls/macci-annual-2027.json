@@ -5,9 +5,7 @@
   "name": "MaCCI Annual Conference 2027",
   "edition": null,
   "organizer": "Mannheim Centre for Competition and Innovation (MaCCI): ZEW Mannheim and University of Mannheim",
-  "fields": [
-    "IO"
-  ],
+  "fields": ["IO"],
   "region": "Europe",
   "city": "Mannheim",
   "country": "Germany",

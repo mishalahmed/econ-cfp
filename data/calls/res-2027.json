@@ -5,9 +5,7 @@
   "name": "RES 2027 Annual Conference",
   "edition": null,
   "organizer": "Royal Economic Society (RES)",
-  "fields": [
-    "General"
-  ],
+  "fields": ["General"],
   "region": "Europe",
   "city": "Reading",
   "country": "UK",

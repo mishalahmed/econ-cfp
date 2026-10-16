@@ -5,9 +5,7 @@
   "name": "CEA 2027 Annual Conference",
   "edition": null,
   "organizer": "Canadian Economics Association (CEA)",
-  "fields": [
-    "General"
-  ],
+  "fields": ["General"],
   "region": "Canada",
   "city": null,
   "country": "Canada",

@@ -5,7 +5,7 @@
   "name": "AASLE 2028 Conference",
   "edition": null,
   "organizer": "Asian and Australasian Society of Labour Economics (AASLE)",
-  "fields": ["Labor"],
+  "fields": ["Labor & Education"],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2028-06-30",
   "expected_note": "The 2026 (Beijing, 10-12 Dec 2026) and 2027 (Ho Chi Minh City, Dec 2027) editions are outside the dashboard's regions; the 2028 host is open (hosting proposals invited for 2028 onwards). Estimate = 2026 deadline (30 Jun 2026) shifted two years, as the 2027 deadline is not yet published.",
-  "last_edition": {"year": 2026, "deadline": "2026-06-30", "conf_start": "2026-12-10", "conf_end": "2026-12-12", "city": "Beijing", "country": "China", "cfp_url": "https://www.aasle.org/beijing2026-conference-info"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-06-30",
+    "conf_start": "2026-12-10",
+    "conf_end": "2026-12-12",
+    "city": "Beijing",
+    "country": "China",
+    "cfp_url": "https://www.aasle.org/beijing2026-conference-info"
+  }
 }

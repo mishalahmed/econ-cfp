@@ -5,7 +5,7 @@
   "name": "CESifo Area Conference on Labor Economics 2027",
   "edition": null,
   "organizer": "CESifo Research Network",
-  "fields": ["Labor"],
+  "fields": ["Labor & Education"],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-15",
   "expected_note": "Rough estimate: the 2026 deadline could not be found (2026 conference 29-30 May; 2024 deadline was 10 Apr for a July conference; 2027 Public Economics area conference deadline is 11 Jan for an April conference). Calls appear at https://www.ifo.de/en/cesifo/calls-papers.",
-  "last_edition": {"year": 2026, "deadline": null, "conf_start": "2026-05-29", "conf_end": "2026-05-30", "city": "Munich", "country": "Germany", "cfp_url": "https://www.ifo.de/en/cesifo/event/2026-05-29/cesifo-area-conference-labor-economics-2026"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": null,
+    "conf_start": "2026-05-29",
+    "conf_end": "2026-05-30",
+    "city": "Munich",
+    "country": "Germany",
+    "cfp_url": "https://www.ifo.de/en/cesifo/event/2026-05-29/cesifo-area-conference-labor-economics-2026"
+  }
 }

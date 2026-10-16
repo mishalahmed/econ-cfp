@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-09-01",
   "expected_note": "Host rotates (2025 Brisbane/UQ; 2026 Xiamen, China - out of scope, so no 2026 call file). In scope only if the 2027 host is in Australia/NZ or an in-scope Far East country. Submissions via Conference Maker (Editorial Express). Estimated from last edition's deadline (1 Sep 2026, 00:00 EST).",
-  "last_edition": {"year": 2026, "deadline": "2026-09-01", "conf_start": "2026-12-11", "conf_end": "2026-12-13", "city": "Xiamen", "country": "China", "cfp_url": "https://www.econometricsociety.org/regions/australasia/regional-news/2026/08/23/2026-Asia-Pacific-Industrial-Organization-Conference"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-09-01",
+    "conf_start": "2026-12-11",
+    "conf_end": "2026-12-13",
+    "city": "Xiamen",
+    "country": "China",
+    "cfp_url": "https://www.econometricsociety.org/regions/australasia/regional-news/2026/08/23/2026-Asia-Pacific-Industrial-Organization-Conference"
+  }
 }

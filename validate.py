@@ -12,18 +12,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "data"
 
-CORE = {"General", "IO", "Labor", "Environmental", "Urban & Transport", "Econometrics", "Other fields"}
-SUBFIELDS = {"Agricultural", "Behavioral & Experimental", "Development", "Economic History", "Education", "Finance",
-             "Health", "Macro & Monetary", "Political Economy", "Public", "Theory", "Trade"}
-FIELDS = CORE | SUBFIELDS
+FIELDS = {"General", "IO", "Labor & Education", "Others"}
 
 
 def field_problems(where, fields):
-    out = [f"{where}: unknown field '{f}'" for f in fields if f not in FIELDS]
-    if any(f in SUBFIELDS for f in fields) and "Other fields" not in fields:
-        out.append(f"{where}: field labels {sorted(set(fields) & SUBFIELDS)} are only allowed together with 'Other fields'")
-    if "Other fields" in fields and len(set(fields) & SUBFIELDS) != 1:
-        out.append(f"{where}: 'Other fields' needs exactly one specific field label (e.g. 'Health')")
+    out = [f"{where}: unknown category '{f}'" for f in fields if f not in FIELDS]
+    if len(fields) != 1:
+        out.append(f"{where}: needs exactly one category, has {fields}")
     return out
 REGIONS = {"US", "Canada", "Europe", "Far East", "Australia & NZ", "Rotating"}
 KEYS = ["id", "series_id", "status", "name", "edition", "organizer", "fields", "region", "city", "country", "venue",

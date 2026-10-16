@@ -40,5 +40,13 @@
   "history": [],
   "expected_deadline": "2027-02-25",
   "expected_note": "ZEW event page lists dates (28-29 June 2027) but says 'Further information will be provided soon'. Full papers required in past calls; Heinz Koenig Young Scholar Award (EUR 5,000) for best paper by an author under 35. Estimated from last edition's deadline (25 Feb 2026).",
-  "last_edition": {"year": 2026, "deadline": "2026-02-25", "conf_start": "2026-06-25", "conf_end": "2026-06-26", "city": "Mannheim", "country": "Germany", "cfp_url": "https://www.zew.de/fileadmin/FTP/veranstaltungen/ICT2026/CfP_ICT_2026.pdf"}
+  "last_edition": {
+    "year": 2026,
+    "deadline": "2026-02-25",
+    "conf_start": "2026-06-25",
+    "conf_end": "2026-06-26",
+    "city": "Mannheim",
+    "country": "Germany",
+    "cfp_url": "https://www.zew.de/fileadmin/FTP/veranstaltungen/ICT2026/CfP_ICT_2026.pdf"
+  }
 }

@@ -5,9 +5,7 @@
   "name": "25th Annual International Industrial Organization Conference (IIOC 2027)",
   "edition": "25th",
   "organizer": "Industrial Organization Society (IOS)",
-  "fields": [
-    "IO"
-  ],
+  "fields": ["IO"],
   "region": "US",
   "city": "Baltimore, MD",
   "country": "USA",
