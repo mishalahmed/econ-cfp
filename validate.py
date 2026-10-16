@@ -20,7 +20,7 @@ def field_problems(where, fields):
     if len(fields) != 1:
         out.append(f"{where}: needs exactly one category, has {fields}")
     return out
-REGIONS = {"US", "Canada", "Europe", "Far East", "Australia & NZ", "Rotating"}
+REGIONS = {"US", "Canada", "Europe", "Far East", "Rotating"}
 KEYS = ["id", "series_id", "status", "name", "edition", "organizer", "fields", "region", "city", "country", "venue",
         "conf_start", "conf_end", "conf_dates_note", "format", "call_type", "deadline", "deadline_time", "deadline_tz",
         "deadline_note", "full_paper_required", "submission_requirements", "submission_fee", "registration_fee",

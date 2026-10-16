@@ -37,11 +37,10 @@ category (use these exact labels in `fields`):
 | `Canada` | Canada |
 | `Europe` | All of Europe incl. UK, Switzerland, Norway, Iceland |
 | `Far East` | Japan, South Korea, Taiwan, Hong Kong, Singapore |
-| `Australia & NZ` | Australia, New Zealand |
-| `Rotating` | Only for `expected` records of rotating series whose next venue is not yet known |
+| `Rotating` | A rotating series whose next venue is not yet known, or an edition held anywhere else (e.g. Australia; name the country in `country`) |
 
 Record every edition of the listed series, wherever it is held (a rotating series may meet outside these regions;
-then use the nearest label above and say so in `conf_dates_note`, or `Rotating` if unknown). Online-only editions
+then use `Rotating` and name the country in `country`). Online-only editions
 are recorded with `format: null` and a note.
 ---
 
