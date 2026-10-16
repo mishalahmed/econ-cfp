@@ -18,7 +18,7 @@ data/archive/              old call files moved here (never delete files)
 
 ## 1. Scope
 
-The maintainer follows a **closed list of 33 conference series**: exactly the series in `data/sources.json`.
+The maintainer follows a **closed list of 32 conference series**: exactly the series in `data/sources.json`.
 Do not add new series, and never re-add anything in `data/removed/series.json`. Each series has exactly one
 category (use these exact labels in `fields`):
 
@@ -26,8 +26,8 @@ category (use these exact labels in `fields`):
 |---|---|
 | `General` | ASSA / AEA (`assa-aea`), Econometric Society North American Winter Meeting (`es-nawm`), North American Summer Meeting (`es-nasm`), European Winter Meeting (`es-ewm`), EEA-ESEM (`eea-esem`), Royal Economic Society (`res`), IEA World Congress (`iea-world-congress`), Southern (`sea`), Midwest (`mea`), Western (`weai-annual`), Canadian Economics Association (`cea`), ABFER (`abfer`) |
 | `IO` | IIOC (`iioc`), EARIE (`earie`), CEPR-JIE Applied IO (`cepr-applied-io`), BSE Summer Forum Applied IO (`bsf-io`), MaCCI (`macci-annual`), ZEW ICT (`zew-ict`), TSE Digital Economics (`tse-digital`), APIOC (`apioc`) |
-| `Labor & Education` | SOLE (`sole`), EALE (`eale`), AASLE (`aasle`), SOLE/EALE/AASLE World Labor Conference (`labor-world-conference`), CESifo Labor (`cesifo-labor`), CESifo Economics of Education (`cesifo-edu`), TSE-CEPR Human Capital (`cepr-human-capital`), AEFP (`aefp`), IWAEE (`iwaee`), APPAM (`appam`) |
-| `Others` | Urban Economics Association North American (`uea-north-america`) and European (`uea-europe`) meetings, AEA CTREE (`ctree`) |
+| `Labor & Education` | SOLE (`sole`), EALE (`eale`), AASLE (`aasle`), SOLE/EALE/AASLE World Labor Conference (`labor-world-conference`), TSE-CEPR Human Capital (`cepr-human-capital`), AEFP (`aefp`), IWAEE (`iwaee`), APPAM (`appam`) |
+| `Others` | Urban Economics Association North American (`uea-north-america`) and European (`uea-europe`) meetings, AREUEA sessions at ASSA (`areuea-assa`), AEA CTREE (`ctree`) |
 
 **Regions**, determined by the conference venue (use these exact labels):
 
@@ -195,7 +195,7 @@ For an **expected** record, fill what is known about the coming edition (often o
    `"seed"` finished less than 20 hours ago and your prompt does not say `force`, change nothing; reply
    `Already checked on <date>; nothing to do.` and stop.
 1. **Load** `data/sources.json` and every file in `data/calls/`.
-2. **Check every series every week** (there are only 33). Set the run log `scope` to `"weekly"`.
+2. **Check every series every week** (there are only 32). Set the run log `scope` to `"weekly"`.
 3. **Check each series.** Use the official `cfp_page` first, then `homepage`, then a web search for the
    current edition if the series has no permanent site. To keep this fast, split the series into batches of
    about 8 and give each batch to a parallel subagent. Each subagent edits only the call files of its own

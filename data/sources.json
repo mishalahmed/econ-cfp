@@ -444,23 +444,6 @@
       "notes": "Started 2026 (Toulouse, 22-23 June). Next edition announced for 21-22 June 2027. No registration fee in 2026."
     },
     {
-      "series_id": "cesifo-labor",
-      "name": "CESifo Area Conference on Labor Economics",
-      "organizer": "CESifo Research Network",
-      "fields": ["Labor & Education"],
-      "home_region": "Europe",
-      "frequency": "Annual",
-      "homepage": "https://www.ifo.de/en/cesifo/area-conferences",
-      "cfp_page": "https://www.ifo.de/en/cesifo/calls-papers",
-      "has_permanent_site": true,
-      "site_note": null,
-      "typical_call_posted": null,
-      "typical_deadline": null,
-      "typical_conference": "May to July, Munich",
-      "associated_journal": null,
-      "notes": "The 2024 call explicitly invited both CESifo network members and non-members. A paper may be submitted to only one CESifo Area Conference. The separate CESifo Junior Workshop on Labor Economics is excluded (junior)."
-    },
-    {
       "series_id": "aasle",
       "name": "AASLE Annual Conference",
       "organizer": "Asian and Australasian Society of Labour Economics (AASLE)",
@@ -546,21 +529,21 @@
       "notes": "CTREE page URL changes by year (.../economic-education/ctree/<year>)."
     },
     {
-      "series_id": "cesifo-edu",
-      "name": "CESifo Area Conference on the Economics of Education",
-      "organizer": "CESifo (organizers Eric A. Hanushek and Ludger Woessmann)",
-      "fields": ["Labor & Education"],
-      "home_region": "Europe",
+      "series_id": "areuea-assa",
+      "name": "AREUEA-ASSA Conference",
+      "organizer": "American Real Estate and Urban Economics Association (AREUEA)",
+      "fields": ["Others"],
+      "home_region": "US",
       "frequency": "Annual",
-      "homepage": "https://www.ifo.de/en/cesifo/calls-papers",
-      "cfp_page": "https://www.ifo.de/en/cesifo/calls-papers",
+      "homepage": "https://www.areuea.org/",
+      "cfp_page": "https://www.areuea.org/areuea-assa",
       "has_permanent_site": true,
       "site_note": null,
-      "typical_call_posted": null,
-      "typical_deadline": null,
-      "typical_conference": "September",
-      "associated_journal": null,
-      "notes": "Area conference of the CESifo research network; earlier calls were limited to CESifo network members. Includes the Distinguished CESifo Affiliate Award (PhD within 5 years)."
+      "typical_call_posted": "February-March",
+      "typical_deadline": "1 April",
+      "typical_conference": "early January (with ASSA)",
+      "associated_journal": "Real Estate Economics",
+      "notes": "AREUEA sessions held with the ASSA/AEA Annual Meeting. Submission link on the AREUEA member-content page. Separate student/post-doc poster call (Nov deadline) not tracked."
     }
   ]
 }

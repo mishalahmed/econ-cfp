@@ -1376,12 +1376,6 @@
       "reason": "Not on the maintainer's list of conferences to follow"
     },
     {
-      "series_id": "areuea-assa",
-      "name": "AREUEA-ASSA Conference",
-      "removed_on": "2026-10-16",
-      "reason": "Not on the maintainer's list of conferences to follow"
-    },
-    {
       "series_id": "areuea-national",
       "name": "AREUEA National Conference",
       "removed_on": "2026-10-16",
@@ -1698,6 +1692,18 @@
       "name": "CSAE Conference: Economic Development in Africa",
       "removed_on": "2026-10-16",
       "reason": "Not on the maintainer's list of conferences to follow"
+    },
+    {
+      "series_id": "cesifo-labor",
+      "name": "CESifo Area Conference on Labor Economics",
+      "removed_on": "2026-10-16",
+      "reason": "Submissions limited to CESifo network members"
+    },
+    {
+      "series_id": "cesifo-edu",
+      "name": "CESifo Area Conference on the Economics of Education",
+      "removed_on": "2026-10-16",
+      "reason": "Submissions limited to CESifo network members"
     }
   ]
 }
