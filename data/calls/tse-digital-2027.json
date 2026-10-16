@@ -25,7 +25,7 @@
   "registration_fee": "EUR 150 academic / EUR 250 non-academic; waived for speakers, discussants, partners, TSE members and students",
   "registration_fee_usd": 175,
   "registration_deadline": null,
-  "membership_required": null,
+  "membership_required": "No membership requirement stated in the last call",
   "notification_date": "By October 2026",
   "keynotes": "Chiara Farronato (Harvard Business School); Joshua Gans (University of Toronto)",
   "journal": null,

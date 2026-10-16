@@ -25,7 +25,7 @@
   "registration_fee": "EUR 150 academia and public sector / EUR 300 private sector (non-refundable)",
   "registration_fee_usd": 175,
   "registration_deadline": "2027-01-15",
-  "membership_required": null,
+  "membership_required": "No membership requirement stated in the last call",
   "notification_date": "By 15 December 2026",
   "keynotes": null,
   "journal": null,

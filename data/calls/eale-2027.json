@@ -25,7 +25,7 @@
   "registration_fee": null,
   "registration_fee_usd": null,
   "registration_deadline": null,
-  "membership_required": null,
+  "membership_required": "Yes: only EALE members can participate (last call)",
   "notification_date": null,
   "keynotes": null,
   "journal": null,
