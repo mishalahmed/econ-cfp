@@ -5,7 +5,9 @@
   "name": "2028 AREUEA-ASSA Conference",
   "edition": null,
   "organizer": "American Real Estate and Urban Economics Association (AREUEA)",
-  "fields": ["Others"],
+  "fields": [
+    "Others"
+  ],
   "region": "US",
   "city": null,
   "country": null,
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.areuea.org/areuea-assa",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-19",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

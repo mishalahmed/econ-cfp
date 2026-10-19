@@ -5,7 +5,9 @@
   "name": "UEA 2027 North American Meeting",
   "edition": null,
   "organizer": "Urban Economics Association (UEA)",
-  "fields": ["Others"],
+  "fields": [
+    "Others"
+  ],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://urbaneconomics.org/meetings/future.html",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-19",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

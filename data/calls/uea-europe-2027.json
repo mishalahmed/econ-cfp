@@ -5,7 +5,9 @@
   "name": "16th European Meeting of the Urban Economics Association",
   "edition": "16th European Meeting",
   "organizer": "Urban Economics Association (UEA)",
-  "fields": ["Others"],
+  "fields": [
+    "Others"
+  ],
   "region": "Europe",
   "city": "Paris",
   "country": "France",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://urbaneconomics.org/meetings/emuea2027/call.html",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-19",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

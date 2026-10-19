@@ -1,0 +1,49 @@
+{
+  "started": "2026-10-19T06:02:00Z",
+  "finished": "2026-10-19T06:20:00Z",
+  "status": "partial",
+  "trigger": "scheduled",
+  "scope": "weekly",
+  "sources_checked": 32,
+  "new": [
+    {
+      "id": "abfer-2027",
+      "name": "ABFER 14th Annual Conference (2027)",
+      "deadline": "2027-01-15"
+    }
+  ],
+  "changed": [],
+  "expected_added": [
+    "aefp-2028"
+  ],
+  "series_added": [],
+  "archived": [],
+  "unreachable": [
+    {
+      "series_id": "mea",
+      "url": "https://mea.sites.grinnell.edu/forms-and-guidelines/",
+      "error": "HTTP 503"
+    },
+    {
+      "series_id": "earie",
+      "url": "https://earie.org/earie-conference-intro/",
+      "error": "HTTP 403"
+    },
+    {
+      "series_id": "cepr-applied-io",
+      "url": "https://cepr.org/events/event-series/cepr-annual-applied-industrial-organisation-conference/27th-cepr-jie-conference",
+      "error": "HTTP 403"
+    },
+    {
+      "series_id": "iwaee",
+      "url": "https://iwaee.org/new/",
+      "error": "bot check"
+    },
+    {
+      "series_id": "res",
+      "url": "https://res.org.uk/event-listing/res2027/",
+      "error": "empty content"
+    }
+  ],
+  "notes": "mea-2027 abstract deadline 2026-10-25 and cepr-applied-io-2027 deadline 2026-11-22 could not be re-verified. weai-annual-2027 page shows paper deadline as both Dec 31, 2026 and Dec 15; kept 2026-12-31. es-ewm-2026 registration_deadline set to 2026-10-20 per organizer page."
+}

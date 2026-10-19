@@ -5,7 +5,9 @@
   "name": "AEFP 2027 Annual Conference",
   "edition": null,
   "organizer": "Association for Education Finance and Policy (AEFP)",
-  "fields": ["Labor & Education"],
+  "fields": [
+    "Labor & Education"
+  ],
   "region": "US",
   "city": "San Diego",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": "info@aefpweb.org",
   "source_url": "https://aefpweb.org/conference-dates",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-12",
+  "last_verified": "2026-10-19",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

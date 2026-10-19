@@ -5,7 +5,9 @@
   "name": "2nd Human Capital Conference (TSE-CEPR)",
   "edition": null,
   "organizer": "TSE Human Capital Center with the support of CEPR",
-  "fields": ["Labor & Education"],
+  "fields": [
+    "Labor & Education"
+  ],
   "region": "Europe",
   "city": null,
   "country": null,
@@ -34,7 +36,7 @@
   "contact": "human-capital.conference@tse-fr.eu",
   "source_url": "https://www.tse-fr.eu/conferences/2026-1st-human-capital-conference",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-10",
+  "last_verified": "2026-10-19",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

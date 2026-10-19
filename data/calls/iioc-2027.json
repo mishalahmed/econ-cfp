@@ -5,7 +5,9 @@
   "name": "25th Annual International Industrial Organization Conference (IIOC 2027)",
   "edition": "25th",
   "organizer": "Industrial Organization Society (IOS)",
-  "fields": ["IO"],
+  "fields": [
+    "IO"
+  ],
   "region": "US",
   "city": "Baltimore, MD",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.indorgsociety.org/conference",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-11",
+  "last_verified": "2026-10-19",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
