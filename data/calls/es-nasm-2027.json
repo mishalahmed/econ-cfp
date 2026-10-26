@@ -5,7 +5,9 @@
   "name": "2027 North American Summer Meeting of the Econometric Society",
   "edition": null,
   "organizer": "Econometric Society",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "US",
   "city": "Baltimore, MD",
   "country": "USA",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.econometricsociety.org/regional-activities/schedule/2027/06/10/2027-North-American-Summer-Meeting-Baltimore-MD",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-19",
+  "last_verified": "2026-10-26",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

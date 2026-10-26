@@ -5,7 +5,9 @@
   "name": "IEA World Congress 2029",
   "edition": null,
   "organizer": "International Economic Association (IEA)",
-  "fields": ["General"],
+  "fields": [
+    "General"
+  ],
   "region": "Rotating",
   "city": null,
   "country": null,
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.iea-world.org/",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-19",
+  "last_verified": "2026-10-26",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

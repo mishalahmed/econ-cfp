@@ -1,0 +1,19 @@
+{
+  "started": "2026-10-26T06:19:00Z",
+  "finished": "2026-10-26T06:40:00Z",
+  "status": "partial",
+  "trigger": "scheduled",
+  "scope": "weekly",
+  "sources_checked": 32,
+  "new": [],
+  "changed": [],
+  "expected_added": ["mea-2028"],
+  "series_added": [],
+  "archived": [],
+  "unreachable": [
+    {"series_id": "mea", "url": "https://mea.sites.grinnell.edu/forms-and-guidelines/", "error": "HTTP 503"},
+    {"series_id": "earie", "url": "https://earie.org/earie-conference-intro/", "error": "HTTP 403"},
+    {"series_id": "cepr-applied-io", "url": "https://cepr.org/events/event-series/cepr-annual-applied-industrial-organisation-conference/27th-cepr-jie-conference", "error": "HTTP 403"}
+  ],
+  "notes": "No new calls. Not recorded: AASLE editions in Beijing (Dec 2026) and Ho Chi Minh City (Dec 2027) have no call files; areuea-assa lists a student/post-doc poster deadline of 2026-11-01. mea-2027 deadline (2026-10-25) has passed; site unreachable so closure not confirmed."
+}

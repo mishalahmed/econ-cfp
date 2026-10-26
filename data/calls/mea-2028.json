@@ -1,0 +1,59 @@
+{
+  "id": "mea-2028",
+  "series_id": "mea",
+  "status": "expected",
+  "name": "MEA 2028 Annual Meetings",
+  "edition": "92nd Annual Meetings",
+  "organizer": "Midwest Economics Association (MEA)",
+  "fields": [
+    "General"
+  ],
+  "region": "US",
+  "city": null,
+  "country": "USA",
+  "venue": null,
+  "conf_start": null,
+  "conf_end": null,
+  "conf_dates_note": "Location and dates not yet announced.",
+  "format": null,
+  "call_type": "Papers and sessions",
+  "deadline": null,
+  "deadline_time": null,
+  "deadline_tz": null,
+  "deadline_note": null,
+  "full_paper_required": null,
+  "submission_requirements": null,
+  "submission_fee": null,
+  "registration_fee": null,
+  "registration_fee_usd": null,
+  "registration_deadline": null,
+  "membership_required": null,
+  "notification_date": null,
+  "keynotes": null,
+  "journal": null,
+  "submit_url": null,
+  "cfp_url": null,
+  "contact": null,
+  "source_url": "https://mea.sites.grinnell.edu/forms-and-guidelines/",
+  "first_seen": "2026-10-26",
+  "last_verified": "2026-10-26",
+  "updated_at": "2026-10-26",
+  "change_kind": "expected",
+  "history": [
+    {
+      "date": "2026-10-26",
+      "change": "Expected record created"
+    }
+  ],
+  "expected_deadline": "2027-10-25",
+  "expected_note": "Estimated from last edition's abstract deadline (25 Oct 2026, extended from 15 Oct) shifted by one year.",
+  "last_edition": {
+    "year": 2027,
+    "deadline": "2026-10-25",
+    "conf_start": "2027-04-02",
+    "conf_end": "2027-04-04",
+    "city": "Indianapolis, IN",
+    "country": "USA",
+    "cfp_url": "https://mea.sites.grinnell.edu/forms-and-guidelines/"
+  }
+}
