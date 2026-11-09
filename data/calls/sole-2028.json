@@ -1,0 +1,59 @@
+{
+  "id": "sole-2028",
+  "series_id": "sole",
+  "status": "expected",
+  "name": "SOLE 2028 Annual Meeting",
+  "edition": "31st Annual Meeting",
+  "organizer": "Society of Labor Economists (SOLE)",
+  "fields": [
+    "Labor & Education"
+  ],
+  "region": "US",
+  "city": null,
+  "country": null,
+  "venue": null,
+  "conf_start": null,
+  "conf_end": null,
+  "conf_dates_note": null,
+  "format": null,
+  "call_type": null,
+  "deadline": null,
+  "deadline_time": null,
+  "deadline_tz": null,
+  "deadline_note": null,
+  "full_paper_required": null,
+  "submission_requirements": null,
+  "submission_fee": null,
+  "registration_fee": null,
+  "registration_fee_usd": null,
+  "registration_deadline": null,
+  "membership_required": "Not required; SOLE membership encouraged (large discount on the registration fee)",
+  "notification_date": null,
+  "keynotes": null,
+  "journal": null,
+  "submit_url": null,
+  "cfp_url": null,
+  "contact": null,
+  "source_url": "https://www.sole-jole.org/upcoming-meeting",
+  "first_seen": "2026-11-09",
+  "last_verified": "2026-11-09",
+  "updated_at": "2026-11-09",
+  "change_kind": "expected",
+  "history": [
+    {
+      "date": "2026-11-09",
+      "change": "Expected record added"
+    }
+  ],
+  "expected_deadline": "2027-10-31",
+  "expected_note": "Estimate only: the 2027 deadline (31 Oct 2026) shifted by one year. The 2028 call has not been published.",
+  "last_edition": {
+    "year": 2027,
+    "deadline": "2026-10-31",
+    "conf_start": "2027-04-30",
+    "conf_end": "2027-05-01",
+    "city": "Baltimore, MD",
+    "country": "USA",
+    "cfp_url": "https://www.sole-jole.org/assets/2027/SOLE%202027%20Call%20for%20Papers.pdf"
+  }
+}

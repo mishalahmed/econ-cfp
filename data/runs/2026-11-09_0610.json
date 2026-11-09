@@ -1,0 +1,21 @@
+{
+  "started": "2026-11-09T06:08:00Z",
+  "finished": "2026-11-09T06:25:00Z",
+  "status": "partial",
+  "trigger": "scheduled",
+  "scope": "weekly",
+  "sources_checked": 32,
+  "new": [],
+  "changed": [],
+  "expected_added": ["sole-2028"],
+  "series_added": [],
+  "archived": [],
+  "unreachable": [
+    {"series_id": "earie", "url": "https://earie.org/earie-conference-intro/", "error": "HTTP 403"},
+    {"series_id": "cepr-applied-io", "url": "https://cepr.org/events/open-calls-papers", "error": "HTTP 403"},
+    {"series_id": "cepr-applied-io", "url": "https://cepr.org/events/event-series/cepr-annual-applied-industrial-organisation-conference/27th-cepr-jie-conference", "error": "HTTP 403"},
+    {"series_id": "mea", "url": "https://mea.sites.grinnell.edu/forms-and-guidelines/", "error": "HTTP 503"},
+    {"series_id": "res", "url": "https://res.org.uk/event-listing/res-conference-overview/", "error": "empty page content"}
+  ],
+  "notes": "No new calls or material changes. Not re-verified (last_verified unchanged): earie-2027, cepr-applied-io-2027 (deadline 2026-11-22 needs a manual look), mea-2027 (2026-10-25 deadline passed, closure unconfirmed), res-2027. sole-2027 is now closed (deadline 2026-10-31 passed, no extension). tse-digital-2027 page says submissions are closed; page states fees EUR 150 academic / 250 non-academic and keynotes Farronato and Gans, not yet entered. weai-annual-2027: site banner says Dec 15 for volunteer-session abstracts while the paper section says Dec 31, 2026; record keeps 2026-12-31 with a note. iioc-2027 venue (Hilton Baltimore Inner Harbor) and in-person format filled; still expected, call due December 2026. AASLE: Beijing 2026 (10-12 Dec 2026, Peking Univ.; deadline passed 2026-06-30) and Ho Chi Minh City 2027 (December 2027) were found, but validate.py rejects venue countries China/Vietnam as outside dashboard regions, contradicting AGENT.md section 1, so no call files were added; the maintainer should relax the validator or confirm the intended rule. APIOC 2026 (Xiamen, 11-13 Dec 2026) likewise has no call file."
+}

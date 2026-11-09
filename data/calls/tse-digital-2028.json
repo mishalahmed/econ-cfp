@@ -5,7 +5,9 @@
   "name": "20th Digital Economics Conference (TSE Digital Center)",
   "edition": null,
   "organizer": "TSE Digital Center, Toulouse School of Economics, with CEPR",
-  "fields": ["IO"],
+  "fields": [
+    "IO"
+  ],
   "region": "Europe",
   "city": "Toulouse",
   "country": "France",
@@ -34,7 +36,7 @@
   "contact": null,
   "source_url": "https://www.tse-fr.eu/conferences/2027-19th-digital-economics-conference",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-10-26",
+  "last_verified": "2026-11-09",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],

@@ -5,7 +5,9 @@
   "name": "EALE 2027 Annual Conference",
   "edition": null,
   "organizer": "European Association of Labour Economists (EALE)",
-  "fields": ["Labor & Education"],
+  "fields": [
+    "Labor & Education"
+  ],
   "region": "Europe",
   "city": "Munich",
   "country": "Germany",
@@ -34,7 +36,7 @@
   "contact": "eale-sbe@maastrichtuniversity.nl",
   "source_url": "https://eale.nl/about/future-en-past-conferences",
   "first_seen": "2026-10-10",
-  "last_verified": "2026-11-02",
+  "last_verified": "2026-11-09",
   "updated_at": "2026-10-10",
   "change_kind": "seed",
   "history": [],
